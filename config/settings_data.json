@@ -16,9 +16,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "background-2",
-              "link": ""
+              "text": "Nous fêtons nos 2 ans d'existence | Livraison internationale offerte.",
+              "color_scheme": "inverse",
+              "link": "shopify:\/\/collections\/all"
             }
           }
         },
