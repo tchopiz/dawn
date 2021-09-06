@@ -9,6 +9,7 @@
     "colors_background_2": "#F3F3F3",
     "type_header_font": "assistant_n4",
     "type_body_font": "assistant_n4",
+    "accent_icons": "text",
     "social_facebook_link": "https:\/\/facebook.com\/famzzle",
     "sections": {
       "announcement-bar": {
@@ -33,8 +34,8 @@
         "type": "header",
         "settings": {
           "logo": "shopify:\/\/shop_images\/ezgif.com-gif-maker_26_9a3402d4-3c9a-4a0d-8904-a469b93d9412.gif",
-          "logo_width": 100,
-          "logo_position": "middle-left",
+          "logo_width": 70,
+          "logo_position": "top-center",
           "menu": "main-menu",
           "show_line_separator": true,
           "enable_sticky_header": true
