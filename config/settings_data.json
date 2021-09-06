@@ -12,6 +12,8 @@
     "accent_icons": "text",
     "page_width": "1200",
     "social_facebook_link": "https:\/\/facebook.com\/famzzle",
+    "favicon": "shopify:\/\/shop_images\/favicon-32x32_8563ecc6-148e-48a0-a44a-afd7f9c58746.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_26_9a3402d4-3c9a-4a0d-8904-a469b93d9412.gif",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
