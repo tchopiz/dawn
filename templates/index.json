@@ -56,7 +56,7 @@
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Shop ALL",
+            "button_label": "Shop All",
             "button_link": "shopify:\/\/collections\/all",
             "button_style_secondary": true
           }
