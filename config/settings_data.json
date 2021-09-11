@@ -14,6 +14,7 @@
     "social_facebook_link": "https:\/\/facebook.com\/famzzle",
     "favicon": "shopify:\/\/shop_images\/favicon-32x32_8563ecc6-148e-48a0-a44a-afd7f9c58746.png",
     "currency_code_enabled": false,
+    "checkout_header_image": "shopify:\/\/shop_images\/download_2.jpg",
     "checkout_logo_image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_26_9a3402d4-3c9a-4a0d-8904-a469b93d9412.gif",
     "sections": {
       "announcement-bar": {
@@ -37,7 +38,7 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/P-3STRAP_logo.png",
+          "logo": "shopify:\/\/shop_images\/ezgif.com-gif-maker_26_9a3402d4-3c9a-4a0d-8904-a469b93d9412.gif",
           "logo_width": 100,
           "logo_position": "top-center",
           "menu": "main-menu",
@@ -51,15 +52,15 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "À propos",
               "menu": "footer"
             }
           },
           "footer-1": {
             "type": "text",
             "settings": {
-              "heading": "Happy Beaded Stuff..",
-              "subtext": "<p>Handmade with love, our straps are sturdy and fashionable to make your days happier with a useful trendy touch <\/p>"
+              "heading": "",
+              "subtext": "<p>Entreprise européenne \/ TVA : BE0733918628<\/p>"
             }
           }
         },
@@ -70,7 +71,7 @@
         "settings": {
           "color_scheme": "inverse",
           "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our Newsletter",
+          "newsletter_heading": "Inscrivez-vous pour recevoir les dernières offres en premier.",
           "show_social": true,
           "enable_country_selector": true,
           "enable_language_selector": true,
@@ -80,7 +81,15 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "16314041743b4e3bf8": {
+        "type": "shopify:\/\/apps\/mlv-auto-currency-switcher\/blocks\/mlveda-currencies-head\/92ab730f-097e-4571-b27c-3f449e098ca3",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
