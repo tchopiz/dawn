@@ -23,9 +23,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Bienvenue sur votre site favoris",
+              "text": "Offre limité : livraison internationale offerte + 20% de réduction avec ce code : famzzle20",
               "color_scheme": "inverse",
-              "link": "shopify:\/\/collections\/all"
+              "link": "shopify:\/\/collections"
             }
           }
         },
