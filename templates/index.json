@@ -76,6 +76,14 @@
     "collage": {
       "type": "collage",
       "blocks": {
+        "55292e00-6449-4e46-80db-36c416df61c7": {
+          "type": "collection",
+          "settings": {
+            "collection": "pour-moi",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
         "collection": {
           "type": "collection",
           "settings": {
@@ -91,20 +99,12 @@
             "image_padding": false,
             "color_scheme": "background-1"
           }
-        },
-        "55292e00-6449-4e46-80db-36c416df61c7": {
-          "type": "collection",
-          "settings": {
-            "collection": "pour-moi",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
         }
       },
       "block_order": [
+        "55292e00-6449-4e46-80db-36c416df61c7",
         "collection",
-        "81d2c4ce-8ddd-46de-8214-39935bda2478",
-        "55292e00-6449-4e46-80db-36c416df61c7"
+        "81d2c4ce-8ddd-46de-8214-39935bda2478"
       ],
       "settings": {
         "heading": "",
