@@ -73,45 +73,6 @@
         "full_width": true
       }
     },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "55292e00-6449-4e46-80db-36c416df61c7": {
-          "type": "collection",
-          "settings": {
-            "collection": "pour-moi",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        },
-        "collection": {
-          "type": "collection",
-          "settings": {
-            "collection": "accessoires",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        },
-        "81d2c4ce-8ddd-46de-8214-39935bda2478": {
-          "type": "collection",
-          "settings": {
-            "collection": "jouet-et-jeu",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        }
-      },
-      "block_order": [
-        "55292e00-6449-4e46-80db-36c416df61c7",
-        "collection",
-        "81d2c4ce-8ddd-46de-8214-39935bda2478"
-      ],
-      "settings": {
-        "heading": "",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
-      }
-    },
     "featured_products": {
       "type": "featured-collection",
       "settings": {
@@ -179,14 +140,53 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "81d2c4ce-8ddd-46de-8214-39935bda2478": {
+          "type": "collection",
+          "settings": {
+            "collection": "jouet-et-jeu",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "55292e00-6449-4e46-80db-36c416df61c7": {
+          "type": "collection",
+          "settings": {
+            "collection": "pour-moi",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessoires",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "81d2c4ce-8ddd-46de-8214-39935bda2478",
+        "55292e00-6449-4e46-80db-36c416df61c7",
+        "collection"
+      ],
+      "settings": {
+        "heading": "Découvrez aussi toutes nos collections",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
     }
   },
   "order": [
     "image_banner",
     "rich_text",
-    "collage",
     "featured_products",
     "video",
-    "multi_column"
+    "multi_column",
+    "collage"
   ]
 }
