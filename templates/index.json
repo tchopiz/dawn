@@ -179,6 +179,12 @@
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
+    },
+    "163205180096ac6e1b": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -187,6 +193,7 @@
     "featured_products",
     "video",
     "multi_column",
-    "collage"
+    "collage",
+    "163205180096ac6e1b"
   ]
 }
