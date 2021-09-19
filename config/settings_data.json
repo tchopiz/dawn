@@ -14,8 +14,10 @@
     "social_facebook_link": "https:\/\/facebook.com\/famzzle",
     "favicon": "shopify:\/\/shop_images\/favicon-32x32_8563ecc6-148e-48a0-a44a-afd7f9c58746.png",
     "currency_code_enabled": false,
-    "checkout_header_image": "shopify:\/\/shop_images\/download_2.jpg",
+    "checkout_header_image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_26_9a3402d4-3c9a-4a0d-8904-a469b93d9412.gif",
     "checkout_logo_image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_26_9a3402d4-3c9a-4a0d-8904-a469b93d9412.gif",
+    "checkout_accent_color": "#121212",
+    "checkout_button_color": "#121212",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
