@@ -74,7 +74,7 @@
           "color_scheme": "inverse",
           "newsletter_enable": true,
           "newsletter_heading": "Inscrivez-vous pour recevoir les dernières offres en premier.",
-          "show_social": true,
+          "show_social": false,
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true
