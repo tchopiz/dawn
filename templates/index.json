@@ -182,6 +182,7 @@
     },
     "1632313579b94c200a": {
       "type": "custom-content",
+      "disabled": true,
       "blocks": {
         "2a17d305-54f3-42bc-b0cc-2bb458df3b84": {
           "type": "html",
@@ -206,7 +207,7 @@
         "title": "Custom content",
         "content_bg_type": "color",
         "content_over": true,
-        "enable_parallax": false
+        "enable_parallax": true
       }
     }
   },
