@@ -25,6 +25,14 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
+              "text": "Bienvenue chez Famzzle",
+              "color_scheme": "inverse",
+              "link": "shopify:\/\/collections"
+            }
+          },
+          "112b1a5e-653a-453c-b214-83a162a4a796": {
+            "type": "announcement",
+            "settings": {
               "text": "Offre limité : livraison internationale offerte + 20% de réduction avec ce code : famzzle20",
               "color_scheme": "inverse",
               "link": "shopify:\/\/collections"
@@ -32,7 +40,8 @@
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "112b1a5e-653a-453c-b214-83a162a4a796"
         ],
         "settings": {
         }
