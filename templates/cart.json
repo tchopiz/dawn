@@ -32,7 +32,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "",
-        "collection": "all",
+        "collection": "produit-vedette",
         "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": false,
