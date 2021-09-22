@@ -179,6 +179,12 @@
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
+    },
+    "16323131142ce030f6": {
+      "type": "custom-html",
+      "settings": {
+        "code": "<blockquote class=\"tiktok-embed\" cite=\"https:\/\/www.tiktok.com\/@famzzle_cat\/video\/7010509145816239366\" data-video-id=\"7010509145816239366\" style=\"max-width: 605px;min-width: 325px;\"> <section> <a target=\"_blank\" title=\"@famzzle_cat\" href=\"https:\/\/www.tiktok.com\/@famzzle_cat\">@famzzle_cat<\/a> <p><a title=\"famzzle\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/famzzle\">##famzzle<\/a> <a title=\"fypシ゚viral\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/fyp%E3%82%B7%E3%82%9Aviral\">##fypシ゚viral<\/a><\/p> <a target=\"_blank\" title=\"♬ son original - Famzzle\" href=\"https:\/\/www.tiktok.com\/music\/son-original-7010509001431878406\">♬ son original - Famzzle<\/a> <\/section> <\/blockquote> <script async=\"\" src=\"https:\/\/www.tiktok.com\/embed.js\"><\/script>"
+      }
     }
   },
   "order": [
@@ -187,6 +193,7 @@
     "featured_products",
     "video",
     "multi_column",
-    "collage"
+    "collage",
+    "16323131142ce030f6"
   ]
 }
