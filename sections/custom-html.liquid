@@ -1,0 +1,29 @@
+{% if section.settings.code != blank %}
+<div class="grid grid--uniform" data-section-id="{{ section.id }}" data-section-type="custom-html-section">
+  <div class="grid__item {{ block_width }}">
+    <div class="page-width">
+        {{ section.settings.code }}
+    </div>
+  </div>
+</div>
+{% endif %}
+{% schema %}
+{
+  "name": "Custom HTML",
+  "class": "custom-html-section index-section",
+  "settings": [
+    {
+      "type": "html",
+      "id": "code",
+      "label": "HTML",
+	  "default": "<div style='text-align:center;'><h2>Use HTML to format your text so it can be easily read.</h2>This text can be used to share information about your brand with customers.</div>"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom HTML",
+      "category": "Advanced layout"
+    }
+  ]
+}
+{% endschema %}
