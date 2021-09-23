@@ -70,8 +70,8 @@
           "footer-1": {
             "type": "text",
             "settings": {
-              "heading": "Tout pour un chat heureux et en bonne santé.",
-              "subtext": "<p>Entreprise européenne \/ TVA : BE0733918628<\/p>"
+              "heading": "Un problème pour passer commande ?",
+              "subtext": "<p>Contactez nous par chat direct sur notre site web, nous ferons tout notre possible pour vous aider.<br\/><\/p><p>Entreprise européenne \/ TVA : BE0733918628<\/p>"
             }
           }
         },
