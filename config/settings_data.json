@@ -1,169 +1,195 @@
 {
   "current": {
-    "colors_solid_button_labels": "#FFFFFF",
-    "colors_accent_1": "#121212",
-    "colors_accent_2": "#c673dc",
-    "colors_text": "#121212",
-    "colors_outline_button_labels": "#b5838d",
-    "colors_background_1": "#ffffff",
-    "colors_background_2": "#F3F3F3",
-    "type_header_font": "assistant_n4",
-    "type_body_font": "assistant_n4",
-    "accent_icons": "text",
-    "page_width": "1200",
-    "social_facebook_link": "https:\/\/facebook.com\/famzzle",
-    "favicon": "shopify:\/\/shop_images\/favicon-32x32_8563ecc6-148e-48a0-a44a-afd7f9c58746.png",
     "currency_code_enabled": false,
+    "mlvedaACS_roundDecimal": false,
+    "colors_outline_button_labels": "#b5838d",
+    "colors_background_2": "#F3F3F3",
+    "type_body_font": "assistant_n4",
+    "mlvedaACS_positionLeft": "10px",
+    "mlvedaACS_defaultCurrency": "EUR",
+    "page_width": "1200",
+    "mlvedaACS_textColor": "inherit",
+    "mlvedaACS_autoSwitch": false,
+    "mlvedaACS_flagStyle": "circle",
+    "mlvedaACS_isMessageDisplay": true,
+    "mlvedaACS_positionBottom": "10px",
+    "colors_background_1": "#ffffff",
     "checkout_header_image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_26_9a3402d4-3c9a-4a0d-8904-a469b93d9412.gif",
-    "checkout_logo_image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_26_9a3402d4-3c9a-4a0d-8904-a469b93d9412.gif",
+    "mlvedaACS_messageBackgroundColor": "inherit",
+    "mlvedaACS_messageContent": "<<shop.name>> process all orders in <<shop.currency>>. While the content of your cart is currently displayed in <<shop.selected_currency>>, you will checkout using <<shop.currency>> at the most current exchange rate.",
+    "mlvedaACS_roundDecimalValue": 1,
+    "mlvedaACS_backgroundColor": "#ffffff",
+    "mlvedaACS_position": "bottom_with_right",
+    "mlvedaACS_messageColor": "inherit",
+    "colors_text": "#121212",
+    "mlvedaACS_textHoverColor": "inherit",
+    "favicon": "shopify:\/\/shop_images\/favicon-32x32_8563ecc6-148e-48a0-a44a-afd7f9c58746.png",
+    "blocks": {
+      "16314041743b4e3bf8": {
+        "settings": {
+        },
+        "disabled": false,
+        "type": "shopify:\/\/apps\/mlv-auto-currency-switcher\/blocks\/mlveda-currencies-head\/92ab730f-097e-4571-b27c-3f449e098ca3"
+      }
+    },
+    "mlvedaACS_enable": true,
+    "mlvedaACS_positionTop": "10px",
+    "social_facebook_link": "https:\/\/facebook.com\/famzzle",
     "checkout_accent_color": "#121212",
-    "checkout_button_color": "#121212",
+    "mlvedaACS_supportedCurrencies": "EUR USD GBP CAD AUD INR JPY AED KWD",
+    "mlvedaACS_isCustomized": true,
+    "accent_icons": "text",
     "sections": {
       "announcement-bar": {
-        "type": "announcement-bar",
+        "settings": {
+        },
         "blocks": {
           "announcement-bar-0": {
-            "type": "announcement",
             "settings": {
-              "text": "Bienvenue chez Famzzle",
+              "link": "shopify:\/\/collections",
               "color_scheme": "inverse",
-              "link": "shopify:\/\/collections"
-            }
+              "text": "Bienvenue chez Famzzle"
+            },
+            "type": "announcement"
           },
           "112b1a5e-653a-453c-b214-83a162a4a796": {
-            "type": "announcement",
             "settings": {
-              "text": "Offre limité : livraison internationale offerte + 20% de réduction avec ce code : famzzle20",
+              "link": "shopify:\/\/collections",
               "color_scheme": "inverse",
-              "link": "shopify:\/\/collections"
-            }
+              "text": "Offre limité : livraison internationale offerte + 20% de réduction avec ce code : famzzle20"
+            },
+            "type": "announcement"
           }
         },
+        "type": "announcement-bar",
         "block_order": [
           "announcement-bar-0",
           "112b1a5e-653a-453c-b214-83a162a4a796"
-        ],
-        "settings": {
-        }
-      },
-      "header": {
-        "type": "header",
-        "settings": {
-          "logo": "shopify:\/\/shop_images\/ezgif.com-gif-maker_26_9a3402d4-3c9a-4a0d-8904-a469b93d9412.gif",
-          "logo_width": 100,
-          "logo_position": "top-center",
-          "menu": "main-menu",
-          "show_line_separator": true,
-          "enable_sticky_header": true
-        }
+        ]
       },
       "footer": {
-        "type": "footer",
+        "settings": {
+          "newsletter_enable": true,
+          "newsletter_heading": "Inscrivez-vous pour recevoir les dernières offres en premier.",
+          "enable_country_selector": true,
+          "color_scheme": "inverse",
+          "show_social": false,
+          "enable_language_selector": true,
+          "payment_enable": true
+        },
         "blocks": {
+          "footer-1": {
+            "settings": {
+              "subtext": "<p>Contactez nous par chat direct sur notre site web, nous ferons tout notre possible pour vous aider.<br\/><\/p><p>Entreprise européenne \/ TVA : BE0733918628<\/p>",
+              "heading": "Un problème pour passer commande ?"
+            },
+            "type": "text"
+          },
           "footer-0": {
-            "type": "link_list",
             "settings": {
               "heading": "À propos",
               "menu": "footer"
-            }
-          },
-          "footer-1": {
-            "type": "text",
-            "settings": {
-              "heading": "Un problème pour passer commande ?",
-              "subtext": "<p>Contactez nous par chat direct sur notre site web, nous ferons tout notre possible pour vous aider.<br\/><\/p><p>Entreprise européenne \/ TVA : BE0733918628<\/p>"
-            }
+            },
+            "type": "link_list"
           }
         },
+        "type": "footer",
         "block_order": [
           "footer-0",
           "footer-1"
-        ],
+        ]
+      },
+      "header": {
         "settings": {
-          "color_scheme": "inverse",
-          "newsletter_enable": true,
-          "newsletter_heading": "Inscrivez-vous pour recevoir les dernières offres en premier.",
-          "show_social": false,
-          "enable_country_selector": true,
-          "enable_language_selector": true,
-          "payment_enable": true
-        }
+          "enable_sticky_header": true,
+          "logo": "shopify:\/\/shop_images\/ezgif.com-gif-maker_26_9a3402d4-3c9a-4a0d-8904-a469b93d9412.gif",
+          "show_line_separator": true,
+          "logo_position": "top-center",
+          "menu": "main-menu",
+          "logo_width": 100
+        },
+        "type": "header"
       }
     },
+    "mlvedaACS_hideDecimal": false,
+    "colors_accent_1": "#121212",
     "content_for_index": [
 
     ],
-    "blocks": {
-      "16314041743b4e3bf8": {
-        "type": "shopify:\/\/apps\/mlv-auto-currency-switcher\/blocks\/mlveda-currencies-head\/92ab730f-097e-4571-b27c-3f449e098ca3",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    }
+    "mlvedaACS_hoverBackgroundColor": "inherit",
+    "mlvedaACS_positionRight": "10px",
+    "colors_accent_2": "#c673dc",
+    "mlvedaACS_currencyFormat": "money_with_currency_format",
+    "mlvedaACS_borderLineColor": "inherit",
+    "colors_solid_button_labels": "#FFFFFF",
+    "mlvedaACS_displayFlag": false,
+    "mlvedaACS_borderLook": true,
+    "checkout_button_color": "#121212",
+    "type_header_font": "assistant_n4",
+    "checkout_logo_image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_26_9a3402d4-3c9a-4a0d-8904-a469b93d9412.gif"
   },
   "presets": {
-    "Default": {
-      "colors_solid_button_labels": "#FFFFFF",
-      "colors_accent_1": "#121212",
-      "colors_accent_2": "#334FB4",
-      "colors_text": "#121212",
-      "colors_outline_button_labels": "#121212",
-      "colors_background_1": "#FFFFFF",
-      "colors_background_2": "#F3F3F3",
-      "type_header_font": "assistant_n4",
-      "type_body_font": "assistant_n4",
-      "sections": {
-        "announcement-bar": {
-          "type": "announcement-bar",
-          "blocks": {
-            "announcement-bar-0": {
-              "type": "announcement",
-              "settings": {
-                "color_scheme": "background-1"
-              }
-            }
-          },
-          "block_order": [
-            "announcement-bar-0"
-          ],
-          "settings": {
-          }
-        }
-      }
-    },
     "Craft": {
-      "colors_solid_button_labels": "#EFECEC",
       "colors_accent_1": "#2A332F",
-      "colors_accent_2": "#476154",
       "colors_text": "#1C1A1A",
-      "colors_outline_button_labels": "#7B8382",
       "colors_background_1": "#EFECEC",
+      "colors_accent_2": "#476154",
+      "colors_outline_button_labels": "#7B8382",
+      "colors_solid_button_labels": "#EFECEC",
       "colors_background_2": "#C1BCAE",
-      "type_header_font": "americana_n4",
       "type_body_font": "quattrocento_sans_n4",
+      "type_header_font": "americana_n4",
       "sections": {
         "footer": {
-          "type": "footer",
+          "settings": {
+            "color_scheme": "accent-1"
+          },
           "blocks": {
-            "menu": {
-              "type": "link_list",
-              "settings": {
-              }
-            },
             "text": {
-              "type": "text",
               "settings": {
-              }
+              },
+              "type": "text"
+            },
+            "menu": {
+              "settings": {
+              },
+              "type": "link_list"
             }
           },
+          "type": "footer",
           "block_order": [
             "menu",
             "text"
-          ],
+          ]
+        }
+      }
+    },
+    "Default": {
+      "colors_accent_1": "#121212",
+      "colors_text": "#121212",
+      "colors_background_1": "#FFFFFF",
+      "colors_accent_2": "#334FB4",
+      "colors_outline_button_labels": "#121212",
+      "colors_solid_button_labels": "#FFFFFF",
+      "colors_background_2": "#F3F3F3",
+      "type_body_font": "assistant_n4",
+      "type_header_font": "assistant_n4",
+      "sections": {
+        "announcement-bar": {
           "settings": {
-            "color_scheme": "accent-1"
-          }
+          },
+          "blocks": {
+            "announcement-bar-0": {
+              "settings": {
+                "color_scheme": "background-1"
+              },
+              "type": "announcement"
+            }
+          },
+          "type": "announcement-bar",
+          "block_order": [
+            "announcement-bar-0"
+          ]
         }
       }
     }
