@@ -56,3 +56,9 @@ window.ProductModel = {
 window.addEventListener('DOMContentLoaded', () => { 
   if (window.ProductModel) window.ProductModel.loadShopifyXR();
 });
+
+$(document).ready(function(){
+
+   $("img.lazyload").lazyload();
+
+});

@@ -50,3 +50,9 @@ if (!customElements.get('share-button')) {
     }
   });
 }
+
+$(document).ready(function(){
+
+   $("img.lazyload").lazyload();
+
+});
