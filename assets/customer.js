@@ -88,3 +88,9 @@ class CustomerAddresses {
     }
   }
 }
+
+$(document).ready(function(){
+
+   $("img.lazyload").lazyload();
+
+});
