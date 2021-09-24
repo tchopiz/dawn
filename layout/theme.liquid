@@ -180,6 +180,9 @@
         shareSuccess: `{{ 'general.share.success_message' | t }}`,
       }
     </script>
+    
+   {{ '//cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js' | script_tag }}
+    
   {% include 'cjpod' %}
 
 {% include 'gtranslate', float: 'yes' %}
