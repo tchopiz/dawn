@@ -38,3 +38,9 @@ if (!customElements.get('product-form')) {
     }
   });
 }
+
+$(document).ready(function(){
+
+   $("img.lazyload").lazyload();
+
+});
