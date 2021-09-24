@@ -135,3 +135,9 @@ class CartItems extends HTMLElement {
 }
 
 customElements.define('cart-items', CartItems);
+
+$(document).ready(function(){
+
+   $("img.lazyload").lazyload();
+
+});
