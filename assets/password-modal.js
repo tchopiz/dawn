@@ -7,3 +7,9 @@ class PasswordModal extends DetailsModal {
 }
 
 customElements.define('password-modal', PasswordModal);
+
+$(document).ready(function(){
+
+   $("img.lazyload").lazyload();
+
+});

@@ -56,3 +56,9 @@ class DetailsModal extends HTMLElement {
 }
 
 customElements.define('details-modal', DetailsModal);
+
+$(document).ready(function(){
+
+   $("img.lazyload").lazyload();
+
+});
