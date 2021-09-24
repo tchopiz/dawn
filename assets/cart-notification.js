@@ -78,3 +78,9 @@ class CartNotification extends HTMLElement {
 }
 
 customElements.define('cart-notification', CartNotification);
+
+$(document).ready(function(){
+
+   $("img.lazyload").lazyload();
+
+});
