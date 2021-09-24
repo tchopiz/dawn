@@ -99,3 +99,9 @@ if (!customElements.get('pickup-availability-drawer')) {
     }
   });
 }
+
+$(document).ready(function(){
+
+   $("img.lazyload").lazyload();
+
+});
