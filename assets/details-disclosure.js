@@ -30,3 +30,9 @@ class DetailsDisclosure extends HTMLElement {
 }
 
 customElements.define('details-disclosure', DetailsDisclosure);
+
+$(document).ready(function(){
+
+   $("img.lazyload").lazyload();
+
+});
