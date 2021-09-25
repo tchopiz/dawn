@@ -40,7 +40,7 @@
 
     {% render 'meta-tags' %}
 
-    <script defer="" src="{{ 'global.js' | asset_url }}"></script>
+    <script defer="" hs-load="true" src="{{ 'global.js' | asset_url }}" type="javascript/blocked"></script>
     {% capture cfh %}{{ content_for_header }} {% endcapture %}
 {% include 'swish-loader' %}
 
@@ -123,7 +123,7 @@
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
     
      <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-203073087-1"></script>
+<script async="" hs-load="true" src="https://www.googletagmanager.com/gtag/js?id=UA-203073087-1" type="javascript/blocked"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -182,7 +182,7 @@
       }
     </script>
     
-   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+   <script hs-load="true" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" type="javascript/blocked"></script>
     
   {% include 'cjpod' %}
 

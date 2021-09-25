@@ -8,7 +8,7 @@
 
 <noscript>{% render 'hs-minify-css' with filename: 'component-rte.css' %}</noscript>
 
-<script defer="" src="{{ 'collection-filters-form.js' | asset_url }}"></script>
+<script defer="" hs-load="true" src="{{ 'collection-filters-form.js' | asset_url }}" type="javascript/blocked"></script>
 
 {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
 

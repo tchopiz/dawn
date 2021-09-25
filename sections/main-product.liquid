@@ -8,7 +8,7 @@
 
 <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
 
-<script defer="" src="{{ 'product-form.js' | asset_url }}"></script>
+<script defer="" hs-load="true" src="{{ 'product-form.js' | asset_url }}" type="javascript/blocked"></script>
 
 {%- assign first_3d_model = product.media | where: "media_type", "model" | first -%}
 {%- if first_3d_model -%}
@@ -188,7 +188,7 @@
                 </div>
               </details>
             </share-button>
-            <script defer="" src="{{ 'share.js' | asset_url }}"></script>
+            <script defer="" hs-load="true" src="{{ 'share.js' | asset_url }}" type="javascript/blocked"></script>
           {%- when 'variant_picker' -%}
             {%- unless product.has_only_default_variant -%}
               {%- if block.settings.picker_type == 'button' -%}
@@ -312,7 +312,7 @@
               </pickup-availability>
             </div>
 
-            <script defer="" src="{{ 'pickup-availability.js' | asset_url }}"></script>
+            <script defer="" hs-load="true" src="{{ 'pickup-availability.js' | asset_url }}" type="javascript/blocked"></script>
           {%- when 'rating' -%}
             {%- if product.metafields.reviews.rating.value != blank -%}
               {% liquid
@@ -491,7 +491,7 @@
     {{ product.media | where: 'media_type', 'model' | json }}
   </script>
 
-  <script defer="" src="{{ 'product-model.js' | asset_url }}"></script>
+  <script defer="" hs-load="true" src="{{ 'product-model.js' | asset_url }}" type="javascript/blocked"></script>
 {%- endif -%}
 
 <script type="application/ld+json">

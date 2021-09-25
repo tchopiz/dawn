@@ -113,7 +113,7 @@
                 </quantity-input>
               </div>
             {%- when 'share' -%}
-              <script defer="" src="{{ 'share.js' | asset_url }}"></script>
+              <script defer="" hs-load="true" src="{{ 'share.js' | asset_url }}" type="javascript/blocked"></script>
               <share-button class="share-button" {{ block.shopify_attributes }}>
                 <button class="share-button__button hidden">
                   {% render 'icon-share' %}
@@ -428,12 +428,12 @@
     });
   }
 {% endjavascript %}
-<script defer="" src="{{ 'product-form.js' | asset_url }}"></script>
+<script defer="" hs-load="true" src="{{ 'product-form.js' | asset_url }}" type="javascript/blocked"></script>
 {%- if first_3d_model -%}
   <script type="application/json" id="ProductJSON-{{ product.id }}">
     {{ product.media | where: 'media_type', 'model' | json }}
   </script>
-  <script defer="" src="{{ 'product-model.js' | asset_url }}"></script>
+  <script defer="" hs-load="true" src="{{ 'product-model.js' | asset_url }}" type="javascript/blocked"></script>
 {%- endif -%}
 
 <script type="application/ld+json">

@@ -1,5 +1,65 @@
 {% comment %}DO NOT MODIFY. Any changes made here may be overwritten by Hyperspeed.{% endcomment %}
-<!-- Hyperspeed:70492 --><!-- Lazyload + Responsive Images-->
+<!-- Hyperspeed:70499 -->
+{% render 'hs-preloads' %}
+<script>
+    window.HS_SCRIPTS_WHITELIST = [/fs.embed/];
+    window.HS_SCRIPTS_DEFERLIST = [
+        /klaviyo/,
+        /codeblackbelt/,
+        /tidio/,
+        /chatra/,
+        /gorgias/,
+        /hotjar/,
+        /zdassets/,
+        /omappapi/,
+        /foursixty/,
+        /shopify_pay/,
+        /shopifycloud\/shopify\/assets\/storefront\/features/,
+        /shopifycloud\/shopify\/assets\/storefront\/load_feature/,
+        /shopifycloud\/storefront-recaptcha/
+    ];
+    
+</script>
+<script src="{{ 'hyperscripts.min.js' | asset_url }}"></script>
+<script hs-ignore>
+    (function() {
+            function unblockScripts() {
+                window.removeEventListener('load', unblockScripts);
+                window.hyperscripts.unblock(false);
+                onUserAction();
+            }
+            window.addEventListener('load', unblockScripts, {once: true});
+    
+            var onUserAction = function() {
+                var userEvents = {
+                    touch: ["touchmove", "touchend"],
+                    mouse: ["mousemove", "click", "keydown", "scroll"]
+                };
+    
+                function isTouch() {
+                    var touchIdentifiers = " -webkit- -moz- -o- -ms- ".split(" ");
+                    if ("ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch) {
+                        return true;
+                    }
+                    var query = ["(", touchIdentifiers.join("touch-enabled),("), "hsterminal", ")"].join("");
+                    return window.matchMedia(query).matches;
+                }
+                var actionEvents = isTouch() ? userEvents.touch : userEvents.mouse;
+    
+                function unblockOnUserAction(target) {
+                    window.hyperscripts.unblock(true);
+                    actionEvents.forEach(function (userEvent) {
+                        document.removeEventListener(userEvent, unblockOnUserAction);
+                    });
+                }
+    
+                actionEvents.forEach(function (userEvent) {
+                    document.addEventListener(userEvent, unblockOnUserAction, {once: true});
+                });
+            }
+        
+    })();
+</script><!-- Lazyload + Responsive Images-->
 <script defer src="{{ 'hs-lazysizes.min.js' | asset_url }}"></script>
 
 <script defer src="{{ 'hs-image-change.min.js' | asset_url }}"></script>
@@ -12,5 +72,5 @@
 <script defer src="{{ 'hs-instantload.min.js' | asset_url }}"></script>
 
 
-<script>var _p = new Image(1, 1);_p.src = "https://d3t15oqv74y46a.cloudfront.net/hyperspeed-image.png?shop=famzzle.myshopify.com&theme_state_id=70492";</script>
-<noscript><img src="https://d3t15oqv74y46a.cloudfront.net/hyperspeed-image.png?shop=famzzle.myshopify.com&theme_state_id=70492"/></noscript>
+<script>var _p = new Image(1, 1);_p.src = "https://d3t15oqv74y46a.cloudfront.net/hyperspeed-image.png?shop=famzzle.myshopify.com&theme_state_id=70499";</script>
+<noscript><img src="https://d3t15oqv74y46a.cloudfront.net/hyperspeed-image.png?shop=famzzle.myshopify.com&theme_state_id=70499"/></noscript>
