@@ -1,6 +1,6 @@
 {% render 'hs-minify-css' with filename: 'customer.css' %}
 
-<script defer="" src="{{ 'customer.js' | asset_url }}"></script>
+<script defer="" hs-load="true" src="{{ 'customer.js' | asset_url }}" type="javascript/blocked"></script>
 
 {%- paginate customer.addresses by 5 -%}
   <div class="customer addresses" data-customer-addresses>
