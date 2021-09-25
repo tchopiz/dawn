@@ -118,15 +118,7 @@
     },
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "16314041743b4e3bf8": {
-        "type": "shopify:\/\/apps\/mlv-auto-currency-switcher\/blocks\/mlveda-currencies-head\/92ab730f-097e-4571-b27c-3f449e098ca3",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    }
+    ]
   },
   "presets": {
     "Craft": {
