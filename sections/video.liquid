@@ -1,5 +1,5 @@
-{{ 'video-section.css' | asset_url | stylesheet_tag }}
-{{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
+{% render 'hs-minify-css' with filename: 'video-section.css' %}
+{% render 'hs-minify-css' with filename: 'component-deferred-media.css' %}
 
 <div class="video-section{% unless section.settings.full_width %} page-width{% endunless %}">
   <div{% if section.settings.full_width %} class="page-width"{% endif %}>
@@ -67,9 +67,11 @@
     </button>
     <template>
       {%- if section.settings.video_url.type == 'youtube' -%}
-        <iframe src="https://www.youtube.com/embed/{{ section.settings.video_url.id }}?enablejsapi=1" class="js-youtube" allow="autoplay; encrypted-media" allowfullscreen title="{{ section.settings.description | escape }}"></iframe>
+        <iframe allow="autoplay; encrypted-media" allowfullscreen="" class="js-youtube lazyload hs-id-b376776e" data-src="https://www.youtube.com/embed/{{ section.settings.video_url.id }}?enablejsapi=1" title="{{ section.settings.description | escape }}">
+</iframe>
       {%- else -%}
-        <iframe src="https://player.vimeo.com/video/{{ section.settings.video_url.id }}" class="js-vimeo" allow="autoplay; encrypted-media" allowfullscreen title="{{ section.settings.description | escape }}"></iframe>
+        <iframe allow="autoplay; encrypted-media" allowfullscreen="" class="js-vimeo lazyload hs-id-9911f847" data-src="https://player.vimeo.com/video/{{ section.settings.video_url.id }}" title="{{ section.settings.description | escape }}">
+</iframe>
       {%- endif -%}
     </template>
   </deferred-media>

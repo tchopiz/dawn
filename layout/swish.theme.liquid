@@ -40,7 +40,7 @@
 
     {% render 'meta-tags' %}
 
-    <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    <script defer="" src="{{ 'global.js' | asset_url }}"></script>
     {% capture cfh %}{{ content_for_header }} {% endcapture %}
 {% include 'swish-loader' %}
 
@@ -111,7 +111,7 @@
       }
     {% endstyle %}
 
-    {{ 'base.css' | asset_url | stylesheet_tag }}
+    {% render 'hs-minify-css' with filename: 'base.css' %}
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
@@ -123,7 +123,7 @@
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
     
      <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-203073087-1"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-203073087-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -182,7 +182,7 @@
       }
     </script>
     
-   {{ '//cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js' | script_tag }}
+   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
     
   {% include 'cjpod' %}
 

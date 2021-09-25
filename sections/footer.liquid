@@ -1,5 +1,5 @@
 {% comment %}theme-check-disable UndefinedObject{% endcomment %}
-{{ 'section-footer.css' | asset_url | stylesheet_tag }}
+{% render 'hs-minify-css' with filename: 'section-footer.css' %}
 <link rel="stylesheet" href="{{ 'component-newsletter.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-list-menu.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-list-payment.css' | asset_url }}" media="print" onload="this.media='all'">
@@ -55,15 +55,7 @@
                   <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
                     {%- if block.settings.image != blank -%}
                       {%- assign image_size = block.settings.image_width | append: 'x' -%}
-                      <img
-                        srcset= "{{ block.settings.image | img_url: image_size }}, {{ block.settings.image | img_url: image_size, scale: 2 }} 2x"
-                        src="{{ block.settings.image | img_url: '400x' }}"
-                        alt="{{ block.settings.image.alt | escape }}"
-                        loading="lazy"
-                        width="{{ block.settings.image.width }}"
-                        height="{{ block.settings.image.height }}"
-                        style="max-width: min(100%, {{ block.settings.image_width }}px);"
-                      >
+                      <img alt="{{ block.settings.image.alt | escape }}" class="lazyload hs-lazyload hs-id-d34b2d53" data-aspectratio="{{ block.settings.image.aspect_ratio }}" data-parent-fit="contain" data-sizes="auto" data-srcset="{{ block.settings.image | img_url: image_size }}, {{ block.settings.image | img_url: image_size, scale: 2 }} 2x" height="{{ block.settings.image.height }}" loading="lazy" src="{{ block.settings.image | img_url: '400x' }}" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" style="max-width: min(100%, {{ block.settings.image_width }}px);" width="{{ block.settings.image.width }}"/>
                     {%- else -%}
                       {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                     {%- endif -%}
@@ -550,4 +542,4 @@
   }
 }
 {% endschema %}
-<script src='https://swishapp.digital/static/footerLoader.min.js' defer></script>
+<script defer="" src="https://swishapp.digital/static/footerLoader.min.js"></script>

@@ -1,4 +1,4 @@
-{{ 'component-collection-hero.css' | asset_url | stylesheet_tag }}
+{% render 'hs-minify-css' with filename: 'component-collection-hero.css' %}
 
 <div class="collection-hero{% if section.settings.show_collection_image and collection.image %} collection-hero--with-image{% endif %}">
   <div class="collection-hero__inner page-width">

@@ -80,13 +80,16 @@
             {% when 'video' %}
               <div class="video-wrapper">
                 {% if block.settings.video_url == blank %}
-                  <iframe src="//www.youtube.com/embed/_9VUPq3SxOc?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe>
+                  <iframe allowfullscreen="" class="lazyload hs-id-da77e63f" data-src="//www.youtube.com/embed/_9VUPq3SxOc?rel=0&amp;showinfo=0&amp;vq=720" frameborder="0" height="480" width="850">
+</iframe>
                 {% else %}
                   {% if block.settings.video_url.type == "youtube" %}
-                    <iframe src="//www.youtube.com/embed/{{ block.settings.video_url.id }}?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe>
+                    <iframe allowfullscreen="" class="lazyload hs-id-89916f00" data-src="//www.youtube.com/embed/{{ block.settings.video_url.id }}?rel=0&amp;showinfo=0&amp;vq=720" frameborder="0" height="480" width="850">
+</iframe>
                   {% endif %}
                   {% if block.settings.video_url.type == "vimeo" %}
-                    <iframe src="//player.vimeo.com/video/{{ block.settings.video_url.id }}?byline=0&portrait=0&badge=0" width="850" height="480" frameborder="0" allowfullscreen></iframe>
+                    <iframe allowfullscreen="" class="lazyload hs-id-7022d547" data-src="//player.vimeo.com/video/{{ block.settings.video_url.id }}?byline=0&amp;portrait=0&amp;badge=0" frameborder="0" height="480" width="850">
+</iframe>
                   {% endif %}
                 {% endif %}
               </div>

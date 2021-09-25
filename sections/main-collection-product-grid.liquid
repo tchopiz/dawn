@@ -1,14 +1,14 @@
-{{ 'template-collection.css' | asset_url | stylesheet_tag }}
-{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
-{{ 'component-card.css' | asset_url | stylesheet_tag }}
-{{ 'component-price.css' | asset_url | stylesheet_tag }}
-{{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
+{% render 'hs-minify-css' with filename: 'template-collection.css' %}
+{% render 'hs-minify-css' with filename: 'component-loading-overlay.css' %}
+{% render 'hs-minify-css' with filename: 'component-card.css' %}
+{% render 'hs-minify-css' with filename: 'component-price.css' %}
+{% render 'hs-minify-css' with filename: 'component-product-grid.css' %}
 
 <link rel="preload" href="{{ 'component-rte.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
-<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{% render 'hs-minify-css' with filename: 'component-rte.css' %}</noscript>
 
-<script src="{{ 'collection-filters-form.js' | asset_url }}" defer="defer"></script>
+<script defer="" src="{{ 'collection-filters-form.js' | asset_url }}"></script>
 
 {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
 

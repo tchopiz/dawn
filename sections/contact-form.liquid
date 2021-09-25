@@ -1,4 +1,4 @@
-{{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
+{% render 'hs-minify-css' with filename: 'section-contact-form.css' %}
 
 <div class="contact page-width page-width--narrow spaced-section">
   <h2 class="title">{{ section.settings.heading | escape }}</h2>

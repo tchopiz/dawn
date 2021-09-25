@@ -1,18 +1,18 @@
 {% comment %}theme-check-disable TemplateLength{% endcomment %}
-{{ 'section-main-product.css' | asset_url | stylesheet_tag }}
-{{ 'component-accordion.css' | asset_url | stylesheet_tag }}
-{{ 'component-price.css' | asset_url | stylesheet_tag }}
-{{ 'component-rte.css' | asset_url | stylesheet_tag }}
-{{ 'component-slider.css' | asset_url | stylesheet_tag }}
-{{ 'component-rating.css' | asset_url | stylesheet_tag }}
+{% render 'hs-minify-css' with filename: 'section-main-product.css' %}
+{% render 'hs-minify-css' with filename: 'component-accordion.css' %}
+{% render 'hs-minify-css' with filename: 'component-price.css' %}
+{% render 'hs-minify-css' with filename: 'component-rte.css' %}
+{% render 'hs-minify-css' with filename: 'component-slider.css' %}
+{% render 'hs-minify-css' with filename: 'component-rating.css' %}
 
 <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
 
-<script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+<script defer="" src="{{ 'product-form.js' | asset_url }}"></script>
 
 {%- assign first_3d_model = product.media | where: "media_type", "model" | first -%}
 {%- if first_3d_model -%}
-  {{ 'component-product-model.css' | asset_url | stylesheet_tag }}
+  {% render 'hs-minify-css' with filename: 'component-product-model.css' %}
   <link id="ModelViewerStyle" rel="stylesheet" href="https://cdn.shopify.com/shopifycloud/model-viewer-ui/assets/v1.0/model-viewer-ui.css" media="print" onload="this.media='all'">
   <link id="ModelViewerOverride" rel="stylesheet" href="{{ 'component-model-viewer-ui.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
@@ -188,7 +188,7 @@
                 </div>
               </details>
             </share-button>
-            <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
+            <script defer="" src="{{ 'share.js' | asset_url }}"></script>
           {%- when 'variant_picker' -%}
             {%- unless product.has_only_default_variant -%}
               {%- if block.settings.picker_type == 'button' -%}
@@ -290,7 +290,7 @@
                 {%- endform -%}
               </product-form>
 
-              {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
+              {% render 'hs-minify-css' with filename: 'component-pickup-availability.css' %}
 
               {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true -%}
 
@@ -312,7 +312,7 @@
               </pickup-availability>
             </div>
 
-            <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
+            <script defer="" src="{{ 'pickup-availability.js' | asset_url }}"></script>
           {%- when 'rating' -%}
             {%- if product.metafields.reviews.rating.value != blank -%}
               {% liquid
@@ -491,7 +491,7 @@
     {{ product.media | where: 'media_type', 'model' | json }}
   </script>
 
-  <script src="{{ 'product-model.js' | asset_url }}" defer></script>
+  <script defer="" src="{{ 'product-model.js' | asset_url }}"></script>
 {%- endif -%}
 
 <script type="application/ld+json">

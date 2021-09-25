@@ -29,7 +29,7 @@
 
     {% render 'meta-tags' %}
 
-    <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    <script defer="" src="{{ 'global.js' | asset_url }}"></script>
     {{ content_for_header }}
 
     {%- liquid
@@ -99,7 +99,7 @@
       }
     {% endstyle %}
 
-    {{ 'base.css' | asset_url | stylesheet_tag }}
+    {% render 'hs-minify-css' with filename: 'base.css' %}
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
@@ -111,7 +111,7 @@
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
     
      <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-203073087-1"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-203073087-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -130,10 +130,9 @@
 </script> 
     
     <!-- Google Adsense -->
-    <script data-ad-client="ca-pub-4829563749232244" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script async="" data-ad-client="ca-pub-4829563749232244" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4829563749232244"
-     crossorigin="anonymous"></script>
+    <script async="" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4829563749232244"></script>
 <!-- Famzzle Cat Game -->
 <ins class="adsbygoogle"
      style="display:block"

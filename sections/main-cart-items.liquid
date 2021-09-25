@@ -1,11 +1,11 @@
-{{ 'component-cart.css' | asset_url | stylesheet_tag }}
-{{ 'component-cart-items.css' | asset_url | stylesheet_tag }}
-{{ 'component-totals.css' | asset_url | stylesheet_tag }}
-{{ 'component-price.css' | asset_url | stylesheet_tag }}
-{{ 'component-discounts.css' | asset_url | stylesheet_tag }}
-{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
+{% render 'hs-minify-css' with filename: 'component-cart.css' %}
+{% render 'hs-minify-css' with filename: 'component-cart-items.css' %}
+{% render 'hs-minify-css' with filename: 'component-totals.css' %}
+{% render 'hs-minify-css' with filename: 'component-price.css' %}
+{% render 'hs-minify-css' with filename: 'component-discounts.css' %}
+{% render 'hs-minify-css' with filename: 'component-loading-overlay.css' %}
 
-<script src="{{ 'cart.js' | asset_url }}" defer="defer"></script>
+<script defer="" src="{{ 'cart.js' | asset_url }}"></script>
 
 <cart-items class="page-width{% if cart == empty %} is-empty{% endif %}">
   <div class="title-wrapper-with-link">

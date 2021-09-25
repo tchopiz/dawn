@@ -1,6 +1,6 @@
-{{ 'component-article-card.css' | asset_url | stylesheet_tag }}
-{{ 'component-card.css' | asset_url | stylesheet_tag }}
-{{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
+{% render 'hs-minify-css' with filename: 'component-article-card.css' %}
+{% render 'hs-minify-css' with filename: 'component-card.css' %}
+{% render 'hs-minify-css' with filename: 'section-main-blog.css' %}
 
 
 {%- paginate blog.articles by 6 -%}

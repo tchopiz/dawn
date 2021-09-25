@@ -1,4 +1,4 @@
-{{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
+{% render 'hs-minify-css' with filename: 'section-multicolumn.css' %}
 <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 
