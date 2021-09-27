@@ -31,9 +31,9 @@
         "image_2": "shopify:\/\/shop_images\/image_10_a534b9ff-d0d2-4503-9599-0677ea926dd3_1.jpg",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
-        "show_text_box": false,
+        "show_text_box": true,
         "image_overlay_opacity": 0,
-        "color_scheme": "accent-1",
+        "color_scheme": "accent-2",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }

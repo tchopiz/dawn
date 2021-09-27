@@ -1,6 +1,6 @@
 {
   "current": {
-    "colors_solid_button_labels": "#FFFFFF",
+    "colors_solid_button_labels": "#f3f3f3",
     "colors_accent_1": "#121212",
     "colors_accent_2": "#b5838d",
     "colors_text": "#121212",
@@ -75,18 +75,18 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-1": {
-            "type": "text",
-            "settings": {
-              "heading": "Un problème pour passer commande ?",
-              "subtext": "<p>Contactez nous par chat direct sur notre site web, nous ferons tout notre possible pour vous aider.<br\/><\/p><p>Entreprise européenne \/ TVA : BE0733918628<\/p>"
-            }
-          },
           "footer-0": {
             "type": "link_list",
             "settings": {
               "heading": "À propos",
               "menu": "footer"
+            }
+          },
+          "footer-1": {
+            "type": "text",
+            "settings": {
+              "heading": "Un problème pour passer commande ?",
+              "subtext": "<p>Contactez nous par chat direct sur notre site web, nous ferons tout notre possible pour vous aider.<br\/><\/p><p>Entreprise européenne \/ TVA : BE0733918628<\/p>"
             }
           }
         },
