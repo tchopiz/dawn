@@ -76,12 +76,11 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "disabled": true,
       "settings": {
         "heading": "Vous pouvez également aimé",
         "image_ratio": "portrait",
-        "show_secondary_image": false,
-        "add_image_padding": true,
+        "show_secondary_image": true,
+        "add_image_padding": false,
         "show_image_outline": false,
         "show_vendor": false,
         "show_rating": false
