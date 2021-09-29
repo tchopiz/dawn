@@ -155,7 +155,7 @@
         "55292e00-6449-4e46-80db-36c416df61c7": {
           "type": "collection",
           "settings": {
-            "collection": "accessoires",
+            "collection": "toilettage-soins",
             "image_padding": false,
             "color_scheme": "background-1"
           }
