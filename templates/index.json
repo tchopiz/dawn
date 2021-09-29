@@ -27,14 +27,14 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/7750D511-8767-45B3-9B29-1210E9816A9C.jpg",
-        "image_2": "shopify:\/\/shop_images\/pexels-snapwire-730896_1.jpg",
-        "adapt_height_first_image": false,
+        "image": "shopify:\/\/shop_images\/pexels-snapwire-730896_1.jpg",
+        "image_2": "shopify:\/\/shop_images\/7750D511-8767-45B3-9B29-1210E9816A9C.jpg",
+        "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
         "show_text_box": true,
         "image_overlay_opacity": 0,
-        "color_scheme": "accent-2",
-        "stack_images_on_mobile": true,
+        "color_scheme": "inverse",
+        "stack_images_on_mobile": false,
         "show_text_below": true
       }
     },
@@ -71,6 +71,51 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
+      }
+    },
+    "16329569762e1c4801": {
+      "type": "image-banner",
+      "blocks": {
+        "16329569762e1c4801-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Meuble protection",
+            "heading_size": "medium"
+          }
+        },
+        "16329569762e1c4801-1": {
+          "type": "text",
+          "settings": {
+            "text": "Avoir des beaux meubles c'est bien, les protéger des griffes des chats c'est encore mieux."
+          }
+        },
+        "16329569762e1c4801-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Acheter maintenant",
+            "button_link_1": "shopify:\/\/products\/protection-des-meubles",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16329569762e1c4801-0",
+        "16329569762e1c4801-1",
+        "16329569762e1c4801-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/download_3.jpg",
+        "image_2": "shopify:\/\/shop_images\/download_6.jpg",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
       }
     },
     "featured_products": {
@@ -184,6 +229,7 @@
   "order": [
     "image_banner",
     "rich_text",
+    "16329569762e1c4801",
     "featured_products",
     "video",
     "multi_column",
