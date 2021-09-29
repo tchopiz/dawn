@@ -85,8 +85,8 @@
           "footer-1": {
             "type": "text",
             "settings": {
-              "heading": "Tout pour un chat heureux et en bonne santé",
-              "subtext": "<p>Un problème pour passer commande ? Contactez-nous par chat direct sur notre site web ou par téléphone au :  <a href=\"tel:0032-467-643-193\">0032-467-643-193<\/a> (9h\/17h) nous ferons notre possible pour vous aider.<br\/><\/p><p>TVA : BE0733918628<\/p>"
+              "heading": "C’est votre première commande chez nous ? -10% avec ce code: meow",
+              "subtext": "<p>Un problème pour passer commande ? Contactez-nous par chat direct sur notre site web ou par téléphone au :  <a href=\"tel:0032-467-643-193\">0032-467-643-193<\/a> (9h\/17h) nous ferons notre possible pour vous aider.<\/p><p><br\/>Tout pour un chat heureux et en bonne santé.<br\/>TVA : BE0733918628<\/p>"
             }
           }
         },
