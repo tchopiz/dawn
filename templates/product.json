@@ -74,6 +74,41 @@
         "enable_video_looping": false
       }
     },
+    "16331281421af60cb0": {
+      "type": "image-with-text",
+      "blocks": {
+        "16331281421af60cb0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rejoignez notre programme d'affiliation"
+          }
+        },
+        "16331281421af60cb0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Partagez-vous des vidéos, images de votre chat sur les réseaux sociaux ? <\/p><p>Si c'est oui, saviez-vous que vous pouvez gagner de l'argent en collaborant avec nous ?<\/p>"
+          }
+        },
+        "16331281421af60cb0-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Nous contacter",
+            "button_link": "shopify:\/\/pages\/contactez-nous"
+          }
+        }
+      },
+      "block_order": [
+        "16331281421af60cb0-0",
+        "16331281421af60cb0-1",
+        "16331281421af60cb0-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4EDFB18F-18A6-4DAD-821F-8AA41517A1A0.png",
+        "height": "adapt",
+        "color_scheme": "accent-2",
+        "layout": "image_first"
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -94,6 +129,7 @@
   },
   "order": [
     "main",
+    "16331281421af60cb0",
     "product-recommendations",
     "1629746450643786911"
   ]
