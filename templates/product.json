@@ -14,7 +14,7 @@
         "360c8e1f-cc22-4733-9d44-37a8f4d4401b": {
           "type": "popup",
           "settings": {
-            "text": "Expédition en 24\/48 H",
+            "text": "Traitement et expédition en 24\/48 H",
             "page": "livraison-et-remboursement"
           }
         },
@@ -65,7 +65,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Je vous connais encore, quel sont mes garanties ?",
-            "content": "<p><br\/>Nous avons effectué des milliers de livraisons avec succès à travers le monde. En achetant chez nous, vous passer directement par les plateformes de paiement largement connu pour leurs fiabilités, comme Paypal et Stripe afin de passer commande. Zéro risque, en plus, vous pouvez à tout moment vérifier notre numéro de tva sur le site officiel de l’Union européenne.<\/p>",
+            "content": "<p><br\/>Nous avons effectué des milliers de livraisons avec succès à travers le monde via notre site internet et nos boutique Amazon et Ebay. En achetant chez nous, vous passer directement par les plateformes de paiement largement connu pour leurs fiabilités, comme Paypal et Stripe afin de passer commande. Zéro risque, en plus, vous pouvez à tout moment vérifier notre numéro de tva sur le site officiel de l’Union européenne.<\/p>",
             "page": "",
             "icon": "check_mark"
           }
