@@ -30,7 +30,6 @@
     },
     "163230983090ba5ad5": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "163230983090ba5ad5-0": {
           "type": "heading",
@@ -67,7 +66,6 @@
     },
     "featured-products": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Nos clients ont également achetés",
         "collection": "produit-vedette",
