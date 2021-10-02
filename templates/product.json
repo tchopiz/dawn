@@ -10,6 +10,13 @@
             "text_style": "uppercase"
           }
         },
+        "360c8e1f-cc22-4733-9d44-37a8f4d4401b": {
+          "type": "popup",
+          "settings": {
+            "text": "Expédition en 24\/48 H",
+            "page": "livraison-et-remboursement"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -59,6 +66,7 @@
       },
       "block_order": [
         "vendor",
+        "360c8e1f-cc22-4733-9d44-37a8f4d4401b",
         "title",
         "subtitle",
         "price",
@@ -69,8 +77,8 @@
         "share"
       ],
       "settings": {
-        "enable_sticky_info": true,
-        "hide_variants": false,
+        "enable_sticky_info": false,
+        "hide_variants": true,
         "enable_video_looping": false
       }
     },
