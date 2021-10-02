@@ -52,6 +52,24 @@
             "show_dynamic_checkout": true
           }
         },
+        "2c625b08-b0f9-4310-a02f-a26138c062da": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "En combien de temps vais-je recevoir mon produit ?",
+            "content": "<p>Tout dépend de votre pays de destination, nous sommes basé à Bruxelles en Belgique, nous traitons  habituellement les commandes en 24\/48 heures, hors week-end et jours fériés. Après les délais de nos partenaires comme bpost, colissimo et dhl variés, exemple pour les livraisons nationales et pays limitrophes de la Belgique 1-3 jours, pour l’international, généralement entre 1-3 semaines.<\/p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "f540e44d-990a-4e45-858c-56ec4552a226": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Je vous connais encore, quel sont mes garanties ?",
+            "content": "<p><br\/>Nous avons effectué des milliers de livraisons avec succès à travers le monde. En achetant chez nous, vous passer directement par les plateformes de paiement largement connu pour leurs fiabilités, comme Paypal et Stripe afin de passer commande. Zéro risque, en plus, vous pouvez à tout moment vérifier notre numéro de tva sur le site officiel de l’Union européenne.<\/p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -74,6 +92,8 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "2c625b08-b0f9-4310-a02f-a26138c062da",
+        "f540e44d-990a-4e45-858c-56ec4552a226",
         "description",
         "share"
       ],
