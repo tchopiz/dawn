@@ -33,6 +33,7 @@
       "blocks": {
         "163230983090ba5ad5-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Pourquoi acheté chez nous ?",
             "heading_size": "h1"
@@ -66,6 +67,7 @@
     },
     "featured-products": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Nos clients ont également achetés",
         "collection": "produit-vedette",
