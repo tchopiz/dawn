@@ -30,20 +30,18 @@
     },
     "163230983090ba5ad5": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "163230983090ba5ad5-0": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "Pourquoi acheté chez nous ?",
+            "heading": "Nos atouts",
             "heading_size": "h1"
           }
         },
         "163230983090ba5ad5-1": {
           "type": "text",
           "settings": {
-            "text": "<p><\/p><p>Acceptation de toutes les cartes bancaires( carte bleu pour les français).<\/p><p>Paiement sécurisé avec Paypal et Stripe.<\/p><p>Garantie de remboursement 30 jours<\/p><p>Retrait sur place à Bruxelles ou livraison internationale a domicile.<\/p><p>Support 24\/24.<\/p><p><\/p><p><\/p>"
+            "text": "<p><\/p><p>Acceptation de toutes les cartes bancaires connus(carte bleu pour les français).<\/p><p>Paiement sécurisé avec Paypal et Stripe.<\/p><p>Garantie de remboursement 30 jours<\/p><p>Retrait sur place à Bruxelles et livraison à l’internationale .<\/p><p>Support 24\/24.<\/p><p><\/p><p><\/p>"
           }
         },
         "163230983090ba5ad5-2": {
@@ -68,7 +66,6 @@
     },
     "featured-products": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Nos clients ont également achetés",
         "collection": "produit-vedette",
