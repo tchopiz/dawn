@@ -201,7 +201,7 @@
       "taxes_and_shipping_policy_at_checkout_html": "Taxes et <a href=\"{{ link }}\">frais d'expédition<\/a>inclus dans le prix.",
       "taxes_included_but_shipping_at_checkout": "Taxes incluses et frais d'expédition calculés lors du paiement",
       "taxes_included_and_shipping_policy_html": "Taxes incluses. <a href=\"{{ link }}\">Frais d'expédition<\/a> inclus dans le prix.",
-      "taxes_and_shipping_at_checkout": "Taxes et frais d'expédition calculés lors du paiement",
+      "taxes_and_shipping_at_checkout": "Taxes et frais d'expédition inclus dans le prix.",
       "headings": {
         "product": "Produit",
         "price": "Prix",
