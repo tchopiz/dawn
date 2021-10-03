@@ -138,6 +138,22 @@
         "layout": "image_first"
       }
     },
+    "16332991566c9b3667": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Nos produits vedettes",
+        "collection": "produit-vedette",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -159,6 +175,7 @@
   "order": [
     "main",
     "16331281421af60cb0",
+    "16332991566c9b3667",
     "product-recommendations",
     "1629746450643786911"
   ]
