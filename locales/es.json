@@ -684,9 +684,31 @@
             "other": "% {count} primeros pedidos gratuitos"
           },
           "free_for_first_n_order": {
-            "one": "Para el primer pedido"
+            "one": "Para el primer pedido",
+            "other": "Para los primeros% {count} pedidos"
           }
-        }
+        },
+        "one_time_purchase_shipping": "Envío puntual",
+        "estimated_delivery_time": "Entrega esperada el% {time}",
+        "estimated_delivery_time_range": "Entrega programada entre% {min_time} y% {max_time}"
+      },
+      "payment": {
+        "amazon_payments_label": "Amazon Pay",
+        "amazon_payments_login_hint": "Se le pedirá que inicie sesión con Amazon.",
+        "amazon_payments_logout": "Cerrar sesión en Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "No se pudo utilizar el método de pago seleccionado.Seleccione otro método o comuníquese con su banco o emisor de la tarjeta.",
+        "amazon_payments_abandoned_mfa_challenge": "No se pudo realizar su pago.Pruebe con otro método de pago o comuníquese con su banco o emisor de la tarjeta.",
+        "amazon_payments_could_not_enqueue_authorize": "Hubo un problema al procesar su pago.Vuelve a intentarlo o usa otro método de pago.",
+        "title": "Pago",
+        "amount_left_to_pay_label": "Dos pagos:",
+        "discount_button_action_label": "Aplicar un código de descuento",
+        "gift_card_code_label": "Código de la tarjeta de regalo",
+        "apply_gift_card_button_label": "Aplicar",
+        "gift_card_balance_label": "Equilibrio:",
+        "supported_card_brands_more_label": "y más…",
+        "detected_card_brand": "Marca de tarjeta detectada: {brand}",
+        "card_number_label": "número de tarjeta",
+        "card_number_placeholder": "número de tarjeta"
       }
     }
   }
