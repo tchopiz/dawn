@@ -46,10 +46,7 @@
     <script defer="" hs-load="true" src="{{ 'global.js' | asset_url }}" type="javascript/blocked"></script>
     {% capture cfh %}{{ content_for_header }} {% endcapture %}
 {% include 'swish-loader' %}
-    
-{% for collection in collections %}
-    https://famzzle.myshopify.com/collections/{{ collection.handle }}<br>
-{% endfor %}
+   
     
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
