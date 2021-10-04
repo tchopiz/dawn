@@ -1,124 +1,124 @@
 {
   "current": {
-    "currency_code_enabled": false,
-    "mlvedaACS_roundDecimal": false,
+    "colors_solid_button_labels": "#f3f3f3",
+    "colors_accent_1": "#b5838d",
+    "colors_accent_2": "#b5838d",
+    "colors_text": "#121212",
     "colors_outline_button_labels": "#b5838d",
+    "colors_background_1": "#ffffff",
     "colors_background_2": "#F3F3F3",
+    "type_header_font": "assistant_n4",
     "type_body_font": "assistant_n4",
+    "accent_icons": "text",
+    "page_width": "1200",
+    "social_facebook_link": "https:\/\/facebook.com\/famzzle",
+    "favicon": "shopify:\/\/shop_images\/favicon-32x32_8563ecc6-148e-48a0-a44a-afd7f9c58746.png",
+    "currency_code_enabled": false,
+    "checkout_header_image": "shopify:\/\/shop_images\/A6F9172A-FF49-4515-AE78-6709315D183E.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/A6F9172A-FF49-4515-AE78-6709315D183E.png",
+    "checkout_accent_color": "#121212",
+    "checkout_button_color": "#121212",
+    "mlvedaACS_roundDecimal": false,
     "mlvedaACS_positionLeft": "10px",
     "mlvedaACS_defaultCurrency": "EUR",
-    "page_width": "1200",
     "mlvedaACS_textColor": "inherit",
     "mlvedaACS_autoSwitch": false,
     "mlvedaACS_flagStyle": "circle",
     "mlvedaACS_isMessageDisplay": true,
     "mlvedaACS_positionBottom": "10px",
-    "colors_background_1": "#ffffff",
-    "checkout_header_image": "shopify:\/\/shop_images\/A6F9172A-FF49-4515-AE78-6709315D183E.png",
     "mlvedaACS_messageBackgroundColor": "inherit",
     "mlvedaACS_messageContent": "<<shop.name>> process all orders in <<shop.currency>>. While the content of your cart is currently displayed in <<shop.selected_currency>>, you will checkout using <<shop.currency>> at the most current exchange rate.",
     "mlvedaACS_roundDecimalValue": 1,
     "mlvedaACS_backgroundColor": "#ffffff",
     "mlvedaACS_position": "top_with_right",
     "mlvedaACS_messageColor": "inherit",
-    "colors_text": "#121212",
     "mlvedaACS_textHoverColor": "inherit",
-    "favicon": "shopify:\/\/shop_images\/favicon-32x32_8563ecc6-148e-48a0-a44a-afd7f9c58746.png",
     "mlvedaACS_enable": true,
     "mlvedaACS_positionTop": "10px",
-    "social_facebook_link": "https:\/\/facebook.com\/famzzle",
-    "checkout_accent_color": "#121212",
     "mlvedaACS_supportedCurrencies": "EUR USD GBP CAD AUD INR JPY AED KWD",
     "mlvedaACS_isCustomized": true,
-    "accent_icons": "text",
+    "mlvedaACS_hideDecimal": false,
+    "mlvedaACS_hoverBackgroundColor": "inherit",
+    "mlvedaACS_positionRight": "10px",
+    "mlvedaACS_currencyFormat": "money_with_currency_format",
+    "mlvedaACS_borderLineColor": "inherit",
+    "mlvedaACS_displayFlag": false,
+    "mlvedaACS_borderLook": true,
     "sections": {
       "announcement-bar": {
-        "settings": {
-        },
+        "type": "announcement-bar",
         "blocks": {
           "announcement-bar-0": {
+            "type": "announcement",
             "settings": {
-              "link": "shopify:\/\/collections",
+              "text": "Miow.... Bienvenue chez Famzzle",
               "color_scheme": "inverse",
-              "text": "Miow.... Bienvenue chez Famzzle"
-            },
-            "type": "announcement"
+              "link": "shopify:\/\/collections"
+            }
           },
           "112b1a5e-653a-453c-b214-83a162a4a796": {
+            "type": "announcement",
             "settings": {
-              "link": "shopify:\/\/collections",
+              "text": "Nous fêtons nos 2 ans d'existence en ligne. Livraison offerte + 20 % de réduction avec ce code : famzzle20 | Offre valable pour les 1000 premières commandes",
               "color_scheme": "inverse",
-              "text": "Nous fêtons nos 2 ans d'existence en ligne. Livraison offerte + 20 % de réduction avec ce code : famzzle20 | Offre valable pour les 1000 premières commandes"
-            },
-            "type": "announcement"
+              "link": "shopify:\/\/collections"
+            }
           }
         },
-        "type": "announcement-bar",
         "block_order": [
           "announcement-bar-0",
           "112b1a5e-653a-453c-b214-83a162a4a796"
-        ]
+        ],
+        "settings": {
+        }
       },
       "footer": {
-        "settings": {
-          "newsletter_enable": true,
-          "newsletter_heading": "Inscrivez-vous pour recevoir les dernières offres en premier.",
-          "enable_country_selector": true,
-          "color_scheme": "inverse",
-          "show_social": false,
-          "enable_language_selector": true,
-          "payment_enable": true
-        },
+        "type": "footer",
         "blocks": {
-          "footer-1": {
-            "settings": {
-              "subtext": "<p>Un problème pour passer commande ? Contactez-nous sur notre site web ou par téléphone au :  <a href=\"tel:0032-467-643-193\">0032-467-643-193<\/a> (9h\/17h) nous ferons notre possible pour vous aider.<\/p><p><br\/>TVA : BE0733918628<\/p>",
-              "heading": "C’est votre première commande chez nous ? -10% avec ce code: meow"
-            },
-            "type": "text"
-          },
           "footer-0": {
+            "type": "link_list",
             "settings": {
               "heading": "À propos",
               "menu": "footer"
-            },
-            "type": "link_list"
+            }
+          },
+          "footer-1": {
+            "type": "text",
+            "settings": {
+              "heading": "C’est votre première commande chez nous ? -10% avec ce code: meow",
+              "subtext": "<p>Un problème pour passer commande ? Contactez-nous sur notre site web ou par téléphone au :  <a href=\"tel:0032-467-643-193\">0032-467-643-193<\/a> (9h\/17h) nous ferons notre possible pour vous aider.<\/p><p><br\/>TVA : BE0733918628<\/p>"
+            }
           }
         },
-        "type": "footer",
         "block_order": [
           "footer-0",
           "footer-1"
-        ]
+        ],
+        "settings": {
+          "color_scheme": "inverse",
+          "newsletter_enable": true,
+          "newsletter_heading": "Inscrivez-vous pour recevoir les dernières offres en premier.",
+          "show_social": false,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
+        }
       },
       "header": {
+        "type": "header",
         "settings": {
-          "enable_sticky_header": true,
           "logo": "shopify:\/\/shop_images\/A6F9172A-FF49-4515-AE78-6709315D183E.png",
-          "show_line_separator": true,
+          "logo_width": 50,
           "logo_position": "top-center",
           "menu": "main-menu",
-          "logo_width": 50
-        },
-        "type": "header"
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
       }
     },
-    "mlvedaACS_hideDecimal": false,
-    "colors_accent_1": "#b5838d",
-    "mlvedaACS_hoverBackgroundColor": "inherit",
-    "mlvedaACS_positionRight": "10px",
     "content_for_index": [
 
-    ],
-    "colors_accent_2": "#b5838d",
-    "mlvedaACS_currencyFormat": "money_with_currency_format",
-    "mlvedaACS_borderLineColor": "inherit",
-    "colors_solid_button_labels": "#f3f3f3",
-    "mlvedaACS_displayFlag": false,
-    "mlvedaACS_borderLook": true,
-    "checkout_button_color": "#121212",
-    "type_header_font": "assistant_n4",
-    "checkout_logo_image": "shopify:\/\/shop_images\/A6F9172A-FF49-4515-AE78-6709315D183E.png"
+    ]
   },
   "presets": {
     "Craft": {
