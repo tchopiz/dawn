@@ -2,6 +2,9 @@
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
 
+{%- comment -%}DHSEO_START{%- endcomment -%}{% capture dh %}{% include 'dhseo-snippet' %}{% endcapture %}{% unless dh contains 'Liquid error' %}{% include 'dhseo-snippet' %}{% endunless %}{%- comment -%}DHSEO_END{%- endcomment -%}
+
+
 {% include 'hyperspeed-imports' %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
