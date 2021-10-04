@@ -654,7 +654,37 @@
             "day": {
               "one": "Cada día",
               "other": "cada% {count} días"
+            },
+            "week": {
+              "one": "cada semana",
+              "other": "cada% {count} semanas"
+            },
+            "month": {
+              "one": "cada mes",
+              "other": "cada% {count} meses"
+            },
+            "year": {
+              "one": "cada año",
+              "other": "cada% {count} años"
             }
+          },
+          "multiple_subscriptions_shipping_price_label": "% {shipping_price} por envío",
+          "prepaid_shipping_price_label": "% {shipping_price} por entrega x% {delivery_interval_count}",
+          "initial_order_discounted": "% {descuento_shipping_cost} costo de envío primero, luego% {Frequency_description}",
+          "prepaid_initial_order_discounted": "% {descuento_shipping_price} costo de envío primero% {prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "% {descuento_shipping_price} costo de envío primero% {prepaid_delivery_frequency} (% {descuento_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "% {descuento_shipping_price} costo de envío primero% {prepaid_delivery_frequency}, luego% {shipping_price}% {billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "% {descuento_shipping_price} de los costos de envío primero% {prepaid_delivery_frequency} (% {descuento_cost_per_delivery}), luego% {shipping_price}% {billing_cycle}",
+          "shipping_price_included": "Incluido",
+          "recurring_order_shipping_price": "seguido de% {recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Primer pedido incluido, seguido de% {recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "% {first_order_shipping_price} (% {per_delivery_price} por entrega), seguido de% {recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Primer pedido gratis",
+            "other": "% {count} primeros pedidos gratuitos"
+          },
+          "free_for_first_n_order": {
+            "one": "Para el primer pedido"
           }
         }
       }
