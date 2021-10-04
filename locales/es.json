@@ -752,7 +752,53 @@
         "card_fields_processing_error": "Hubo un problema al procesar el pago.Intente actualizar esta página o verificar su conexión a Internet.",
         "technical_error": "Los pagos no se pueden procesar en este momento debido a un problema técnico.Vuelve a intentarlo en unos minutos.",
         "no_method_error": "Esta tienda no puede aceptar pagos en este momento.",
-        "not_configured_error": "Esta tienda no puede aceptar pagos en este momento."
+        "not_configured_error": "Esta tienda no puede aceptar pagos en este momento.",
+        "missing_credit_card_error": "Ingrese los detalles de su tarjeta para completar el pago.",
+        "generic_incorrect_card_info": "No se pudieron verificar sus detalles de pago.Verifique la información de su tarjeta y vuelva a intentarlo.",
+        "sofort_label": "Sofort",
+        "ideal_label": "ideal",
+        "bank_picker_label": "Banco",
+        "klarna_pay_now_label": "Paga ahora con Klarna",
+        "klarna_pay_later_label": "Paga después con Klarna",
+        "bancontact_label": "Bancontact",
+        "eps_label": "eps-Überweisung (sistema de pago electrónico)",
+        "klarna_slice_it_label": "Finanzas con Klarna",
+        "card_information_notice": "Todas las transacciones son seguras y encriptadas.La información de la tarjeta de crédito nunca se guarda.",
+        "credit_card_start_month": "Mes de emisión",
+        "credit_card_start_year": "Año de emisión",
+        "card_expiration_month_label": "Mes de expiración",
+        "card_expiration_year_label": "Año de vencimiento",
+        "billing_address_not_supported_for_payment_method_error": "Este método de pago no está disponible para su moneda y dirección de facturación.Intente con otro tipo de pago.",
+        "change_currency_section_description": "Seleccione una opción de moneda",
+        "no_real_orders_dev_store": "Esta tienda no puede aceptar pedidos ni pagos reales.",
+        "subscription_agreement_label_html": "Entiendo que estoy en proceso de aceptar una suscripción.Se renovará al precio y frecuencia indicados, hasta que finalice o se <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">cancele<\/a> .",
+        "waiting_on_payment_methods": "Métodos de pago disponibles en proceso de obtención ...",
+        "apple_pay_payment_error": "No se pudo realizar su pago.Vuelve a intentarlo o usa otro método de pago.",
+        "subscription_card_update_agreement_label": "Cambiar el método de pago actualizará su suscripción y sus futuros pagos recurrentes.",
+        "card_security_vault_notice": "Necesitamos su información para pagos posteriores.Todas las transacciones son seguras y encriptadas.",
+        "taxes_not_included": "Impuestos no incluidos",
+        "no_taxes_banner_content": "No se cobrarán impuestos en este pedido.Ya no se pueden agregar impuestos una vez que haya cobrado el pago.",
+        "card_update_label": "Actualizar el mapa",
+        "paypal": {
+          "connect": "Haga clic para conectar su cuenta PayPal"
+        },
+        "subscription_agreement_label": "Entiendo que estoy en proceso de aceptar una suscripción.Esta se renovará al precio y con la frecuencia indicada y esto, hasta que finalice o se% {cancele}.",
+        "subscription_agreement_cancelled": "cancelado",
+        "card_expired": "Caducado",
+        "different_credit_card_label": "Prueba con otra tarjeta de crédito",
+        "ftd_vault_credit_card_label": "Guarde mi tarjeta de crédito para un pago más rápido",
+        "apple": {
+          "connect": "Haga clic para conectar su cuenta de Apple Pay",
+          "not_available": "Apple Pay no está disponible en este navegador.Para conectar su cuenta de Apple Pay, deberá utilizar Safari en un dispositivo Apple.",
+          "email_connected": "Cuenta conectada:"
+        },
+        "account_connected": "Cuenta conectada"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Saldo actual% {amount}",
+        "credit_card_expires_on_notice": "Caduca el% {month} \/% {year}",
+        "express_payment_gateway_label": "Rápido",
+        "manual_payment_gateway_label": "Manual"
       }
     }
   }
