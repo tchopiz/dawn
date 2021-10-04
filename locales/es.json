@@ -1306,7 +1306,197 @@
         "az": "Alfabéticamente, de la A a la Z",
         "za": "Alfabéticamente, de la Z a la A",
         "price_ascending": "Precios de barato a caro",
-        "price_descending": "Precio: de mayor a menor"
+        "price_descending": "Precio: de mayor a menor",
+        "date_ascending": "Fecha, más antigua a más reciente",
+        "date_descending": "Fecha, del más reciente al más antiguo"
+      }
+    },
+    "errors": {
+      "blank": "no puedo quedarme vacío",
+      "credit_card_session_expired": "La autorización de la tarjeta de crédito ha caducado.Ingrese su información de pago nuevamente.Su tarjeta no ha sido cargada.",
+      "empty": "no puede estar vacío",
+      "invalid_email": "Debe ser una dirección de correo electrónico válida",
+      "discount_disabled": "Esta promoción ha sido desactivada.",
+      "discount_expired": "Esta promoción ya no es válida",
+      "discount_limit_reached": "Esta promoción ha alcanzado su límite de uso.",
+      "discount_not_found": "No encontramos una promoción válida que coincida con este código.",
+      "customer_already_used_once_per_customer_discount_notice": "Esta promoción ha alcanzado su límite de uso.",
+      "gift_card_already_applied": "Este código ya se ha aplicado a su pedido.",
+      "gift_card_code_invalid": "El código no es válido",
+      "gift_card_currency_mismatch": "Las tarjetas de regalo% {gift_card_currency} no se pueden usar para pedidos en% {checkout_currency}",
+      "gift_card_depleted": "No queda más dinero en esta tarjeta de regalo",
+      "gift_card_disabled": "La tarjeta regalo ha sido desactivada.",
+      "gift_card_expired": "La tarjeta de regalo ha caducado",
+      "invalid": "no es válido",
+      "bad_domain": "contiene un nombre de dominio no válido",
+      "taken": "ya está elegido",
+      "contains_html_tags": "no puede contener etiquetas HTML",
+      "too_short": "es demasiado corto (el mínimo es% {count} caracteres)",
+      "too_long": "es demasiado largo (el máximo es% {count} caracteres)",
+      "password_mismatch": "debe ser igual a la contraseña.",
+      "contains_spaces": "comienza o termina con espacios.",
+      "email_domain_invalid": "el proveedor no es compatible",
+      "invalid_for_country": "no es válido para% {country}",
+      "invalid_for_country_and_province": "no es válido para% {provincia} y% {país}",
+      "invalid_province_in_country": "no es una provincia válida para% {country}",
+      "invalid_state_in_country": "no es un estado válido para% {country}",
+      "invalid_region_in_country": "no es una región válida para% {country}",
+      "less_than_or_equal_to": "debe ser menor o igual que% {count}",
+      "not_supported": "no es apoyado",
+      "full_name_required": "Ingrese un nombre y apellido",
+      "invalid_for_card_type": "no es válido para este tipo de tarjeta",
+      "invalid_type": "Desafortunadamente, no aceptamos tarjetas de este tipo.",
+      "invalid_format": "no es un número de tarjeta de crédito",
+      "expired": "La tarjeta de crédito ha caducado",
+      "invalid_start_date_or_issue_number_for_debit": "Se requiere una fecha de inicio o emisión válida",
+      "invalid_expiry_year": "no es un año de vencimiento válido",
+      "reset_password_html": "Esta dirección de correo electrónico ya está asociada a una cuenta.Si esta cuenta le pertenece, puede <a href=\"\/account\/login#recover\">reconfigurar su contraseña<\/a>",
+      "verify_email": "Se ha enviado un correo electrónico a% {customer_email}. Haga clic en el enlace del correo electrónico para confirmar su dirección.",
+      "blocked_address": "Esta ubicación no es compatible."
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Error al restablecer la contraseña",
+        "no_account_found": "No se encontró ninguna cuenta asociada con este correo electrónico.",
+        "invalid_credentials": "Correo o contraseña incorrectos"
+      },
+      "address": {
+        "updated": "La dirección se ha actualizado correctamente.",
+        "error_updating": "Error al actualizar la dirección",
+        "created": "La dirección fue creada con éxito",
+        "error_creating": "Error al crear la dirección.",
+        "deleted": "La dirección se ha eliminado correctamente",
+        "error_deleting": "Error al eliminar la dirección."
+      },
+      "order": {
+        "not_available": "Este comando no está disponible",
+        "financial_status": {
+          "authorized": "Autorizado",
+          "pending": "En curso",
+          "paid": "Pagado",
+          "unpaid": "No pagado",
+          "voided": "Cancelado",
+          "partially_paid": "Parcialmente pagado",
+          "partially_refunded": "Reembolsado parcialmente",
+          "refunded": "Reembolsado",
+          "expired": "Caducado"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Confirmado",
+          "complete": "Completo",
+          "partial": "Parcial",
+          "unfulfilled": "Sin tratar",
+          "restocked": "De nuevo en existencia"
+        },
+        "transaction_status": {
+          "success": "Éxito",
+          "pending": "En curso",
+          "failure": "Falla",
+          "error": "Culpa"
+        },
+        "cancel_reason": {
+          "declined": "Pago rechazado",
+          "inventory": "Productos no disponibles",
+          "fraud": "Pedido fraudulento",
+          "customer": "El cliente cambió \/ canceló el pedido.",
+          "other": "Otro"
+        },
+        "cash_on_delivery": "Contra reembolso"
+      },
+      "cart": {
+        "only_n_items_available": "Solo puede agregar% {count}% {name} a su carrito.",
+        "too_many_items_in_cart": "Ya no puede agregar el producto% {name} al carrito.",
+        "all_items_in_cart": "Su% {count}% {name} se ha agregado a su carrito.",
+        "empty_update": "No pudimos restablecer su carrito",
+        "missing_parameters": "Sin identificador válido o parámetro de fila",
+        "generic_error": "Error de carrito",
+        "too_many_line_items_error": "Su cesta no puede contener más de% {max} artículos.",
+        "link_expired": "El enlace ha caducado",
+        "link_no_longer_exists": "El enlace ya no existe.",
+        "stock_problems_html": "Uno o más elementos ya no están disponibles.Aquí está su <a href='%{link}'>cesta actualizada<\/a> .",
+        "changed": "La canasta ha sido modificada",
+        "items_changed": "Se han modificado uno o más artículos.",
+        "product_sold_out": "El producto \"% {name}\" ya está agotado.",
+        "variant_not_found": "No encontramos variantes",
+        "variant_requires_selling_plan": "La variante solo se puede comprar con un paquete de ventas.",
+        "shipping_address_not_required": "Esta cesta no requiere entrega.",
+        "shipping_address_invalid": "Hubo un problema al calcular los costos de envío.Continúe con el pago para elegir una tarifa de envío antes de realizar su pedido.",
+        "selling_plan_not_applicable": "No se puede aplicar el paquete de ventas a la variante"
+      },
+      "storefront": {
+        "invalid_password": "Contraseña incorrecta. Por favor, pruebe de nuevo."
+      },
+      "tags": {
+        "add_articles": "Refine la búsqueda a artículos que también tengan% {tag}",
+        "add_products": "Refine la selección a los productos correspondientes a la etiqueta% {tag}",
+        "remove_articles": "Amplíe su búsqueda a artículos que no están etiquetados como% {tag}",
+        "remove_products": "Quite la etiqueta% {tag}"
+      }
+    },
+    "page_titles": {
+      "products": "Productos",
+      "shopping_cart": "Su cesta",
+      "account": "Cuenta",
+      "create_account": "Crear una cuenta",
+      "reset_account": "Restablecer cuenta",
+      "addresses": "Direcciones",
+      "order": "Comando% {nombre}",
+      "search": "Investigar",
+      "collections": "Colecciones",
+      "not_found": "404 Pagina no encontrada",
+      "challenge": "Desafío",
+      "checkpoint": "Control",
+      "search_results": {
+        "one": "Búsqueda:% {count} resultado encontrado para \"% {terms}\"",
+        "other": "Búsqueda:% {count} resultados encontrados para \"% {terms}\""
+      },
+      "blog_or_article_with_error": "Error:% {title}"
+    },
+    "cart": {
+      "discounts_with_count": "Se han aplicado% {count} descuentos"
+    },
+    "challenge": {
+      "message": "Para continuar, háganos saber que no es un robot.",
+      "error": "Tu respuesta es incorrecta, inténtalo de nuevo.",
+      "submit_button_text": "TP enviar"
+    },
+    "checkpoint": {
+      "message": "Resuelve el captcha para continuar",
+      "error": "No se pudo validar el captcha",
+      "submit_button_text": "TP enviar"
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Gracias por suscribirse a nuestra lista de correo.",
+        "disclaimer": "Puede darse de baja en cualquier momento.",
+        "unsubscribe": "darse de baja"
+      },
+      "unsubscribed": {
+        "confirmation": "Se ha dado de baja de nuestra lista de correo.",
+        "disclaimer": "Ya no recibirá nuestros mensajes de marketing.Puede volver a suscribirse en cualquier momento.",
+        "preview": "Estás viendo una vista previa de lo que verán los clientes cuando se den de baja."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Ha aceptado el seguimiento de las aperturas de correo electrónico.<\/b>",
+          "visibility": "Las tasas de apertura de correo electrónico se informarán de forma anónima en un informe.Veremos si ha abierto un correo electrónico solo como una tasa de apertura de correo electrónico agregada.",
+          "opt_out_html": "Puede <a style='text-decoration:underline;' href='%{link}'>desactivar<\/a> el seguimiento de las aperturas de correo electrónico si no desea compartir esta información.",
+          "preview_bar": "Está viendo una vista previa de lo que verán los clientes cuando se suscriban al seguimiento de apertura de correo electrónico."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Ha desactivado el seguimiento de las aperturas de correo electrónico.<\/b>",
+          "visibility": "No veremos si ha abierto nuestros correos electrónicos.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Habilite el<\/a> seguimiento de las aperturas de correo electrónico.",
+          "preview_bar": "Estás viendo una vista previa de lo que verán los clientes cuando se den de baja del seguimiento de las aperturas de correo electrónico."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Ya no realizamos un seguimiento de las aperturas de correo electrónico.<\/b>",
+          "privacy_policy": "Después de enviar este correo electrónico, hemos actualizado nuestra política de privacidad y ya no estamos rastreando las aperturas."
+        },
+        "track": {
+          "status_html": "<b>El seguimiento de las aperturas de correo electrónico es objeto de un informe.<\/b>",
+          "visibility": "Veremos si ha abierto el correo electrónico solo en la forma de su tasa de apertura general."
+        }
       }
     }
   }
