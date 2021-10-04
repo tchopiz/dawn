@@ -45,6 +45,7 @@
 
     <script defer="" hs-load="true" src="{{ 'global.js' | asset_url }}" type="javascript/blocked"></script>
     {% capture cfh %}{{ content_for_header }} {% endcapture %}
+{% include 'swish-loader' %}
 
 
     {%- liquid
