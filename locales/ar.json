@@ -1316,7 +1316,63 @@
   "blogs": {
     "article": {
       "blog": "المدونة",
-      "read_more_title": "اقرأ المزيد: {{title}}"
+      "read_more_title": "اقرأ المزيد: {{title}}",
+      "comments": {
+        "one": "تعليق {{عدد}}",
+        "other": "{{عدد}} تعليق"
+      },
+      "moderated": "يرجى ملاحظة أنه يجب الموافقة على التعليقات قبل النشر.",
+      "comment_form_title": "اترك تعليقا",
+      "name": "اسم",
+      "email": "بريد الالكتروني",
+      "message": "ملاحظة",
+      "post": "أضف تعليقا",
+      "back_to_blog": "العودة إلى المدونة",
+      "share": "حصة هذه المادة",
+      "success": "وقد تم نشر تعليقك!شكرا لك !",
+      "success_moderated": "وقد تم نشر تعليقك.سننشره قريبًا ، وفقًا لعملية الإشراف على مدونتنا."
+    }
+  },
+  "onboarding": {
+    "product_title": "عنوان المنتج",
+    "collection_title": "اسم مجموعتك"
+  },
+  "products": {
+    "product": {
+      "add_to_cart": "أضف إلى السلة",
+      "description": "وصف",
+      "on_sale": "بيع فلاش",
+      "product_variants": "متغيرات المنتج",
+      "media": {
+        "open_featured_media": "افتح الوسائط المميزة في عرض المعرض",
+        "open_media": "افتح وسائط {{index}} في عرض المعرض",
+        "play_model": "تشغيل العارض ثلاثي الأبعاد",
+        "play_video": "شغل الفيديو"
+      },
+      "quantity": {
+        "label": "كمية",
+        "input_label": "كمية {{product}}",
+        "increase": "زيادة كمية {{product}}",
+        "decrease": "تقليل كمية {{product}}"
+      },
+      "pickup_availability": {
+        "view_store_info": "عرض معلومات المتجر",
+        "check_other_stores": "تحقق من توافرها في المتاجر الأخرى",
+        "pick_up_available": "تتوفر خدمة الاستلام",
+        "pick_up_available_at_html": "خدمة التوصيل متاحة في <span class=\"color-foreground\">{{location_name}}<\/span>",
+        "pick_up_unavailable_at_html": "خدمة التوصيل غير متوفرة حاليًا في <span class=\"color-foreground\">{{location_name}}<\/span>",
+        "unavailable": "تعذر تحميل توفر خدمة الاستلام",
+        "refresh": "ينعش"
+      },
+      "price": {
+        "from_price_html": "من {{price}}",
+        "regular_price": "السعر العادي",
+        "sale_price": "سعر البيع",
+        "unit_price": "سعر الوحدة"
+      },
+      "share": "شارك هذا المنتج",
+      "sold_out": "مرهق",
+      "unavailable": "غير متوفرة"
     }
   }
 }
