@@ -1438,7 +1438,51 @@
       "title": "عناوين",
       "default": "بشكل افتراضي",
       "add_new": "أضف عنوانا جديدا",
-      "edit_address": "تعديل العنوان"
+      "edit_address": "تعديل العنوان",
+      "first_name": "الاسم الأول",
+      "last_name": "الكنية",
+      "company": "شركة",
+      "address1": "العنوان 1",
+      "address2": "العنوان 2",
+      "city": "مدينة",
+      "country": "البلد \/ المنطقة",
+      "province": "مقاطعة",
+      "zip": "الرقم البريدي",
+      "phone": "هاتف",
+      "set_default": "تعيين كعنوان افتراضي",
+      "add": "اضف عنوان",
+      "update": "تحديث العنوان",
+      "cancel": "لالغاء",
+      "edit": "للتعديل",
+      "delete": "لحذف",
+      "delete_confirm": "هل أنت متأكد أنك تريد حذف هذا العنوان؟"
+    },
+    "log_in": "يسجل دخول",
+    "log_out": "تسجيل خروج",
+    "login_page": {
+      "cancel": "لالغاء",
+      "create_account": "إفتح حساب",
+      "email": "بريد الالكتروني",
+      "forgot_password": "نسيت رقمك السري ؟",
+      "guest_continue": "لاستكمال",
+      "guest_title": "تواصل كضيف",
+      "password": "كلمة السر",
+      "title": "يسجل دخول",
+      "sign_in": "يسجل دخول",
+      "submit": "يرسل"
+    },
+    "order": {
+      "title": "الأمر {{name}}",
+      "date_html": "بعد {{date}}",
+      "cancelled_html": "تم إلغاء الطلب في {{date}}",
+      "cancelled_reason": "السبب: {{السبب}}",
+      "billing_address": "عنوان الفوترة",
+      "payment_status": "حالة السداد",
+      "shipping_address": "عنوان الشحن",
+      "fulfillment_status": "حالة الطلب",
+      "discount": "تخفيض",
+      "shipping": "شحن",
+      "tax": "الضرائب"
     }
   }
 }
