@@ -1,15 +1,15 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Enter store using password:",
-      "login_password_button": "Enter using password",
+      "login_form_heading": "Access the store using a password:",
+      "login_password_button": "Enter with a password",
       "login_form_password_label": "Password",
       "login_form_password_placeholder": "Your password",
-      "login_form_error": "Wrong password!",
-      "login_form_submit": "Enter",
-      "modal": "Password modal",
-      "admin_link_html": "Are you the store owner? <a href=\"\/admin\" class=\"link underlined-link\">Log in here<\/a>",
-      "powered_by_shopify_html": "This shop will be powered by {{ shopify }}"
+      "login_form_error": "Incorrect password !",
+      "login_form_submit": "Grab",
+      "modal": "Modal password",
+      "admin_link_html": "Does the store belong to you?<a href=\"\/admin\" class=\"link underlined-link\">Log in here<\/a>",
+      "powered_by_shopify_html": "This store will be powered by {{shopify}}"
     },
     "social": {
       "alt_text": {
@@ -24,63 +24,63 @@
         "instagram": "Instagram",
         "tumblr": "Tumblr",
         "snapchat": "Snapchat",
-        "youtube": "YouTube",
+        "youtube": "Youtube",
         "vimeo": "Vimeo",
         "tiktok": "TikTok"
       }
     },
-    "continue_shopping": "Continue shopping",
+    "continue_shopping": "Continue Shopping",
     "pagination": {
-      "label": "Pagination",
-      "page": "Page {{ number }}",
+      "label": "Paging",
+      "page": "Page {{number}}",
       "next": "Next page",
       "previous": "Previous page"
     },
     "search": {
-      "search": "Search"
+      "search": "Research"
     },
     "cart": {
-      "view": "View my cart ({{ count }})",
-      "item_added": "Item added to your cart"
+      "view": "Display my cart ({{count}})",
+      "item_added": "Item added to basket"
     },
     "share": {
-      "close": "Close share",
+      "close": "Close sharing",
       "copy_to_clipboard": "Copy link",
       "share_url": "Link",
       "success_message": "Link copied to clipboard"
     }
   },
   "date_formats": {
-    "month_year": "%B %Y"
+    "month_year": "% b% Y"
   },
   "newsletter": {
-    "label": "Email",
-    "success": "Thanks for subscribing",
-    "button_label": "Subscribe"
+    "label": "E-mail",
+    "success": "Thank you for your registration",
+    "button_label": "Register now"
   },
   "accessibility": {
-    "skip_to_text": "Skip to content",
+    "skip_to_text": "Skip and go to content",
     "skip_to_product_info": "Skip to product information",
-    "close": "Close",
-    "unit_price_separator": "per",
-    "vendor": "Vendor:",
-    "error": "Error",
-    "refresh_page": "Choosing a selection results in a full page refresh.",
+    "close": "To close",
+    "unit_price_separator": "through",
+    "vendor": "Distributer :",
+    "error": "Fault",
+    "refresh_page": "Choosing a selection refreshes the entire page.",
     "link_messages": {
       "new_window": "Opens in a new window.",
-      "external": "Opens external website."
+      "external": "Opens an external website."
     },
-    "of": "of",
+    "of": "on",
     "next_slide": "Slide right",
-    "previous_slide": "Slide left",
+    "previous_slide": "Slide to the left",
     "loading": "Loading...",
     "total_reviews": "total reviews",
-    "star_reviews_info": "{{ rating_value }} out of {{ rating_max }} stars"
+    "star_reviews_info": "{{rating_value}} on {{rating_max}} stars"
   },
   "blogs": {
     "article": {
       "blog": "Blog",
-      "read_more_title": "Read more: {{ title }}",
+      "read_more_title": "Read more: {{title}}",
       "comments": {
         "one": "{{ count }} comment",
         "other": "{{ count }} comments"
@@ -181,83 +181,83 @@
       "announcement": "Announcement",
       "menu": "Menu",
       "cart_count": {
-        "one": "{{ count }} item",
-        "other": "{{ count }} items"
+        "one": "{{count}} article",
+        "other": "{{count}} articles"
       }
     },
     "cart": {
-      "title": "Your cart",
-      "caption": "Cart items",
-      "remove_title": "Remove {{ title }}",
+      "title": "your basket",
+      "caption": "Basket items",
+      "remove_title": "Delete {{title}}",
       "subtotal": "Subtotal",
       "new_subtotal": "New subtotal",
-      "note": "Order special instructions",
-      "checkout": "Check out",
-      "empty": "Your cart is empty",
-      "cart_error": "There was an error while updating your cart. Please try again.",
+      "note": "Special Ordering Instructions",
+      "checkout": "Proceed to payment",
+      "empty": "your basket is empty",
+      "cart_error": "An error occurred while refreshing your cart.Try Again.",
       "cart_quantity_error_html": "You can only add [quantity] of this item to your cart.",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout",
-      "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout",
-      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
-      "taxes_and_shipping_at_checkout": "Taxes and shipping calculated at checkout",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping fees<\/a> offered",
+      "taxes_included_but_shipping_at_checkout": "Taxes included and shipping costs offered",
+      "taxes_included_and_shipping_policy_html": "Taxes included. <a href=\"{{ link }}\">Free Shipping<\/a>",
+      "taxes_and_shipping_at_checkout": "Taxes and shipping charges included in the price.",
       "headings": {
         "product": "Product",
         "price": "Price",
         "total": "Total",
-        "quantity": "Quantity"
+        "quantity": "Amount"
       },
       "update": "Update",
       "login": {
-        "title": "Have an account?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Log in<\/a> to check out faster."
+        "title": "Do you have an account?",
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Log in<\/a> to pay faster."
       }
     },
     "footer": {
-      "payment": "Payment methods"
+      "payment": "Means of payment"
     },
     "featured_blog": {
-      "view_all": "View all",
+      "view_all": "Show all",
       "onboarding_title": "Blog post",
       "onboarding_content": "Give your customers a summary of your blog post"
     },
     "featured_collection": {
-      "view_all": "View all",
-      "view_all_label": "View all products in the {{ collection_name }} collection"
+      "view_all": "Show all",
+      "view_all_label": "Display all the products of the collection {{collection_name}}"
     },
     "collection_list": {
-      "view_all": "View all"
+      "view_all": "Show all"
     },
     "collection_template": {
-      "apply": "Apply",
-      "clear": "Clear",
-      "clear_all": "Clear all",
-      "empty": "No products found",
-      "from": "From",
+      "apply": "To apply",
+      "clear": "Wipe off",
+      "clear_all": "Erase everything",
+      "empty": "No product found",
+      "from": "Of",
       "filter_and_sort": "Filter and sort",
       "filter_by_label": "Filter:",
       "filter_button": "Filter",
       "filters_selected": {
-        "one": "{{ count }} selected",
-        "other": "{{ count }} selected"
+        "one": "{{count}} selected",
+        "other": "{{count}} selected"
       },
-      "max_price": "The highest price is {{ price }}",
+      "max_price": "The highest price is {{price}}",
       "product_count": {
-        "one": "{{ product_count }} of {{ count }} product",
-        "other": "{{ product_count }} of {{ count }} products"
+        "one": "{{product_count}} product on {{count}}",
+        "other": "{{product_count}} products on {{count}}"
       },
       "product_count_simple": {
-        "one": "{{ count }} product",
-        "other": "{{ count }} products"
+        "one": "{{count}} product",
+        "other": "{{count}} products"
       },
       "reset": "Reset",
-      "sort_button": "Sort",
-      "sort_by_label": "Sort by:",
+      "sort_button": "to sourt out",
+      "sort_by_label": "Sort by :",
       "title": "Collection",
-      "to": "To",
-      "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">clear all<\/a>"
+      "to": "TO",
+      "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">clear everything<\/a>"
     },
     "video": {
-      "load_video": "Load video: {{ description }}"
+      "load_video": "Load video: {{description}}"
     }
   },
   "localization": {
@@ -1454,8 +1454,68 @@
       "open_tracking": {
         "opt_in": {
           "opted_in_html": "<b>You have accepted the tracking of email openings.<\/b>",
-          "visibility": "Email open rates will be reported anonymously in a report.We&#39;ll see if you&#39;ve opened an email only as an aggregate email open rate."
+          "visibility": "Email open rates will be reported anonymously in a report.We&#39;ll see if you&#39;ve opened an email only as an aggregate email open rate.",
+          "opt_out_html": "You can <a style='text-decoration:underline;' href='%{link}'>turn off<\/a> the tracking of email openings if you do not want to share this information.",
+          "preview_bar": "You&#39;re seeing a preview of what customers will see when they subscribe to email open tracking."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>You have turned off tracking for email openings.<\/b>",
+          "visibility": "We won&#39;t see if you&#39;ve opened our emails.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Enable<\/a> tracking of email openings.",
+          "preview_bar": "You&#39;re seeing a preview of what customers will see when they unsubscribe from tracking email openings."
+        },
+        "no_longer_track": {
+          "status_html": "<b>We no longer track any email openings.<\/b>",
+          "privacy_policy": "After sending this email, we have updated our privacy policy and are no longer tracking opens."
+        },
+        "track": {
+          "status_html": "<b>The follow-up of e-mail openings is the subject of a report.<\/b>",
+          "visibility": "We&#39;ll see if you&#39;ve opened the email only in the form of its overall open rate."
+        },
+        "updated_policy": {
+          "status_html": "<b>The follow-up of e-mail openings is the subject of a report.<\/b>",
+          "visibility": "We&#39;ve updated our policy, and we&#39;re now tracking email openings.Email open rates will be reported anonymously in a report.We&#39;ll see if you&#39;ve opened an email just in the form of its overall open rate.",
+          "opt_out_html": "If you do not wish to communicate this information, you can <a style='text-decoration:underline;' href='%{link}'>unsubscribe<\/a> ."
         }
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Usually ready in 1 hour",
+        "two_hours": "Usually ready in 2 hours",
+        "four_hours": "Usually ready in 4 hours",
+        "twenty_four_hours": "Usually ready in 24 hours",
+        "two_to_four_days": "Usually ready in 2-4 days",
+        "five_or_more_days": "Usually ready in 5 or more days",
+        "zero_to_two_hours": "Usually ready in 2 hours",
+        "two_to_four_hours": "Usually ready in 4 hours",
+        "immediately": "Ready for pickup now",
+        "next_day": "Ready for pickup the next day"
+      }
+    },
+    "filters": {
+      "availability": {
+        "label": "Availablity",
+        "value": {
+          "in_stock": "In stock",
+          "out_of_stock": "Out of stock"
+        }
+      },
+      "vendor": {
+        "label": "Mark"
+      },
+      "price": {
+        "label": "Price"
+      },
+      "product_type": {
+        "label": "Type of product"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Relevance",
+        "price_ascending": "Price: low to high",
+        "price_descending": "Price: high to low"
       }
     }
   }
