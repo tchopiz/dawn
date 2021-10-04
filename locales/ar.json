@@ -197,7 +197,31 @@
         "scroll_order_summary": "قم بالتمرير عبر قائمة العناصر",
         "expand_order_summary": "إظهار ملخص الطلب",
         "collapse_order_summary": "أغلق ملخص الطلب",
-        "total_updated_label": "إجمالي السعر المحدث:"
+        "total_updated_label": "إجمالي السعر المحدث:",
+        "order_total_updated_label": "إجمالي المحدث",
+        "total_already_paid_label": "دفعت بالفعل",
+        "unit_price": {
+          "accessible_separator": "عبر",
+          "content_html": "٪ {price}٪ {access_separator}٪ {per_unit}"
+        },
+        "pickup_label": "للتعافي",
+        "no_pickup_location": "طلبك غير متوفر للاستلام.الرجاء إدخال عنوان الشحن.",
+        "calculating_shipping": "في عملية الحساب ...",
+        "estimated_taxes_label": "الضرائب (تقدير)",
+        "gift_card_ending": "تنتهي بطاقة الهدايا بـ٪ {last_characters}",
+        "estimated_tax_label": "الضريبة المقدرة",
+        "multiple_shipping_lines_label": "إجمالي الشحن",
+        "applied_free_shipping_discount_label": "مطبق",
+        "original_price": "السعر الأصلي",
+        "sale_price": "سعر البيع",
+        "recurring_total_label": "المجموع المتكرر",
+        "recurring_total_tooltip": "لا يشمل رسوم الشحن المطبقة أو الضرائب أو الرسوم الجمركية أو الخصومات.",
+        "gift_card_subscriptions_notice": "ستنطبق بطاقات الهدايا على دفعتك الأولى فقط",
+        "confirmation_number_label": "تأكيد رقم٪ {insurance_number}"
+      },
+      "shipping": {
+        "title": "توصيل",
+        "shipping_method_title": "طريقة الشحن"
       }
     }
   }
