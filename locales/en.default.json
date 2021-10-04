@@ -935,7 +935,201 @@
         "shipping_method_title": "Shipping method",
         "tracking_number": "Tracking number :",
         "company_tracking_number": "% {company} tracking number:",
-        "estimated_arrival": "Estimated date of delivery :"
+        "estimated_arrival": "Estimated date of delivery :",
+        "re-order": "Re-order the same items",
+        "confirmed": "Confirmed",
+        "thank_you_title": "Your order is now confirmed",
+        "thank_you_confirmed_order_with_email": "You will shortly receive a confirmation email with your order number.",
+        "thank_you_confirmed_order_with_phone": "You will shortly receive a confirmation message with your order number.",
+        "thank_you_confirmed_order_with_email_and_phone": "You will shortly receive a confirmation email and a message with your order number.",
+        "thank_you_confirmed_order_with_missing": "Contact us by email or phone to receive an order confirmation.",
+        "order_status_confirmed_order_with_email": "You will receive an email when your order is ready.",
+        "order_status_confirmed_order_with_phone": "You will receive an SMS when your order is ready.",
+        "order_status_confirmed_order_with_email_and_phone": "You will receive an email and SMS when your order is ready.",
+        "order_status_updates_with_email": "You will receive shipping and delivery updates via email.",
+        "order_status_updates_with_phone": "You will receive updates on shipping and delivery by message.",
+        "order_status_updates_with_email_and_phone": "You will receive shipping and delivery updates by message.",
+        "order_status_updates_with_missing": "Choose how you want to get shipping updates.",
+        "confirmed_title": "Your order is now confirmed",
+        "confirmed_description": "We have accepted your order, and we are preparing it.Check back to this page for updates regarding the status of the shipment.",
+        "order_updates_title": "Order Updates",
+        "order_updates_description_html": "A confirmation has been sent to% {customer_contact}",
+        "order_updates_current_step_prefix": "Current stage:",
+        "order_updates_past_step_prefix": "Passed step:",
+        "order_updates_upcoming_step_prefix": "Next step:",
+        "in_transit": "In transit",
+        "in_transit_title": "Your order is in transit",
+        "in_transit_description": "Return to this page for up-to-date information on the status of the shipment.",
+        "in_transit_description_days": "You should receive your order within the next% {number} days.",
+        "in_transit_description_today": "You should receive your order today.",
+        "in_transit_description_tomorrow": "Your order should arrive tomorrow.",
+        "no_tracking_number": "There is no tracking number for this shipment.",
+        "out_for_delivery": "Out for delivery",
+        "out_for_delivery_title": "Your order is being delivered",
+        "out_for_delivery_description_html": "Your order is in the delivery truck.It should arrive today.If you haven&#39;t received anything within 2 days, thank you from% {contact_us}.",
+        "attempted_delivery": "Delivery attempt",
+        "attempted_delivery_title": "We have tried to deliver your order",
+        "attempted_delivery_description_html": "We have tried to deliver your order, but the delivery was unsuccessful.Please% {contact_us} to schedule a new delivery attempt.",
+        "delivered": "Book",
+        "delivered_title": "Your order has been delivered",
+        "delivered_description_html": "Your order has been delivered to the address you provided.If you haven&#39;t received it, or have other problems, please% {contact_us}.",
+        "contact_us": "Contact us",
+        "contact_us_lowercase": "Contact us",
+        "contact_us_html": "Need help ?% {contact_us}",
+        "updated_time": "Updated% {time_ago} ago",
+        "failure": "Undelivered",
+        "failed_title": "Your order could not be delivered",
+        "failed_contact_merchant": "Contact% {company} to arrange delivery.",
+        "failed_contact_merchant_no_company": "Contact us to arrange delivery.",
+        "non_shippable_title": "Your order is complete",
+        "login_title": "Login to see all order details",
+        "login_description": "You will find the order number in the receipt you received by email.",
+        "login_description_phone": "You will find your order number in the receipt you received by SMS.",
+        "login_not_customer_html": "You&#39;re not% {name}?You can% {link}",
+        "login_reorder_link_text": {
+          "one": "buy this product also",
+          "other": "buy these products also"
+        },
+        "customer_information_hidden_fields_message": "Log in to see all of the customer&#39;s information.",
+        "cancelled_title": "Your order has been canceled",
+        "cancelled_description": "Your order was canceled on% {date}.Contact us if you have any questions.",
+        "order_number_label": "Order number",
+        "customer_validation_error": "Enter a valid email or order number.",
+        "customer_validation_error_phone": "Enter a valid phone number or order number.",
+        "login": "Log in",
+        "unfulfilled_items_title": "Sending in preparation",
+        "unfulfilled_items_description": "We are currently preparing these items for dispatch.",
+        "marker": {
+          "current": "Current order location",
+          "shipping": "Delivery address"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Items in this shipment",
+          "unfulfilled_table_title": "Items in preparation for dispatch",
+          "product_image_label": "Product image",
+          "description_label": "Description",
+          "quantity_label": "Amount"
+        },
+        "opt_in_message_html": "Your information has been saved successfully to% {shopify_pay}",
+        "order_updates_description_missing": "You are not receiving updates on the status of your shipment.",
+        "order_updates_subscribe_to_email_notifications": "Receive shipment status updates via email",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Receive shipping updates by email or message.",
+        "order_updates_subscribe_to_phone_notifications": "Receive shipping updates by message.",
+        "order_updates_submit_subscription": "Send",
+        "track_shipment": "Track shipment",
+        "shopify_pay": {
+          "order_completed_html": "Order completed with% {shopify_pay}",
+          "learn_more_label": "Learn more about Shop Pay"
+        },
+        "order_status_confirmed_order_with_email_pick_up": "You will receive an email when your order is ready for pickup.",
+        "order_status_confirmed_order_with_phone_pick_up": "You will receive an SMS when your order is ready for pickup.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "You will receive an email and text when your order is ready for pickup.",
+        "pick_up_in_store_marker": {
+          "current": "Current order location",
+          "shipping": "Withdrawal center"
+        },
+        "thank_you_confirmed_order_with_email_pick_up": "You will receive an email when your order is ready for pickup.",
+        "thank_you_confirmed_order_with_phone_pick_up": "You will receive an SMS when your order is ready to be picked up.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "You will receive an email when your order is ready for pickup.",
+        "ready_for_pickup_title": "Your order is ready to be picked up",
+        "ready_for_pickup_description": "Your order is ready to be picked up.Please bring your order confirmation when picking up your order.",
+        "picked_up_title": "This order was retrieved",
+        "picked_up_description_html": "Your order was picked up at% {location_name} on% {date}.",
+        "other_options": "Other options",
+        "shop_phone_description": "You will receive a message containing a link to the Shop app to help you track your order.",
+        "ready_for_delivery_title": "Your order is ready for delivery.",
+        "ready_for_delivery_description": "We have prepared your order.",
+        "order_status_confirmed_order_local": "We are currently preparing the delivery of your order.",
+        "delivery_information_label": "Shipping Info:",
+        "gift_card_sent_confirmation": "Gift cards sent",
+        "out_for_delivery_local_title": "Your order is being delivered",
+        "out_for_delivery_local_description_html": "You will receive your order shortly.",
+        "delivered_local_title": "Your order has been delivered",
+        "delivered_local_description_html": "You have not received your order ?% {let_us_know}.",
+        "let_us_know": "Please let us know",
+        "qr_code": {
+          "title": "Track on your phone",
+          "subtitle": "Scan the code with your phone&#39;s camera to follow up with Shop.",
+          "send_link_to_phone": "Or send a link to your phone"
+        },
+        "gift_card_confirmation_by_text": "Gift cards are sent by SMS.If you haven&#39;t received yours, please try resending or contact us.",
+        "gift_card_confirmation_by_email": "Gift cards are sent by email.If you haven&#39;t received yours, please try resending or contact us.",
+        "gift_card_title": "Gift cards",
+        "resend_gift_cards": "Resend gift cards",
+        "attempted_delivery_local_title": "Missed delivery",
+        "attempted_delivery_local_description_html": "We were unable to deliver your order.To schedule another delivery,% {contact_us}.",
+        "thank_you_title_payment": "Your payment is confirmed",
+        "thank_you_confirmed_order_with_email_payment": "You made payment on your order on% {date}.",
+        "thank_you_confirmed_order_with_phone_payment": "You made payment on your order on% {date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "You made payment on your order on% {date}.",
+        "order_status_confirmed_order_with_email_payment": "You made payment on your order on% {date}.",
+        "order_status_confirmed_order_with_phone_payment": "You made payment on your order on% {date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "You made payment on your order on% {date}."
+      },
+      "review": {
+        "title": "Opinion",
+        "review_title": "Revise the order",
+        "checkout_as_guest": "Checkout as a guest",
+        "blocks": {
+          "contact_method_title": "Contact",
+          "billing_address_title": "Billing",
+          "shipping_address_title": "Ship to",
+          "shipping_method_title": "Method",
+          "payment_method_title": "Payment",
+          "change_link_label": "To modify",
+          "change_contact_method_link_label": "Edit contact details",
+          "change_billing_address_link_label": "Change billing address",
+          "change_shipping_address_link_label": "Change delivery address",
+          "change_shipping_method_link_label": "Change shipping method",
+          "change_payment_method_link_label": "Change payment method",
+          "pick_up_in_store_shipping_method_html": "Pick up in store% {location_name}"
+        }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Email me news and offers",
+        "unsubscribe": {
+          "title": "You unsubscribed",
+          "description": "You will no longer receive reminders about your shopping cart from us."
+        },
+        "accept_sms_checkbox_label": "Send me news and offers by SMS",
+        "sms": {
+          "disclaimer": {
+            "description_html": "By signing up for SMS shipments, you agree to receive automated marketing messages to the phone number provided, including cart reminders.Consent is not a condition of purchase.Respond STOP to unsubscribe.Answer HELP for help.The frequency of messages varies.Messaging and data charges may apply.Check out our% {privacy_policy_link} and our% {terms_of_service_link}.",
+            "privacy_policy": "Privacy Policy",
+            "terms_of_service": "Terms of use"
+          }
+        }
+      },
+      "shop_policies": {
+        "refund_policy": "Refund policy",
+        "privacy_policy": "Privacy Policy",
+        "terms_of_service": "Terms of use",
+        "legal_notice": "Legal notice",
+        "shipping_policy": "Shipping policy",
+        "terms_of_sale": "Terms of Sales",
+        "subscription_policy": "Subscription policy"
+      },
+      "remember_me": {
+        "shopify_pay_label": "Shop Pay",
+        "save": "Save",
+        "title": "Remember me",
+        "label": "Save my data to make payments quickly",
+        "description_html": "The next time you checkout here or at other Shopify-powered stores, you&#39;ll receive a code via SMS to secure your purchase with Shop Pay.",
+        "mobile_phone_icon_alt": "Mobile phone",
+        "mobile_phone_number": "Mobile phone",
+        "terms_and_privacy_html": "By continuing, you agree to the% {privacy_href} and% {terms_href} of Shop Pay.",
+        "errors": {
+          "optin": "Shop Pay is not available"
+        },
+        "privacy_policy": "Privacy Policy",
+        "terms_of_service": "Terms of use",
+        "installments": {
+          "paid_in_installments": "Paid in installments with Shop Pay.",
+          "view_schedule": "Show program"
+        }
+      },
+      "notifications": {
+        "title": "Notifications"
       }
     }
   }
