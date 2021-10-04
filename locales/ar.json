@@ -1482,7 +1482,63 @@
       "fulfillment_status": "حالة الطلب",
       "discount": "تخفيض",
       "shipping": "شحن",
-      "tax": "الضرائب"
+      "tax": "الضرائب",
+      "product": "المنتج",
+      "sku": "SKU",
+      "price": "سعر",
+      "quantity": "كمية",
+      "total": "مجموع",
+      "fulfilled_at_html": "تمت المعالجة في {{date}}",
+      "track_shipment": "شحنة المسار",
+      "tracking_url": "رابط التتبع",
+      "tracking_company": "الناقل",
+      "tracking_number": "رقم التعقب",
+      "subtotal": "المجموع الفرعي"
+    },
+    "orders": {
+      "title": "تاريخ الطلب",
+      "order_number": "أمر",
+      "order_number_link": "رقم الطلب {{number}}",
+      "date": "بتاريخ",
+      "payment_status": "حالة السداد",
+      "fulfillment_status": "حالة الطلب",
+      "total": "مجموع",
+      "none": "لم تضع أي طلبات حتى الآن."
+    },
+    "recover_password": {
+      "title": "إعادة تعيين كلمة المرور",
+      "subtext": "سنرسل لك بريدًا إلكترونيًا لإعادة تعيين كلمة المرور الخاصة بك",
+      "success": "لقد أرسلنا لك بريدًا إلكترونيًا يحتوي على رابط لتحديث كلمة المرور الخاصة بك."
+    },
+    "register": {
+      "title": "إفتح حساب",
+      "first_name": "الاسم الأول",
+      "last_name": "الكنية",
+      "email": "بريد الالكتروني",
+      "password": "كلمة السر",
+      "submit": "لنصنع او لنبتكر"
+    },
+    "reset_password": {
+      "title": "إعادة تعيين كلمة مرور الحساب",
+      "subtext": "أدخل كلمة مرور جديدة لـ {{email}}",
+      "password": "كلمة السر",
+      "password_confirm": "أكد كلمة المرور",
+      "submit": "إعادة تعيين كلمة المرور"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "إليك بطاقة الهدايا من {{shop}} بقيمة {{value}}!",
+      "subtext": "بطاقة الهدية الخاصة بك",
+      "gift_card_code": "كود بطاقة الهدايا",
+      "shop_link": "مواصلة التسوق",
+      "remaining_html": "بقية {{الرصيد}}",
+      "add_to_apple_wallet": "أضف إلى Apple Wallet",
+      "qr_image_alt": "رمز الاستجابة السريعة: امسحه ضوئيًا لاستخدام بطاقة الهدايا الخاصة بك",
+      "copy_code": "رمز النسخ",
+      "expired": "منتهي الصلاحية",
+      "copy_code_success": "تم نسخ الرمز بنجاح",
+      "print_gift_card": "لطباعة"
     }
   }
 }

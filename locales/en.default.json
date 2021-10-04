@@ -385,8 +385,8 @@
       "qr_image_alt": "QR code: scan it to use your gift card",
       "copy_code": "Copy code",
       "expired": "Expired",
-      "copy_code_success": "Code copied successfully",
-      "print_gift_card": "Print"
+      "copy_code_success": "The code has been copied successfully",
+      "print_gift_card": "To print"
     }
   },
   "shopify": {
@@ -414,7 +414,22 @@
         "checkout_context": {
           "step_one": "% {shop_name} - Payment"
         },
-        "tooltip_accessibility_label": "Find out more"
+        "tooltip_accessibility_label": "Find out more",
+        "skip_to_content": "Skip to content",
+        "breadcrumb": "Breadcrumb",
+        "continue_button_label": "To continue",
+        "complete_purchase_button_label": "Confirm payment",
+        "pay_now_button_label": "Pay now",
+        "authenticate_purchase_button_label": "Authenticate payment",
+        "edit_link_label": "To modify",
+        "all_rights_reserved": "All rights reserved% {shop_name}",
+        "print_policies_link_label": "To print",
+        "cart": "Basket",
+        "close_modal_label": "To close",
+        "close_notice_label": "To close",
+        "expand_notice_label": "See more",
+        "continue_to_shipping_method": "Continue to shipping",
+        "continue_to_payment_method": "Continue to payment"
       },
       "contact": {
         "title": "Information",
