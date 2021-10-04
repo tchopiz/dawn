@@ -895,6 +895,62 @@
       "alternative_payment_method": {
         "button_html": "Pago por:% {método}",
         "button_label": "Pago por:% {método}"
+      },
+      "paypal": {
+        "button_html": "Paga con% {logo}"
+      },
+      "apple_pay": {
+        "button_html": "Compre con% {logo}"
+      },
+      "processing": {
+        "redirecting_page_title": "Redirección en curso ...",
+        "redirecting_title": "Redirección en curso ...",
+        "redirecting_notice": "Espere mientras lo redireccionamos.",
+        "complete_your_purchase_title": "Completa tu compra",
+        "continue_to_payment_gateway_notice": "Continúe con el pago para agregar su información de pago.",
+        "continue_to_payment_gateway_button_label": "Continuar con el pago",
+        "complete_your_purchase_title_error": "Corrija sus datos de pago",
+        "continue_to_payment_gateway_notice_error": "No se pudo verificar su información de pago.",
+        "continue_to_payment_gateway_button_label_error": "Actualizar la información de pago",
+        "page_title": "Procesando orden",
+        "title": "Procesando orden",
+        "your_order_has_been_received_title": "Gracias por su orden",
+        "you_will_receive_confirmation": "Actualmente estamos recibiendo una gran cantidad de pedidos.Debería recibir una confirmación por correo electrónico o SMS en breve.Si no lo recibe en la próxima hora, háganoslo saber.",
+        "wait": {
+          "short": "Tu pedido está siendo procesado.",
+          "medium": {
+            "one": "Tu pedido está siendo procesado.El tiempo de espera se estima en 1 minuto.",
+            "other": "Tu pedido está siendo procesado.El tiempo de espera se estima en% {count} minutos."
+          },
+          "long": "Recibirá un correo electrónico tan pronto como se haya procesado su pedido.Actualmente hay un gran volumen de pedidos.",
+          "no_auto_refresh_html": "Si no se le redirige automáticamente,% {link}.",
+          "refresh_this_page": "actualizar esta página"
+        },
+        "you_will_not_be_charged": "No se le facturará todavía"
+      },
+      "failed_payment": {
+        "page_title": "No se pudo procesar el pago",
+        "title": "No se pudo procesar el pago",
+        "payment_not_processed_title": "No se pudo procesar su pago",
+        "payment_not_processed_text": "No se le ha facturado.Regrese a su carrito para completar su compra.",
+        "return_to_cart_button_label": "Volver a la cesta"
+      },
+      "payment_gateway": {
+        "credit_card_label": "Tarjeta de crédito",
+        "bank_deposit_label": "deposito bancario",
+        "cash_on_delivery_label": "Contra reembolso",
+        "money_order_label": "Mandato"
+      },
+      "thank_you": {
+        "title": "Gracias por su compra!",
+        "confirmation_email_sent_text": "Se envió un correo electrónico de confirmación a% {email}",
+        "return_to_store_link_label": "Regreso a la boutique",
+        "print_link_label": "Imprimir",
+        "payment_information_title": "Información del pago",
+        "shipping_information_title": "Información de entrega",
+        "page_title": "¡Gracias% {display_name}!",
+        "page_title_no_name": "¡Gracias!",
+        "cancelled_page_title": "Orden cancelada"
       }
     }
   }
