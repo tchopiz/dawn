@@ -708,7 +708,51 @@
         "supported_card_brands_more_label": "y más…",
         "detected_card_brand": "Marca de tarjeta detectada: {brand}",
         "card_number_label": "número de tarjeta",
-        "card_number_placeholder": "número de tarjeta"
+        "card_number_placeholder": "número de tarjeta",
+        "card_pay_with": "Pagar con:",
+        "card_security_notice": "Todas las transacciones son seguras y encriptadas.",
+        "name_on_card_label": "Nombre en la Tarjeta",
+        "name_on_card_placeholder": "Nombre en la Tarjeta",
+        "card_expiry_label": "Fecha de vencimiento (MM \/ AA)",
+        "card_expiry_placeholder": "Fecha de vencimiento (MM \/ AA)",
+        "card_verification_value_label": "código de seguridad",
+        "card_verification_value_placeholder": "código de seguridad",
+        "card_expiry_date_explanation": "Fecha de vencimiento de la tarjeta en el formato: mes, mes, año, año",
+        "card_verification_value_explanation": "El código de seguridad de 3 dígitos generalmente se encuentra en el reverso de su tarjeta.El código de seguridad de las tarjetas American Express consta de 4 dígitos y se encuentra en el frente de su tarjeta.",
+        "card_verification_value_explanation_amex": "El código de seguridad de 4 dígitos que se encuentra en el frente de su tarjeta.",
+        "card_verification_value_explanation_other": "El código de seguridad de 3 dígitos que se encuentra en el reverso de su tarjeta.",
+        "card_start_label": "Emisión (MM \/ AA)",
+        "card_start_placeholder": "Emisión (MM \/ AA)",
+        "card_issue_number_label": "Número de emisión",
+        "card_issue_number_placeholder": "Número de emisión",
+        "card_change_label": "Editar",
+        "ends_with_label": "terminando en% {last_digits}",
+        "masked_digits_label": "••••% {últimos dígitos}",
+        "saved_by_payment_method": "Guardado por% {payment_method}",
+        "pay_with_payment_method": "Paga con% {payment_method}",
+        "same_billing_address_label": "Idéntica a la dirección de entrega",
+        "different_billing_address_label": "Utilice una dirección de facturación diferente",
+        "free_order_notice_html": "Tu pedido es <strong>gratis<\/strong> .No se requiere pago.",
+        "express_checkout_free_order": "No se le cobrará por un pedido gratuito",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Su pedido está cubierto por su tarjeta de regalo.",
+          "other": "Sus pedidos están cubiertos por sus tarjetas de regalo."
+        },
+        "offsite_gateway_redirect_hint": "Después de hacer clic en \"% {button_label}\", será redirigido a% {gateway_label} para completar su compra de forma segura.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "% {gateway_label} total% {total_shop_price}",
+        "billing_address_title": "Dirección de facturación",
+        "billing_address_description": "Seleccione la dirección que coincida con su tarjeta o método de pago.",
+        "billing_address_description_no_shipping_address": "Seleccione la dirección que coincida con su tarjeta o método de pago.",
+        "no_js_credit_card_fields_redirect_hint": "Se le redirigirá para que agregue su información de pago.",
+        "card_fields_container_prefix": "Marco para el campo:",
+        "card_fields_unavailable_html": {
+          "one": "Los pagos con tarjeta de crédito y débito no están disponibles en este momento.<br> <a href=\"%{current_url}\">Actualiza esta página<\/a> o vuelve a intentarlo más tarde.",
+          "other": "Los pagos con tarjeta de crédito y débito no están disponibles en este momento.<br> <a href=\"%{current_url}\">Actualiza esta página<\/a> o prueba con otro método de pago."
+        },
+        "card_fields_processing_error": "Hubo un problema al procesar el pago.Intente actualizar esta página o verificar su conexión a Internet.",
+        "technical_error": "Los pagos no se pueden procesar en este momento debido a un problema técnico.Vuelve a intentarlo en unos minutos.",
+        "no_method_error": "Esta tienda no puede aceptar pagos en este momento.",
+        "not_configured_error": "Esta tienda no puede aceptar pagos en este momento."
       }
     }
   }
