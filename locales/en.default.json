@@ -1366,8 +1366,32 @@
         "transaction_status": {
           "success": "Success",
           "pending": "In progress",
-          "failure": "Failure"
-        }
+          "failure": "Failure",
+          "error": "Fault"
+        },
+        "cancel_reason": {
+          "declined": "Refused payment",
+          "inventory": "Unavailable products",
+          "fraud": "Fraudulent order",
+          "customer": "The customer changed \/ canceled the order",
+          "other": "Other"
+        },
+        "cash_on_delivery": "Cash on delivery"
+      },
+      "cart": {
+        "only_n_items_available": "You can only add% {count}% {name} to your cart.",
+        "too_many_items_in_cart": "You can no longer add the product% {name} to the cart.",
+        "all_items_in_cart": "Your% {count}% {name} have been added to your cart.",
+        "empty_update": "We were unable to reset your cart",
+        "missing_parameters": "No valid identifier or row parameter",
+        "generic_error": "Cart error",
+        "too_many_line_items_error": "Your basket cannot contain more than% {max} items.",
+        "link_expired": "The link has expired",
+        "link_no_longer_exists": "The link no longer exists.",
+        "stock_problems_html": "One or more items are no longer available.Here is your <a href='%{link}'>updated basket<\/a> .",
+        "changed": "The basket has been modified",
+        "items_changed": "One or more articles have been modified.",
+        "product_sold_out": "The product \"% {name}\" is already out of stock."
       }
     }
   }
