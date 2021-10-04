@@ -301,26 +301,26 @@
       "zip": "Código postal",
       "phone": "Teléfono",
       "set_default": "Establecer como dirección predeterminada",
-      "add": "Agregar dirección",
+      "add": "Añadir dirección",
       "update": "Actualizar dirección",
-      "cancel": "Cancelar",
+      "cancel": "anular",
       "edit": "Editar",
-      "delete": "Eliminar",
-      "delete_confirm": "¿Está seguro\/a de que deseas eliminar esta dirección?"
+      "delete": "Borrar",
+      "delete_confirm": "¿Está seguro de que desea eliminar esta dirección?"
     },
     "log_in": "Iniciar sesión",
     "log_out": "Cerrar sesión",
     "login_page": {
-      "cancel": "Cancelar",
-      "create_account": "Crear cuenta",
+      "cancel": "anular",
+      "create_account": "Crear una cuenta",
       "email": "Correo electrónico",
-      "forgot_password": "¿Olvidaste tu contraseña?",
-      "guest_continue": "Continuar",
+      "forgot_password": "Contraseña olvidada ?",
+      "guest_continue": "seguir",
       "guest_title": "Continuar como invitado",
       "password": "Contraseña",
-      "title": "Inicio de sesión",
+      "title": "Iniciar sesión",
       "sign_in": "Iniciar sesión",
-      "submit": "Enviar"
+      "submit": "enviar a"
     },
     "orders": {
       "title": "Historial de pedidos",
@@ -353,7 +353,7 @@
       "submit": "Restablecer contraseña"
     },
     "order": {
-      "title": "Pedido {{ name }}",
+      "title": "Comando {{nombre}}",
       "date_html": "Realizado el {{ date }}",
       "cancelled_html": "Pedido cancelado el {{ date }}",
       "cancelled_reason": "Motivo: {{ reason }}",
