@@ -762,6 +762,216 @@
       },
       "notifications": {
         "title": "إشعارات"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "المبلغ المطلوب دفعه للطلب٪ {order_name}",
+        "changes_summary": {
+          "added": {
+            "one": "مضاف",
+            "other": "تمت إضافة٪ {عدد}"
+          },
+          "removed": "تم الحذف",
+          "subtracted": "تم حذف٪ {عدد}"
+        },
+        "additional_payment_requested": "مطلوب دفع مبلغ٪ {total_outstanding}",
+        "checkout_review_and_pay": "تم تحديث طلبك٪ {order_name}.تحقق من هذه التغييرات ، ثم ادفع لتأكيد طلبك.",
+        "order_updated_on": "تم تحديث طلبك في٪ {last_edited_at}.",
+        "order_review_and_pay": "تم تحديث طلبك.تحقق وادفع لتأكيد طلبك.",
+        "pay_now": "ادفع الآن"
+      },
+      "change_currency": {
+        "currency_button_label": "٪ {currency} (٪ {currency_symbol})",
+        "credit_card_will_be_charged_html": "سيتم خصم٪ {amount} من بطاقتك الائتمانية",
+        "payment_total_label": "المبلغ الإجمالي",
+        "conversion_rate": "1٪ {from_currency_code} =٪ {rate}٪ {to_currency_code}",
+        "change_currency_link": "انتقل إلى٪ {currency_name}",
+        "card_provider_fx_charges_warning": "قد يفرض مزود بطاقتك رسومًا على المعاملات بعملة٪ {currency_code}.",
+        "currency_not_supported_by_shop": "العملة التي حددتها لم تعد متوفرة.جميع الأسعار الآن بـ٪ {currency_code}."
+      },
+      "tips": {
+        "title": "أضف نصيحة",
+        "description": "أظهر دعمك لفريق٪ {shop_name}",
+        "presets_description": "حدد نسبة إكرامية",
+        "custom_label": "نصيحة شخصية",
+        "add_tip": "أضف نصيحة",
+        "update_tip": "تحرير نصيحة",
+        "message": "شكرا جزيلا !",
+        "preset_label": "٪ {tip_percent}٪",
+        "no_tip_label": "لا"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "شراء٪ {product_name}",
+          "one": "شراء٪ {product_name} و٪ {عدد} عنصر آخر",
+          "other": "قم بشراء٪ {product_name} و٪ {عدد} من العناصر الأخرى"
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "معلومات إضافية"
+        }
+      },
+      "post_purchase": {
+        "page_title": "بعد الشراء",
+        "title": "بعد الشراء",
+        "escape_confirmation": "لقد دفعت مقابل طلبك.",
+        "escape_action": "إظهار تأكيد الطلب ›",
+        "components": {
+          "close": "اغلاق",
+          "expand": "أظهر المزيد",
+          "processing": "يتم معالجتها...",
+          "submit": "تقديم TP"
+        }
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "تم تحديث سلتك بناءً على بلد التسليم الخاص بك."
+      },
+      "subscriptions": {
+        "recurring_totals": "٪ {total_price} لكل فترة٪ {فترات}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "الدفعة الأولى٪ {total_price}",
+            "other": "للبدء ،٪ {count} دفعة من٪ {total_price} لكل منها"
+          },
+          "following_cycles": "، ثم٪ {total_price} لكل فترة٪ {period}"
+        },
+        "recurring_total_intervals": {
+          "day": {
+            "one": "يوم",
+            "other": "٪ {عدد} أيام"
+          },
+          "week": {
+            "one": "أسبوع",
+            "other": "٪ {عدد} أسبوع"
+          },
+          "month": {
+            "one": "شهر",
+            "other": "٪ {عدد} شهر"
+          },
+          "year": {
+            "one": "عام",
+            "other": "٪ {عدد} سنوات"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "الدفعة الأولى بقيمة٪ {total_price_with_discount} ، ثم٪ {recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": "، ثم دفع٪ {count} من٪ {total_price}",
+            "other": "، ثم٪ {count} دفعة بنسبة٪ {total_price} لكل منها"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "page_title": "وسيلة دفع",
+        "title": "وسيلة دفع",
+        "update_card_button_label": "قم بتحديث الخريطة",
+        "delete_customer_mandate": {
+          "generic_error": "كان هناك مشكلة في معالجة طلبك.",
+          "success_message": "تم حذف طريقة الدفع الخاصة بك"
+        }
+      }
+    },
+    "pagination": {
+      "previous": "سابق",
+      "next": "التالية"
+    },
+    "links": {
+      "powered_by_shopify": "التجارة الإلكترونية مدعومة من Shopify",
+      "learn_more": "اقرأ المزيد"
+    },
+    "feed": {
+      "more": "أكثر"
+    },
+    "attributes": {
+      "email": "بريد الالكتروني",
+      "password": "كلمة السر",
+      "password_confirmation": "تأكيد كلمة المرور",
+      "first_name": "الاسم الأول",
+      "last_name": "الكنية",
+      "body": "رسالة",
+      "signature": "عنوان"
+    },
+    "addresses": {
+      "zip_code": "الرمز البريدي",
+      "postal_code": "الرقم البريدي",
+      "postcode": "الرقم البريدي",
+      "pincode": "الفهرس البريدي",
+      "region": "منطقة",
+      "prefecture": "محافظة",
+      "province": "مقاطعة",
+      "state": "حالة",
+      "state_and_territory": "الولاية \/ الإقليم",
+      "county": "مقاطعة",
+      "emirate": "الإمارة",
+      "governorate": "محافظة",
+      "confirm": "هل أنت متأكد أنك تريد حذف هذا العنوان؟"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "متميز",
+        "best_selling": "الأكثر مبيعًا",
+        "az": "أبجديًا ، من الألف إلى الياء",
+        "za": "أبجديًا ، من Z إلى A.",
+        "price_ascending": "السعر من الارخص للاعلى",
+        "price_descending": "السعر الاعلى الى الادنى",
+        "date_ascending": "التاريخ من الأقدم إلى الأحدث",
+        "date_descending": "التاريخ من الأحدث إلى الأقدم"
+      }
+    },
+    "errors": {
+      "blank": "لا يمكن أن تبقى فارغة",
+      "credit_card_session_expired": "انتهت صلاحية ترخيص بطاقة الائتمان.الرجاء إدخال معلومات الدفع الخاصة بك مرة أخرى.لم يتم شحن بطاقتك.",
+      "empty": "لايمكن ان يكون فارغا",
+      "invalid_email": "يجب أن يكون عنوان بريد إلكتروني صالح",
+      "discount_disabled": "تم إلغاء تنشيط هذا الترويج",
+      "discount_expired": "هذا الترويج لم يعد ساري المفعول",
+      "discount_limit_reached": "هذا الترويج قد وصل إلى الحد الأقصى للاستخدام",
+      "discount_not_found": "لم نجد ترويجًا صالحًا يطابق هذا الرمز",
+      "customer_already_used_once_per_customer_discount_notice": "هذا الترويج قد وصل إلى الحد الأقصى للاستخدام",
+      "gift_card_already_applied": "تم تطبيق هذا الرمز بالفعل على طلبك",
+      "gift_card_code_invalid": "الكود غير صالح",
+      "gift_card_currency_mismatch": "لا يمكن استخدام بطاقات هدايا٪ {gift_card_currency} للطلبات في٪ {checkout_currency}",
+      "gift_card_depleted": "لم يتبق المزيد من المال في بطاقة الهدايا هذه",
+      "gift_card_disabled": "تم إلغاء تنشيط بطاقة الهدايا",
+      "gift_card_expired": "انتهت صلاحية بطاقة الهدايا",
+      "invalid": "غير صالح",
+      "bad_domain": "يحتوي على اسم مجال غير صالح",
+      "taken": "تم اخده بالفعل",
+      "contains_html_tags": "لا يمكن أن تحتوي على علامات HTML",
+      "too_short": "قصير جدًا (الحد الأدنى هو٪ {عدد} حرفًا)",
+      "too_long": "طويل جدًا (الحد الأقصى هو٪ {عدد} حرفًا)",
+      "password_mismatch": "يجب أن تكون مساوية لكلمة المرور.",
+      "contains_spaces": "يبدأ أو ينتهي بمسافات.",
+      "email_domain_invalid": "الموفر غير مدعوم",
+      "invalid_for_country": "ليس صالحًا لـ٪ {country}",
+      "invalid_for_country_and_province": "ليس صالحًا لـ٪ {County} و٪ {country}",
+      "invalid_province_in_country": "ليست مقاطعة صالحة لـ٪ {country}",
+      "invalid_state_in_country": "ليست ولاية صالحة لـ٪ {country}",
+      "invalid_region_in_country": "ليست منطقة صالحة لـ٪ {country}",
+      "less_than_or_equal_to": "يجب أن يكون أقل من أو يساوي٪ {count}",
+      "not_supported": "غير مدعومة",
+      "full_name_required": "أدخل الاسم الأول والأخير",
+      "invalid_for_card_type": "غير صالح لهذا النوع من البطاقات",
+      "invalid_type": "للأسف ، نحن لا نقبل بطاقات من هذا النوع",
+      "invalid_format": "ليس رقم بطاقة ائتمان",
+      "expired": "انتهت صلاحية بطاقة الائتمان",
+      "invalid_start_date_or_issue_number_for_debit": "مطلوب تاريخ بدء أو إصدار صالح",
+      "invalid_expiry_year": "ليست سنة انتهاء صالحة",
+      "reset_password_html": "عنوان البريد الإلكتروني هذا مرتبط بالفعل بحساب.إذا كان هذا الحساب ملكًا لك ، فيمكنك <a href=\"\/account\/login#recover\">إعادة تكوين كلمة المرور الخاصة بك<\/a>",
+      "verify_email": "تم إرسال بريد إلكتروني إلى٪ {customer_email} ، الرجاء النقر فوق الارتباط الموجود في البريد الإلكتروني لتأكيد عنوانك.",
+      "blocked_address": "هذا الموقع غير معتمد."
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "خطأ في إعادة تعيين كلمة المرور",
+        "no_account_found": "لم يتم العثور على حساب مرتبط بهذا البريد الإلكتروني.",
+        "invalid_credentials": "بريد أو كلمة مرورغير صحيحة"
+      },
+      "address": {
+        "updated": "تم تحديث العنوان بنجاح.",
+        "error_updating": "خطأ في تحديث العنوان",
+        "created": "تم إنشاء العنوان بنجاح",
+        "error_creating": "خطأ في إنشاء العنوان."
       }
     }
   }
