@@ -990,7 +990,53 @@
         "in_transit_description_tomorrow": "Su pedido debería llegar mañana.",
         "no_tracking_number": "No hay un número de seguimiento para este envío.",
         "out_for_delivery": "Fuera para entrega",
-        "out_for_delivery_title": "Tu pedido esta siendo entregado"
+        "out_for_delivery_title": "Tu pedido esta siendo entregado",
+        "out_for_delivery_description_html": "Su pedido está en el camión de reparto.Debería llegar hoy.Si no ha recibido nada en 2 días, gracias de% {contact_us}.",
+        "attempted_delivery": "Intento de entrega",
+        "attempted_delivery_title": "Hemos intentado entregar su pedido",
+        "attempted_delivery_description_html": "Hemos intentado entregar su pedido, pero no se ha realizado correctamente.% {Contact_us} para programar un nuevo intento de entrega.",
+        "delivered": "Libro",
+        "delivered_title": "Tu pedido ha sido entregado",
+        "delivered_description_html": "Su pedido ha sido entregado a la dirección que proporcionó.Si no lo ha recibido o tiene otros problemas,% {contact_us}.",
+        "contact_us": "Contáctenos",
+        "contact_us_lowercase": "Contáctenos",
+        "contact_us_html": "Necesidad de ayuda ?% {Contáctenos}",
+        "updated_time": "Actualizado hace% {time_ago}",
+        "failure": "No entregado",
+        "failed_title": "Tu pedido no se pudo entregar",
+        "failed_contact_merchant": "Póngase en contacto con% {empresa} para organizar la entrega.",
+        "failed_contact_merchant_no_company": "Contáctenos para organizar la entrega.",
+        "non_shippable_title": "Tu orden esta completa",
+        "login_title": "Inicie sesión para ver todos los detalles del pedido",
+        "login_description": "Encontrará el número de pedido en el recibo que recibió por correo electrónico.",
+        "login_description_phone": "Encontrará su número de pedido en el recibo que recibió por SMS.",
+        "login_not_customer_html": "¿No eres% {name}?Puedes% {link}",
+        "login_reorder_link_text": {
+          "one": "compra este producto también",
+          "other": "compra estos productos también"
+        },
+        "customer_information_hidden_fields_message": "Inicie sesión para ver toda la información del cliente.",
+        "cancelled_title": "Tu pedido ha sido cancelado",
+        "cancelled_description": "Tu pedido se canceló el% {date}.Póngase en contacto con nosotros si tiene alguna pregunta.",
+        "order_number_label": "Número de orden",
+        "customer_validation_error": "Ingrese un correo electrónico válido o un número de pedido.",
+        "customer_validation_error_phone": "Ingrese un número de teléfono o número de pedido válido.",
+        "login": "Iniciar sesión",
+        "unfulfilled_items_title": "Envío en preparación",
+        "unfulfilled_items_description": "Actualmente estamos preparando estos artículos para su envío.",
+        "marker": {
+          "current": "Ubicación actual del pedido",
+          "shipping": "Dirección de entrega"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Artículos en este envío",
+          "unfulfilled_table_title": "Elementos en preparación para el envío",
+          "product_image_label": "Imagen del producto",
+          "description_label": "Descripción",
+          "quantity_label": "Monto"
+        },
+        "opt_in_message_html": "Tu información se ha guardado correctamente en% {shopify_pay}",
+        "order_updates_description_missing": "No está recibiendo actualizaciones sobre el estado de su envío."
       }
     }
   }
