@@ -106,7 +106,7 @@
                       <div class="card__inner">
                         {%- if item.image -%}
                           <div class="media media--cropped">
-                            <img
+                            <img data-swift-lazy="1" loading="lazy"
                               srcset="{%- if item.image.src.width >= 165 -%}{{ item.image.src | img_url: '165x' }} 165w,{%- endif -%}
                                 {%- if item.image.src.width >= 360 -%}{{ item.image.src | img_url: '360x' }} 360w,{%- endif -%}
                                 {%- if item.image.src.width >= 533 -%}{{ item.image.src | img_url: '533x' }} 533w,{%- endif -%}

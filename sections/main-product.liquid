@@ -348,7 +348,7 @@
       <div class="product-media-modal__content" role="document" aria-label="{{ 'products.modal.label' | t }}" tabindex="0">
         {%- for media in product.media -%}
           {%- if media.media_type == 'image' -%}
-            <img
+            <img data-swift-lazy="1" loading="lazy"
               srcset="{%- if media.preview_image.width >= 550 -%}{{ media.preview_image | img_url: '550x' }} 550w,{%- endif -%}
                       {%- if media.preview_image.width >= 1100 -%}{{ media.preview_image | img_url: '1100x' }} 1100w,{%- endif -%}
                       {%- if media.preview_image.width >= 1680 -%}{{ media.preview_image | img_url: '1680x' }} 1680w,{%- endif -%}
@@ -380,7 +380,7 @@
                     {%- render 'icon-play' -%}
                   {%- endif -%}
                 </span>
-                <img
+                <img data-swift-lazy="1" loading="lazy"
                   srcset="{% if media.preview_image.width >= 288 %}{{ media.preview_image | img_url: '288x' }} 288w,{% endif %}
                           {% if media.preview_image.width >= 576 %}{{ media.preview_image | img_url: '576x' }} 576w,{% endif %}
                           {% if media.preview_image.width >= 750 %}{{ media.preview_image | img_url: '750x' }} 750w,{% endif %}
