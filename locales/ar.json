@@ -482,6 +482,70 @@
           "card_declined": "تم رفض بطاقتك"
         },
         "payment_processing_no_retry": "لا يمكن معالجة الدفع الخاص بك لأسباب فنية.يرجى تجربة طريقة دفع أخرى."
+      },
+      "shipping_errors": {
+        "shipping_method": "تم تحديث عربة التسوق الخاصة بك وأسعار الشحن السابقة غير صالحة.حدد سعرًا جديدًا.",
+        "shipping_method_not_available": "تم تحديث عربة التسوق الخاصة بك ، ولا يمكن شحن العناصر التي أضفتها إلى عنوانك.قم بإزالة العناصر لإكمال طلبك.",
+        "shipping_method_not_available_generic": {
+          "one": "لا يمكن شحن هذا الطلب إلى العنوان الذي أدخلته.تحقق من ملء جميع الحقول الخاصة بعنوانك بشكل صحيح ، ثم حاول مرة أخرى.",
+          "other": "لا يمكن شحن بعض العناصر في عربة التسوق الخاصة بك إلى العنوان الذي أدخلته.تحقق من ملء جميع الحقول الخاصة بعنوانك بشكل صحيح ، ثم حاول مرة أخرى."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "لا يمكن شحن العنصر الذي أضفته إلى موقعك.يرجى حذفها لتتمكن من الدفع أو الاتصال بالمتجر.",
+          "other": "لا يمكن شحن عنصر واحد على الأقل من العناصر التي أضفتها إلى موقعك.يرجى حذفها لتتمكن من الدفع ، أو الاتصال بالمتجر."
+        }
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "الدفع السريع",
+        "or": "أين"
+      },
+      "alternative_payment_method": {
+        "button_html": "الدفع عن طريق:٪ {method}",
+        "button_label": "الدفع عن طريق:٪ {method}"
+      },
+      "paypal": {
+        "button_html": "الدفع باستخدام٪ {logo}"
+      },
+      "apple_pay": {
+        "button_html": "شراء باستخدام٪ {logo}"
+      },
+      "processing": {
+        "redirecting_page_title": "إعادة التوجيه قيد التقدم ...",
+        "redirecting_title": "إعادة التوجيه قيد التقدم ...",
+        "redirecting_notice": "يرجى الانتظار حتى نعيد توجيهك.",
+        "complete_your_purchase_title": "أكمل عملية الشراء",
+        "continue_to_payment_gateway_notice": "استمر في الخروج لإضافة معلومات الدفع الخاصة بك.",
+        "continue_to_payment_gateway_button_label": "تواصل الدفع",
+        "complete_your_purchase_title_error": "تصحيح تفاصيل الدفع الخاصة بك",
+        "continue_to_payment_gateway_notice_error": "لا يمكن التحقق من معلومات الدفع الخاصة بك.",
+        "continue_to_payment_gateway_button_label_error": "تحديث معلومات الدفع",
+        "page_title": "معالجة الطلب",
+        "title": "معالجة الطلب",
+        "your_order_has_been_received_title": "شكرا لطلبك",
+        "you_will_receive_confirmation": "نتلقى حاليًا عددًا كبيرًا من الطلبات.من المفترض أن تتلقى تأكيدًا عبر البريد الإلكتروني أو الرسائل القصيرة قريبًا.إذا لم تستلمها في الساعة التالية ، فيرجى إخبارنا بذلك.",
+        "wait": {
+          "short": "طلبك قيد المعالجة.",
+          "medium": {
+            "one": "طلبك قيد المعالجة.وقت الانتظار يقدر بدقيقة واحدة.",
+            "other": "طلبك قيد المعالجة.يقدر وقت الانتظار بـ٪ {count} دقيقة."
+          },
+          "long": "ستتلقى بريدًا إلكترونيًا بمجرد معالجة طلبك.يوجد حاليًا عدد كبير من الطلبات.",
+          "no_auto_refresh_html": "إذا لم تتم إعادة توجيهك تلقائيًا ،٪ {link}.",
+          "refresh_this_page": "قم بتحديث هذه الصفحة"
+        },
+        "you_will_not_be_charged": "لن يتم محاسبتك بعد"
+      },
+      "failed_payment": {
+        "page_title": "لا يمكن معالجة الدفع",
+        "title": "لا يمكن معالجة الدفع",
+        "payment_not_processed_title": "لا يمكن معالجة الدفع الخاص بك",
+        "payment_not_processed_text": "لم يتم محاسبتك.العودة إلى عربة التسوق الخاصة بك لإكمال الشراء.",
+        "return_to_cart_button_label": "العودة إلى سلة"
+      },
+      "payment_gateway": {
+        "credit_card_label": "بطاقة إئتمان",
+        "bank_deposit_label": "وديعة بنكية",
+        "cash_on_delivery_label": "الدفع عند الاستلام"
       }
     }
   }
