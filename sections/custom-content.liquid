@@ -53,7 +53,7 @@
               {% if block.settings.image != blank %}
                 {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
                 <div style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100}}%;" data-image-loading-animation>
-                  <img id="{{ img_id }}"
+                  <img data-swift-lazy="1" loading="lazy" id="{{ img_id }}"
                        class="custom__image lazyload js"
                        data-src="{{ img_url }}"
                        data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
@@ -196,7 +196,7 @@
 
                       <div id="{{ img_wrapper_id }}" class="article__grid-image-wrapper article__grid-image-wrapper--{{ cover_image }} article-image-wrapper js">
                         <div class="article__grid-image-container" style="padding-top:{{ 1 | divided_by: article.image.aspect_ratio | times: 100 }}%;" data-image-loading-animation>
-                          <img id="{{ img_id }}"
+                          <img data-swift-lazy="1" loading="lazy" id="{{ img_id }}"
                               class="article__list-image lazyload"
                               data-src="{{ img_url }}"
                               data-widths="[180, 360, 540, 720, 905, 1090, 1296, 1512, 1728, 2048]"

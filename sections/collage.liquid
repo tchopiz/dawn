@@ -23,7 +23,7 @@
           <div class="collage-card color-{{ block.settings.color_scheme }}{% if focus_card_left %} collage-card--left{% elsif focus_card_right %} collage-card--right{% endif %}" {{ block.shopify_attributes }}>
             <div class="collage-content collage-card__image-wrapper media media--transparent{% if block.settings.image_padding %} collage-card-spacing{% endif %}">
               {%- if block.settings.image != blank -%}
-                <img
+                <img data-swift-lazy="1" loading="lazy"
                   srcset="{%- if block.settings.image.width >= 550 -%}{{ block.settings.image | img_url: '550x' }} 550w,{%- endif -%}
                     {%- if block.settings.image.width >= 720 -%}{{ block.settings.image | img_url: '720x' }} 720w,{%- endif -%}
                     {%- if block.settings.image.width >= 990 -%}{{ block.settings.image | img_url: '990x' }} 990w,{%- endif -%}
@@ -58,7 +58,7 @@
                       style="padding-bottom: {{ 1 | divided_by: featured_media.aspect_ratio | times: 100 }}%;"
                     {% endif %}
                   >
-                    <img
+                    <img data-swift-lazy="1" loading="lazy"
                       srcset="{%- if featured_media.width >= 550 -%}{{ featured_media | img_url: '550x' }} 550w,{%- endif -%}
                         {%- if featured_media.width >= 720 -%}{{ featured_media | img_url: '720x' }} 720w,{%- endif -%}
                         {%- if featured_media.width >= 990 -%}{{ featured_media | img_url: '990x' }} 990w,{%- endif -%}
@@ -76,7 +76,7 @@
                     >
 
                     {%- if block.settings.second_image and block.settings.product.media[1] != nil -%}
-                      <img
+                      <img data-swift-lazy="1" loading="lazy"
                         srcset="{%- if block.settings.product.media[1].width >= 550 -%}{{ block.settings.product.media[1] | img_url: '550x' }} 550w,{%- endif -%}
                           {%- if block.settings.product.media[1].width >= 720 -%}{{ block.settings.product.media[1] | img_url: '720x' }} 720w,{%- endif -%}
                           {%- if block.settings.product.media[1].width >= 990 -%}{{ block.settings.product.media[1] | img_url: '990x' }} 990w,{%- endif -%}
@@ -148,7 +148,7 @@
                   <div class="collage-content card-colored color-{{ block.settings.color_scheme }}{% if block.settings.image_padding %} collage-card-spacing{% endif %}">
                     {%- if block.settings.collection.featured_image != blank -%}
                       <div class="collage-card__image-wrapper media media--transparent media--hover-effect">
-                        <img
+                        <img data-swift-lazy="1" loading="lazy"
                           srcset="{%- if block.settings.collection.featured_image.width >= 550 -%}{{ block.settings.collection.featured_image | img_url: '550x' }} 550w,{%- endif -%}
                             {%- if block.settings.collection.featured_image.width >= 720 -%}{{ block.settings.collection.featured_image | img_url: '720x' }} 720w,{%- endif -%}
                             {%- if block.settings.collection.featured_image.width >= 990 -%}{{ block.settings.collection.featured_image | img_url: '990x' }} 990w,{%- endif -%}
@@ -209,7 +209,7 @@
               >
                 <div class="collage-content collage-card__image-wrapper media media--transparent{% if block.settings.image_padding %} collage-card-spacing{% endif %}">
                   {%- if block.settings.cover_image != blank -%}
-                    <img
+                    <img data-swift-lazy="1" loading="lazy"
                       srcset="{%- if block.settings.cover_image.width >= 550 -%}{{ block.settings.cover_image | img_url: '550x' }} 550w,{%- endif -%}
                         {%- if block.settings.cover_image.width >= 720 -%}{{ block.settings.cover_image | img_url: '720x' }} 720w,{%- endif -%}
                         {%- if block.settings.cover_image.width >= 990 -%}{{ block.settings.cover_image | img_url: '990x' }} 990w,{%- endif -%}
@@ -245,7 +245,7 @@
                   type="button"
                 >
                   {%- if block.settings.cover_image != blank -%}
-                    <img
+                    <img data-swift-lazy="1" loading="lazy"
                       srcset="{%- if block.settings.cover_image.width >= 550 -%}{{ block.settings.cover_image | img_url: '550x' }} 550w,{%- endif -%}
                         {%- if block.settings.cover_image.width >= 720 -%}{{ block.settings.cover_image | img_url: '720x' }} 720w,{%- endif -%}
                         {%- if block.settings.cover_image.width >= 990 -%}{{ block.settings.cover_image | img_url: '990x' }} 990w,{%- endif -%}
@@ -292,7 +292,7 @@
                     </span>
 
                     {%- if block.settings.cover_image != blank -%}
-                      <img
+                      <img data-swift-lazy="1" loading="lazy"
                         srcset="{%- if block.settings.cover_image.width >= 550 -%}{{ block.settings.cover_image | img_url: '550x' }} 550w,{%- endif -%}
                           {%- if block.settings.cover_image.width >= 720 -%}{{ block.settings.cover_image | img_url: '720x' }} 720w,{%- endif -%}
                           {%- if block.settings.cover_image.width >= 990 -%}{{ block.settings.cover_image | img_url: '990x' }} 990w,{%- endif -%}
