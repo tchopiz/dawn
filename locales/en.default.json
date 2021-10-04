@@ -1391,7 +1391,71 @@
         "stock_problems_html": "One or more items are no longer available.Here is your <a href='%{link}'>updated basket<\/a> .",
         "changed": "The basket has been modified",
         "items_changed": "One or more articles have been modified.",
-        "product_sold_out": "The product \"% {name}\" is already out of stock."
+        "product_sold_out": "The product \"% {name}\" is already out of stock.",
+        "variant_not_found": "We did not find any variants",
+        "variant_requires_selling_plan": "The variant can only be purchased with a sales package.",
+        "shipping_address_not_required": "This basket does not require delivery",
+        "shipping_address_invalid": "There was a problem calculating your shipping costs.Continue to checkout to choose a shipping rate before placing your order.",
+        "selling_plan_not_applicable": "Cannot apply sales package to variant"
+      },
+      "storefront": {
+        "invalid_password": "Incorrect password, please try again."
+      },
+      "tags": {
+        "add_articles": "Refine the search to articles that also have a% {tag}",
+        "add_products": "Refine the selection to products corresponding to the% {tag} tag",
+        "remove_articles": "Widen your search to articles that are not tagged% {tag}",
+        "remove_products": "Remove the tag% {tag}"
+      }
+    },
+    "page_titles": {
+      "products": "Products",
+      "shopping_cart": "your basket",
+      "account": "Account",
+      "create_account": "Create an account",
+      "reset_account": "Reset account",
+      "addresses": "Addresses",
+      "order": "Command% {name}",
+      "search": "Research",
+      "collections": "Collections",
+      "not_found": "404 Page not found",
+      "challenge": "Challenge",
+      "checkpoint": "Checkpoint",
+      "search_results": {
+        "one": "Search:% {count} result found for \"% {terms}\"",
+        "other": "Search:% {count} results found for \"% {terms}\""
+      },
+      "blog_or_article_with_error": "Error -% {title}"
+    },
+    "cart": {
+      "discounts_with_count": "% {count} discounts have been applied"
+    },
+    "challenge": {
+      "message": "To continue, let us know that you are not a robot.",
+      "error": "Your answer is incorrect, please try again.",
+      "submit_button_text": "TP submit"
+    },
+    "checkpoint": {
+      "message": "Solve the captcha to continue",
+      "error": "Failed to validate captcha",
+      "submit_button_text": "TP submit"
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Thank you for subscribing to our mailing list.",
+        "disclaimer": "You can unsubscribe at any time.",
+        "unsubscribe": "unsubscribe"
+      },
+      "unsubscribed": {
+        "confirmation": "You have unsubscribed from our mailing list.",
+        "disclaimer": "You will no longer receive marketing messages from us.You can re-subscribe at any time.",
+        "preview": "You are currently viewing a preview of what customers will see when they unsubscribe."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>You have accepted the tracking of email openings.<\/b>",
+          "visibility": "Email open rates will be reported anonymously in a report.We&#39;ll see if you&#39;ve opened an email only as an aggregate email open rate."
+        }
       }
     }
   }
