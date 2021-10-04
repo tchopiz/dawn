@@ -971,7 +971,291 @@
         "updated": "تم تحديث العنوان بنجاح.",
         "error_updating": "خطأ في تحديث العنوان",
         "created": "تم إنشاء العنوان بنجاح",
-        "error_creating": "خطأ في إنشاء العنوان."
+        "error_creating": "خطأ في إنشاء العنوان.",
+        "deleted": "تم حذف العنوان بنجاح",
+        "error_deleting": "خطأ في حذف العنوان."
+      },
+      "order": {
+        "not_available": "هذا الأمر غير متوفر",
+        "financial_status": {
+          "authorized": "مخول",
+          "pending": "الجاري",
+          "paid": "مدفوع",
+          "unpaid": "غير مدفوعة",
+          "voided": "ألغيت",
+          "partially_paid": "المدفوعة جزئيا",
+          "partially_refunded": "تم تسديده جزئيا",
+          "refunded": "تسدد",
+          "expired": "منتهي الصلاحية"
+        },
+        "fulfillment_status": {
+          "fulfilled": "مؤكد",
+          "complete": "مكتمل",
+          "partial": "جزئي",
+          "unfulfilled": "لم يعالج",
+          "restocked": "مرة أخرى في الأوراق المالية"
+        },
+        "transaction_status": {
+          "success": "النجاح",
+          "pending": "الجاري",
+          "failure": "خسارة",
+          "error": "عيب"
+        },
+        "cancel_reason": {
+          "declined": "الدفع المرفوض",
+          "inventory": "منتجات غير متوفرة",
+          "fraud": "أمر احتيالي",
+          "customer": "قام العميل بتغيير \/ إلغاء الطلب",
+          "other": "آخر"
+        },
+        "cash_on_delivery": "الدفع عند الاستلام"
+      },
+      "cart": {
+        "only_n_items_available": "يمكنك فقط إضافة٪ {count}٪ {name} إلى سلة التسوق الخاصة بك.",
+        "too_many_items_in_cart": "لم يعد بإمكانك إضافة المنتج٪ {name} إلى سلة التسوق.",
+        "all_items_in_cart": "تمت إضافة٪ {count}٪ {name} إلى سلة التسوق الخاصة بك.",
+        "empty_update": "لم نتمكن من إعادة تعيين عربة التسوق الخاصة بك",
+        "missing_parameters": "لا يوجد معرف أو معلمة صف صالحة",
+        "generic_error": "خطأ في سلة التسوّق",
+        "too_many_line_items_error": "لا يمكن أن تحتوي سلتك على أكثر من٪ {max} عنصر.",
+        "link_expired": "انتهت صلاحية الرابط",
+        "link_no_longer_exists": "لم يعد الارتباط موجودًا.",
+        "stock_problems_html": "عنصر واحد أو أكثر لم يعد متاحًا.هذه هي <a href='%{link}'>سلتك المحدثة<\/a> .",
+        "changed": "تم تعديل السلة",
+        "items_changed": "تم تعديل مقال واحد أو أكثر.",
+        "product_sold_out": "المنتج \"٪ {name}\" غير متوفر بالفعل.",
+        "variant_not_found": "لم نجد أي متغيرات",
+        "variant_requires_selling_plan": "لا يمكن شراء البديل إلا بحزمة مبيعات.",
+        "shipping_address_not_required": "هذه السلة لا تتطلب التوصيل",
+        "shipping_address_invalid": "كانت هناك مشكلة في حساب تكاليف الشحن الخاصة بك.استمر في الدفع لاختيار سعر الشحن قبل تقديم طلبك.",
+        "selling_plan_not_applicable": "لا يمكن تطبيق حزمة المبيعات على المتغير"
+      },
+      "storefront": {
+        "invalid_password": "كلمة السر غير صحيحة. من فضلك حاول مرة اخري."
+      },
+      "tags": {
+        "add_articles": "قم بتنقية البحث في المقالات التي تحتوي أيضًا على٪ {tag}",
+        "add_products": "قم بتحسين التحديد للمنتجات المطابقة لعلامة٪ {tag}",
+        "remove_articles": "توسيع نطاق البحث ليشمل المقالات التي لم يتم وضع علامة عليها٪ {tag}",
+        "remove_products": "إزالة العلامة٪ {tag}"
+      }
+    },
+    "page_titles": {
+      "products": "منتجات",
+      "shopping_cart": "سلتك",
+      "account": "حساب",
+      "create_account": "إفتح حساب",
+      "reset_account": "إعادة الحساب",
+      "addresses": "عناوين",
+      "order": "الأمر٪ {name}",
+      "search": "بحث",
+      "collections": "المجموعات",
+      "not_found": "404 الصفحة غير موجودة",
+      "challenge": "تحد",
+      "checkpoint": "نقطة تفتيش",
+      "search_results": {
+        "one": "البحث: تم العثور على٪ {count} نتيجة لـ \"٪ {terms}\"",
+        "other": "بحث: تم العثور على٪ {count} من النتائج لـ \"٪ {terms}\""
+      },
+      "blog_or_article_with_error": "خطأ -٪ {title}"
+    },
+    "cart": {
+      "discounts_with_count": "تم تطبيق٪ {count} خصومات"
+    },
+    "challenge": {
+      "message": "للمتابعة ، أخبرنا أنك لست روبوتًا.",
+      "error": "إجابتك غير صحيحة ، يرجى المحاولة مرة أخرى.",
+      "submit_button_text": "تقديم TP"
+    },
+    "checkpoint": {
+      "message": "حل كلمة التحقق للمتابعة",
+      "error": "فشل التحقق من صحة captcha",
+      "submit_button_text": "تقديم TP"
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "شكرا لك على الاشتراك في قائمتنا البريدية.",
+        "disclaimer": "يمكنك إلغاء الاشتراك في أي وقت.",
+        "unsubscribe": "إلغاء الاشتراك"
+      },
+      "unsubscribed": {
+        "confirmation": "لقد ألغيت الاشتراك من قائمتنا البريدية.",
+        "disclaimer": "لن تتلقى رسائل تسويقية منا بعد الآن.يمكنك إعادة الاشتراك في أي وقت.",
+        "preview": "أنت تشاهد معاينة لما سيراه العملاء عند إلغاء الاشتراك."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>لقد قبلت تتبع فتحات البريد الإلكتروني.<\/b>",
+          "visibility": "سيتم الإبلاغ عن معدلات فتح البريد الإلكتروني بشكل مجهول في تقرير.سنرى ما إذا كنت قد فتحت بريدًا إلكترونيًا فقط كمعدل فتح إجمالي للبريد الإلكتروني.",
+          "opt_out_html": "يمكنك <a style='text-decoration:underline;' href='%{link}'>إيقاف<\/a> تشغيل تتبع فتحات البريد الإلكتروني إذا كنت لا تريد مشاركة هذه المعلومات.",
+          "preview_bar": "أنت تشاهد معاينة لما سيراه العملاء عند الاشتراك في تتبع البريد الإلكتروني المفتوح."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>لقد قمت بإيقاف تشغيل تعقب فتحات البريد الإلكتروني.<\/b>",
+          "visibility": "لن نرى ما إذا كنت قد فتحت رسائل البريد الإلكتروني الخاصة بنا.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>تمكين<\/a> تتبع فتحات البريد الإلكتروني.",
+          "preview_bar": "أنت تشاهد معاينة لما سيراه العملاء عند إلغاء الاشتراك من تتبع فتحات البريد الإلكتروني."
+        },
+        "no_longer_track": {
+          "status_html": "<b>لم نعد نتتبع أي فتحات بريد إلكتروني.<\/b>",
+          "privacy_policy": "بعد إرسال هذا البريد الإلكتروني ، قمنا بتحديث سياسة الخصوصية الخاصة بنا ولم نعد نتتبع عمليات الفتح."
+        },
+        "track": {
+          "status_html": "<b>متابعة فتح البريد الإلكتروني هو موضوع التقرير.<\/b>",
+          "visibility": "سنرى ما إذا كنت قد فتحت البريد الإلكتروني فقط في شكل معدل الفتح الإجمالي."
+        },
+        "updated_policy": {
+          "status_html": "<b>متابعة فتح البريد الإلكتروني هو موضوع التقرير.<\/b>",
+          "visibility": "لقد قمنا بتحديث سياستنا ، ونحن الآن نتتبع فتحات البريد الإلكتروني.سيتم الإبلاغ عن معدلات فتح البريد الإلكتروني بشكل مجهول في تقرير.سنرى ما إذا كنت قد فتحت بريدًا إلكترونيًا فقط في شكل معدل الفتح الإجمالي.",
+          "opt_out_html": "إذا كنت لا ترغب في توصيل هذه المعلومات ، يمكنك <a style='text-decoration:underline;' href='%{link}'>إلغاء الاشتراك<\/a> ."
+        }
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "عادة ما تكون جاهزة في غضون ساعة واحدة",
+        "two_hours": "عادة ما تكون جاهزة في غضون ساعتين",
+        "four_hours": "عادة ما تكون جاهزة في غضون 4 ساعات",
+        "twenty_four_hours": "عادة ما تكون جاهزة في غضون 24 ساعة",
+        "two_to_four_days": "عادة ما تكون جاهزة في 2-4 أيام",
+        "five_or_more_days": "عادة ما تكون جاهزة في غضون 5 أيام أو أكثر",
+        "zero_to_two_hours": "عادة ما تكون جاهزة في غضون ساعتين",
+        "two_to_four_hours": "عادة ما تكون جاهزة في غضون 4 ساعات",
+        "immediately": "جاهز للاستلام الآن",
+        "next_day": "جاهز للاستلام في اليوم التالي"
+      }
+    },
+    "filters": {
+      "availability": {
+        "label": "إتاحة",
+        "value": {
+          "in_stock": "في المخزن",
+          "out_of_stock": "إنتهى من المخزن"
+        }
+      },
+      "vendor": {
+        "label": "علامة"
+      },
+      "price": {
+        "label": "سعر"
+      },
+      "product_type": {
+        "label": "نوع المنتوج"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "الملائم",
+        "price_ascending": "السعر من الارخص للاعلى",
+        "price_descending": "السعر الاعلى الى الادنى"
+      }
+    }
+  },
+  "sections": {
+    "header": {
+      "announcement": "إعلان",
+      "menu": "القائمة",
+      "cart_count": {
+        "one": "{{عدد}} مقالة",
+        "other": "{{عدد}} مقالات"
+      }
+    },
+    "cart": {
+      "title": "سلتك",
+      "caption": "عناصر السلة",
+      "remove_title": "حذف {{title}}",
+      "subtotal": "المجموع الفرعي",
+      "new_subtotal": "المجموع الفرعي الجديد",
+      "note": "تعليمات الطلب الخاصة",
+      "checkout": "الشروع في دفع",
+      "empty": "سلتك فارغة",
+      "cart_error": "حدث خطأ أثناء تحديث سلة التسوق الخاصة بك.المرجو اعادة المحاولة.",
+      "cart_quantity_error_html": "يمكنك فقط إضافة [الكمية] من هذا العنصر إلى سلة التسوق الخاصة بك.",
+      "taxes_and_shipping_policy_at_checkout_html": "الضرائب <a href=\"{{ link }}\">ورسوم الشحن<\/a> المقدمة",
+      "taxes_included_but_shipping_at_checkout": "وشملت الضرائب وتكاليف الشحن المقدمة",
+      "taxes_included_and_shipping_policy_html": "الضرائب المدرجة. <a href=\"{{ link }}\">الشحن مجانا<\/a>",
+      "taxes_and_shipping_at_checkout": "الضرائب ورسوم الشحن مشمولة في السعر.",
+      "headings": {
+        "product": "المنتج",
+        "price": "سعر",
+        "total": "مجموع",
+        "quantity": "كمية"
+      },
+      "update": "تحديث",
+      "login": {
+        "title": "هل لديك حساب؟",
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">قم بتسجيل الدخول<\/a> للدفع بشكل أسرع."
+      }
+    },
+    "footer": {
+      "payment": "وسيلة دفع"
+    },
+    "featured_blog": {
+      "view_all": "اعلان الكل",
+      "onboarding_title": "مشاركة مدونة",
+      "onboarding_content": "امنح عملائك ملخصًا لمنشور مدونتك"
+    },
+    "featured_collection": {
+      "view_all": "اعلان الكل",
+      "view_all_label": "عرض جميع منتجات المجموعة {{collection_name}}"
+    },
+    "collection_list": {
+      "view_all": "اعلان الكل"
+    },
+    "collection_template": {
+      "apply": "للتقديم",
+      "clear": "تمحو",
+      "clear_all": "محو كل شيء",
+      "empty": "لا توجد منتجات",
+      "from": "ل",
+      "filter_and_sort": "التصفية والفرز",
+      "filter_by_label": "منقي:",
+      "filter_button": "منقي",
+      "filters_selected": {
+        "one": "تم تحديد {{عدد}}",
+        "other": "تم تحديد {{عدد}}"
+      },
+      "max_price": "أعلى سعر هو {{price}}",
+      "product_count": {
+        "one": "منتج {{product_count}} على {{count}}",
+        "other": "{{product_count}} منتج على {{عدد}}"
+      },
+      "product_count_simple": {
+        "one": "منتج {{عدد}}",
+        "other": "{{عدد}} منتجات"
+      },
+      "reset": "إعادة ضبط",
+      "sort_button": "للتخلص منها",
+      "sort_by_label": "الترتيب حسب :",
+      "title": "مجموعة",
+      "to": "الى",
+      "use_fewer_filters_html": "استخدم عوامل تصفية أقل أو <a class=\"{{ class }}\" href=\"{{ link }}\">امسح كل شيء<\/a>"
+    },
+    "video": {
+      "load_video": "تحميل الفيديو: {{description}}"
+    }
+  },
+  "general": {
+    "password_page": {
+      "login_form_heading": "ادخل إلى المتجر باستخدام كلمة مرور:",
+      "login_password_button": "أدخل بكلمة مرور",
+      "login_form_password_label": "كلمة السر",
+      "login_form_password_placeholder": "كلمة المرور الخاصة بك",
+      "login_form_error": "كلمة سر خاطئة !",
+      "login_form_submit": "يمسك",
+      "modal": "كلمة مرور مشروطة",
+      "admin_link_html": "هل المتجر ملك لك؟<a href=\"\/admin\" class=\"link underlined-link\">سجل الدخول هنا<\/a>",
+      "powered_by_shopify_html": "سيتم تشغيل هذا المتجر بواسطة {{shopify}}"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_facebook": "انشر في الفيسبوك",
+        "share_on_twitter": "غرد على تويتر",
+        "share_on_pinterest": "تثبيت على Pinterest"
+      },
+      "links": {
+        "twitter": "تويتر",
+        "facebook": "الفيسبوك"
       }
     }
   }
