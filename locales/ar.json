@@ -221,7 +221,31 @@
       },
       "shipping": {
         "title": "توصيل",
-        "shipping_method_title": "طريقة الشحن"
+        "shipping_method_title": "طريقة الشحن",
+        "waiting_on_rate_notice": "أسعار الشحن المتاحة في طور الحصول عليها ...",
+        "waiting_on_pickup_location_notice": "الحصول على مواقع الاسترداد المتاحة ...",
+        "no_rates_for_cart_or_destination_notice": "لا توجد طريقة شحن متاحة لسلة التسوق الخاصة بك أو العنوان",
+        "no_pickup_location_notice": "منتج واحد على الأقل من منتجاتك غير متوفر ليتم استلامه",
+        "no_rates_for_country_notice": "لا توجد أسعار شحن لهذا العنوان.",
+        "no_rates_contact_notice": "اتصل بنا للحصول على مزيد من المعلومات",
+        "free_rate_label": "حر",
+        "cheapest_rate_label": "أرخص",
+        "please_enter_your_shipping_information_notice": "رجاء أدخل تفاصيل عملية الشراء الخاصة بك.",
+        "estimated_delivery_date": {
+          "one": "يوم عمل واحد",
+          "other": "٪ {عدد} أيام عمل"
+        },
+        "estimated_delivery_date_range": "٪ {الحد الأدنى} إلى٪ {الحد الأقصى} أيام العمل",
+        "shipping_line_phone_label": "رقم الهاتف المحمول (مطلوب)",
+        "shipping_line_phone": "قد يستخدم مشغل شبكة الجوال هذا الرقم للاتصال بك.",
+        "other_method": {
+          "zero": "لا توجد طريقة شحن أخرى متاحة",
+          "one": "1 طريقة أخرى متاحة في",
+          "other": "٪ {عدد} طرق أخرى متاحة من"
+        },
+        "shipping_rate_discounted_amount": "قبل:٪ {original_amount}.الآن:٪ {amount}",
+        "shipping_line_delivery_phone": "قد نستخدم هذا الرقم للاتصال بك أو إرسال رسالة نصية إليك بشأن التسليم الخاص بك.",
+        "optional_shipping_line_delivery_instructions_label": "تعليمات التوصيل (اختياري)"
       }
     }
   }
