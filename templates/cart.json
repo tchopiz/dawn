@@ -67,7 +67,7 @@
     "featured-products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Nos clients ont également achetés",
+        "title": "Nos clients ont récemment achetés",
         "collection": "produit-vedette",
         "products_to_show": 6,
         "show_view_all": true,
