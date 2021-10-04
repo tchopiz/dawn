@@ -116,25 +116,25 @@
         "decrease": "Reducir la cantidad de {{producto}}"
       },
       "price": {
-        "from_price_html": "A partir de {{ price }}",
+        "from_price_html": "De {{price}}",
         "regular_price": "Precio habitual",
         "sale_price": "Precio de venta",
         "unit_price": "Precio unitario"
       },
-      "share": "Compartir este producto",
+      "share": "Comparte este producto",
       "sold_out": "Agotado",
       "unavailable": "No disponible",
-      "vendor": "Proveedor",
-      "video_exit_message": "{{ title }} abre el video en pantalla completa en la misma ventana.",
-      "xr_button": "Ver en tu espacio",
-      "xr_button_label": "Ver en tu espacio, carga el artículo en la ventana de realidad aumentada",
+      "vendor": "Distribuidor",
+      "video_exit_message": "{{title}} abre el video a pantalla completa en la misma ventana.",
+      "xr_button": "Mostrar en su espacio",
+      "xr_button_label": "Muestre en su espacio, cargue el artículo en una ventana de realidad aumentada",
       "pickup_availability": {
         "view_store_info": "Ver información de la tienda",
         "check_other_stores": "Consultar disponibilidad en otras tiendas",
         "pick_up_available": "Servicio de recogida disponible",
         "pick_up_available_at_html": "Servicio de recogida disponible en <span class=\"color-foreground\">{{location_name}}<\/span>",
-        "pick_up_unavailable_at_html": "Retiro no disponible actualmente en <span class=\"color-foreground\">{{ location_name }}<\/span>",
-        "unavailable": "No se pudo cargar la disponibilidad de retiro",
+        "pick_up_unavailable_at_html": "El servicio de recogida no está disponible actualmente en <span class=\"color-foreground\">{{location_name}}<\/span>",
+        "unavailable": "No se puede cargar la disponibilidad del servicio de recogida",
         "refresh": "Actualizar"
       },
       "media": {
@@ -143,7 +143,7 @@
         "play_model": "Reproducir visor 3D",
         "play_video": "Reproduce el video"
       },
-      "view_full_details": "Ver todos los detalles"
+      "view_full_details": "Mostrar todos los detalles"
     },
     "modal": {
       "label": "Galería multimedia"
@@ -151,26 +151,26 @@
   },
   "templates": {
     "search": {
-      "no_results": "No se encontraron resultados para “{{ terms }}” Revisa la ortografía o usa una palabra o frase diferente.",
+      "no_results": "No se encontraron resultados para \"{{terms}}\".Revise su ortografía o use otra palabra o frase.",
       "results_with_count": {
-        "one": "Se encontró {{ count }} resultado para \"{{ terms }}\"",
-        "other": "Se encontraron {{ count }} resultados para \"{{ terms }}\""
+        "one": "Se encontró {{count}} resultado para \"{{terms}}\"",
+        "other": "Se encontraron {{count}} resultados para \"{{terms}}\""
       },
-      "title": "Resultados de búsqueda",
+      "title": "Resultados de la búsqueda",
       "page": "Página"
     },
     "cart": {
-      "cart": "Carrito"
+      "cart": "Cesta"
     },
     "contact": {
       "form": {
-        "name": "Nombre",
+        "name": "apellido",
         "email": "Correo electrónico",
         "phone": "Número de teléfono",
-        "comment": "Comentario",
-        "send": "Enviar",
-        "post_success": "Gracias por contactarnos. Te responderemos lo antes posible.",
-        "error_heading": "Por favor, ajusta lo siguiente:"
+        "comment": "Observación",
+        "send": "enviar a",
+        "post_success": "Gracias por contactarnos.Te responderemos tan pronto como sea posible.",
+        "error_heading": "Ajuste lo siguiente:"
       }
     },
     "404": {
@@ -264,17 +264,17 @@
     }
   },
   "localization": {
-    "country_label": "País\/región",
-    "language_label": "Idioma",
+    "country_label": "País \/ región",
+    "language_label": "Lengua",
     "update_language": "Actualizar idioma",
-    "update_country": "Actualizar país\/región"
+    "update_country": "Actualizar país \/ región"
   },
   "customer": {
     "account": {
       "title": "Cuenta",
       "details": "Detalles de la cuenta",
       "view_addresses": "Ver direcciones",
-      "return": "Regresar a detalles de la cuenta"
+      "return": "Volver a los detalles de la cuenta"
     },
     "account_fallback": "Cuenta",
     "activate_account": {
