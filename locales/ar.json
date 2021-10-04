@@ -1372,7 +1372,73 @@
       },
       "share": "شارك هذا المنتج",
       "sold_out": "مرهق",
-      "unavailable": "غير متوفرة"
+      "unavailable": "غير متوفرة",
+      "vendor": "الموزع",
+      "video_exit_message": "{{title}} يفتح الفيديو في وضع ملء الشاشة في نفس النافذة.",
+      "view_full_details": "إظهار كافة التفاصيل",
+      "xr_button": "عرض في مساحتها",
+      "xr_button_label": "عرض في مساحتك الخاصة ، وتحميل المقالة في نافذة الواقع المعزز"
+    },
+    "modal": {
+      "label": "معرض الوسائط المتعددة"
+    }
+  },
+  "templates": {
+    "search": {
+      "no_results": "لم يتم العثور على نتائج لـ \"{{terms}}\".تحقق من الهجاء أو استخدم كلمة أو عبارة أخرى.",
+      "page": "صفحة",
+      "results_with_count": {
+        "one": "تم العثور على {{count}} نتيجة عن \"{{terms}}\"",
+        "other": "تم العثور على {{count}} من النتائج لـ \"{{terms}}\""
+      },
+      "title": "نتائج البحث"
+    },
+    "cart": {
+      "cart": "سلة"
+    },
+    "contact": {
+      "form": {
+        "name": "اسم",
+        "email": "بريد الالكتروني",
+        "phone": "رقم الهاتف",
+        "comment": "ملاحظة",
+        "send": "يرسل",
+        "post_success": "أشكركم على الاتصال بنا.سوف نجيبك فى اسرع وقت ممكن.",
+        "error_heading": "يرجى ضبط ما يلي:"
+      }
+    },
+    "404": {
+      "title": "الصفحة غير موجودة",
+      "subtext": "404"
+    }
+  },
+  "localization": {
+    "country_label": "البلد \/ المنطقة",
+    "language_label": "لسان",
+    "update_language": "تحديث اللغة",
+    "update_country": "تحديث البلد \/ المنطقة"
+  },
+  "customer": {
+    "account": {
+      "title": "حساب",
+      "details": "تفاصيل الحساب",
+      "view_addresses": "انظر العناوين",
+      "return": "رجوع إلى تفاصيل الحساب"
+    },
+    "account_fallback": "حساب",
+    "activate_account": {
+      "title": "تفعيل حساب",
+      "subtext": "قم بإنشاء كلمة المرور الخاصة بك لتفعيل الحساب.",
+      "password": "كلمة السر",
+      "password_confirm": "أكد كلمة المرور",
+      "submit": "تفعيل حساب",
+      "cancel": "رفض الدعوة"
+    },
+    "addresses": {
+      "title": "عناوين",
+      "default": "بشكل افتراضي",
+      "add_new": "أضف عنوانا جديدا",
+      "edit_address": "تعديل العنوان"
     }
   }
 }
