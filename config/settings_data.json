@@ -122,7 +122,7 @@
     "blocks": {
       "16333203053e86dead": {
         "type": "shopify:\/\/apps\/mlv-auto-currency-switcher\/blocks\/mlveda-currencies-head\/92ab730f-097e-4571-b27c-3f449e098ca3",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }
