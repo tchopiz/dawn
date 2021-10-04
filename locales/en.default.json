@@ -885,7 +885,57 @@
         "continue_to_payment_gateway_notice": "Continue to checkout to add your payment information.",
         "continue_to_payment_gateway_button_label": "Continue to payment",
         "complete_your_purchase_title_error": "Correct your payment details",
-        "continue_to_payment_gateway_notice_error": "Your payment information could not be verified."
+        "continue_to_payment_gateway_notice_error": "Your payment information could not be verified.",
+        "continue_to_payment_gateway_button_label_error": "Update payment information",
+        "page_title": "Order processing",
+        "title": "Order processing",
+        "your_order_has_been_received_title": "thank you for your order",
+        "you_will_receive_confirmation": "We are currently receiving a large number of orders.You should receive a confirmation by email or SMS shortly.If you do not receive it in the next hour, please let us know.",
+        "wait": {
+          "short": "Your order is being processed.",
+          "medium": {
+            "one": "Your order is being processed.The waiting time is estimated at 1 minute.",
+            "other": "Your order is being processed.The wait time is estimated to be% {count} minutes."
+          },
+          "long": "You will receive an email as soon as your order has been processed.There is currently a large volume of orders.",
+          "no_auto_refresh_html": "If you are not redirected automatically,% {link}.",
+          "refresh_this_page": "refresh this page"
+        },
+        "you_will_not_be_charged": "You will not be billed yet"
+      },
+      "failed_payment": {
+        "page_title": "Payment could not be processed",
+        "title": "Payment could not be processed",
+        "payment_not_processed_title": "Your payment could not be processed",
+        "payment_not_processed_text": "You have not been billed.Return to your cart to complete your purchase.",
+        "return_to_cart_button_label": "Back to basket"
+      },
+      "payment_gateway": {
+        "credit_card_label": "Credit card",
+        "bank_deposit_label": "Bank deposit",
+        "cash_on_delivery_label": "Cash on delivery",
+        "money_order_label": "Mandate"
+      },
+      "thank_you": {
+        "title": "Thank you for your purchase!",
+        "confirmation_email_sent_text": "A confirmation email has been sent to% {email}",
+        "return_to_store_link_label": "Return to the boutique",
+        "print_link_label": "To print",
+        "payment_information_title": "Payment information",
+        "shipping_information_title": "Delivery information",
+        "page_title": "Thank you% {display_name}!",
+        "page_title_no_name": "Thank you!",
+        "cancelled_page_title": "Cancelled order",
+        "customer_information_title": "Customer information",
+        "contact_information_title": "Contact details",
+        "billing_address_title": "Billing address",
+        "shipping_address_title": "Delivery address",
+        "shipping_address_map_title": "Google&#39;s map shows the location of the shipping address:% {address}",
+        "payment_method_title": "Means of payment",
+        "shipping_method_title": "Shipping method",
+        "tracking_number": "Tracking number :",
+        "company_tracking_number": "% {company} tracking number:",
+        "estimated_arrival": "Estimated date of delivery :"
       }
     }
   }
