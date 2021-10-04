@@ -1255,8 +1255,68 @@
       },
       "links": {
         "twitter": "تويتر",
-        "facebook": "الفيسبوك"
+        "facebook": "الفيسبوك",
+        "pinterest": "بينتيريست",
+        "instagram": "انستغرام",
+        "tumblr": "نعرفكم",
+        "snapchat": "سناب شات",
+        "youtube": "موقع يوتيوب",
+        "vimeo": "فيميو",
+        "tiktok": "تيك توك"
       }
+    },
+    "continue_shopping": "مواصلة التسوق",
+    "pagination": {
+      "label": "النداء",
+      "page": "رقم الصفحة}}",
+      "next": "التالى",
+      "previous": "الصفحة السابقة"
+    },
+    "search": {
+      "search": "بحث"
+    },
+    "cart": {
+      "view": "عرض عربة التسوق ({{count}})",
+      "item_added": "تمت إضافة العنصر إلى السلة"
+    },
+    "share": {
+      "close": "إغلاق المشاركة",
+      "copy_to_clipboard": "انسخ الرابط",
+      "share_url": "وصلة",
+      "success_message": "تم نسخ الرابط إلى الحافظة"
+    }
+  },
+  "date_formats": {
+    "month_year": "٪ بواسطة"
+  },
+  "newsletter": {
+    "label": "بريد الالكتروني",
+    "success": "نشكرك على التسجيل",
+    "button_label": "سجل الان"
+  },
+  "accessibility": {
+    "skip_to_text": "تخطي والذهاب إلى المحتوى",
+    "skip_to_product_info": "تخطي إلى معلومات المنتج",
+    "close": "اغلاق",
+    "unit_price_separator": "عبر",
+    "vendor": "الموزع:",
+    "error": "عيب",
+    "refresh_page": "اختيار اختيار تحديث الصفحة بأكملها.",
+    "link_messages": {
+      "new_window": "يفتح في نافذة جديدة.",
+      "external": "يفتح موقع خارجي."
+    },
+    "of": "تشغيل",
+    "next_slide": "حرك لليمين",
+    "previous_slide": "انزلق إلى اليسار",
+    "loading": "تحميل...",
+    "total_reviews": "إجمالي المراجعات",
+    "star_reviews_info": "{{rating_value}} على {{rating_max}} من النجوم"
+  },
+  "blogs": {
+    "article": {
+      "blog": "المدونة",
+      "read_more_title": "اقرأ المزيد: {{title}}"
     }
   }
 }
