@@ -391,5 +391,69 @@
       "copy_code_success": "El código se copió correctamente",
       "print_gift_card": "Imprimir"
     }
+  },
+  "shopify": {
+    "sentence": {
+      "last_word_connector": "y",
+      "two_words_connector": "y",
+      "words_connector": ","
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Pago",
+        "error_page_title": "Culpa",
+        "skip_to_content": "saltar al contenido",
+        "breadcrumb": "Hilo de Ariadna",
+        "continue_button_label": "seguir",
+        "complete_purchase_button_label": "Confirmar pago",
+        "pay_now_button_label": "Pagar ahora",
+        "authenticate_purchase_button_label": "Autenticar pago",
+        "edit_link_label": "Editar",
+        "all_rights_reserved": "Todos los derechos reservados% {shop_name}",
+        "print_policies_link_label": "Imprimir",
+        "cart": "Cesta",
+        "close_modal_label": "Cerrar",
+        "close_notice_label": "Cerrar",
+        "expand_notice_label": "Ver más",
+        "continue_to_shipping_method": "Continuar con el envío",
+        "continue_to_payment_method": "Continuar con el pago",
+        "continue_to_review": "Revisar orden",
+        "back_to_cart": "Volver a la cesta",
+        "back_to_contact_information": "Volver a la información",
+        "back_to_shipping_method": "Regreso al envío",
+        "back_to_payment_method": "Regreso al pago",
+        "choose_shipping_method": "Elija un método de envío",
+        "choose_payment_method": "Elija un método de pago",
+        "choose_billing_address": "Elija una dirección de facturación",
+        "contact_us_html": "Contáctenos para más información",
+        "autocomplete_title": "Sugerencias",
+        "autocomplete_single_item": "1 artículo disponible",
+        "autocomplete_multi_item": "{{number}} artículos disponibles",
+        "autocomplete_selection": "{{number}} de {{total}}",
+        "autocomplete_close": "Cerrar sugerencias",
+        "forwarding_indicator": {
+          "new_window": "Se abre en una nueva ventana.",
+          "external": "Abra un sitio externo.",
+          "external_and_new_window": "Abre un sitio externo en una nueva ventana."
+        },
+        "checkout_context": {
+          "step_one": "% {shop_name}: pago"
+        },
+        "tooltip_accessibility_label": "Más información"
+      },
+      "contact": {
+        "title": "Información",
+        "address_title": "Dirección",
+        "shipping_address_title": "Dirección de entrega",
+        "delivery_option_title": "Modo de entrega",
+        "contact_method_title": "Detalles de contacto",
+        "email_label": "Dirección de correo electrónico",
+        "email_placeholder": "Dirección de correo electrónico",
+        "email_or_phone_label": "Correo electrónico o número de móvil",
+        "email_or_phone_placeholder": "Correo electrónico o número de móvil",
+        "stored_addresses_label": "Direcciones registradas",
+        "new_address_label": "Usa una nueva dirección"
+      }
+    }
   }
 }
