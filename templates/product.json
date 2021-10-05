@@ -154,6 +154,7 @@
     },
     "16332991566c9b3667": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Nos produits vedettes",
         "collection": "produit-vedette",
