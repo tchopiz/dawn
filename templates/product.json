@@ -116,6 +116,41 @@
         "show_rating": false
       }
     },
+    "16334379553c85b422": {
+      "type": "rich-text",
+      "blocks": {
+        "16334379553c85b422-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Avez-vous un besoin particulier ?",
+            "heading_size": "h1"
+          }
+        },
+        "16334379553c85b422-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nous avons plusieurs produits que nous n'avons pas eu encore le temps de les ajouter sur notre site web. Si vous recherchez un produit qui n'est pas disponible dans notre listing, vous pouvez nous contacter directement via notre chat, nous vous répondrons dans l'heure qui suit.<\/p>"
+          }
+        },
+        "16334379553c85b422-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contactez-nous",
+            "button_link": "shopify:\/\/pages\/contactez-nous",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16334379553c85b422-0",
+        "16334379553c85b422-1",
+        "16334379553c85b422-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "16331281421af60cb0": {
       "type": "image-with-text",
       "blocks": {
@@ -177,6 +212,7 @@
   "order": [
     "main",
     "product-recommendations",
+    "16334379553c85b422",
     "16331281421af60cb0",
     "16332991566c9b3667",
     "1629746450643786911"
