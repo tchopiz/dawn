@@ -51,7 +51,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Miow.... Bienvenue chez Famzzle",
+              "text": "Bienvenue chez Famzzle",
               "color_scheme": "inverse",
               "link": "shopify:\/\/collections"
             }
