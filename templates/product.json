@@ -171,6 +171,7 @@
     },
     "16331281421af60cb0": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "16331281421af60cb0-0": {
           "type": "heading",
