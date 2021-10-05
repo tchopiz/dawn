@@ -169,7 +169,7 @@
         "16331281421af60cb0-2": {
           "type": "button",
           "settings": {
-            "button_label": "Nous contacter",
+            "button_label": "Postuler",
             "button_link": "shopify:\/\/pages\/contactez-nous"
           }
         }
