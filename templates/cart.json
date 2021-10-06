@@ -66,6 +66,7 @@
     },
     "featured-products": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Nos clients ont récemment achetés",
         "collection": "produit-vedette",
@@ -79,12 +80,19 @@
         "show_vendor": false,
         "show_rating": false
       }
+    },
+    "1633558195acab9f28": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "cart-items",
     "cart-footer",
     "163230983090ba5ad5",
-    "featured-products"
+    "featured-products",
+    "1633558195acab9f28"
   ]
 }
