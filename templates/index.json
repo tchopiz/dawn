@@ -27,14 +27,14 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-snapwire-730896_1_375x_35f68d7a-80fc-4b91-96b0-ae4d3a710d13.jpg",
-        "image_2": "shopify:\/\/shop_images\/7750D511-8767-45B3-9B29-1210E9816A9C_375x_b2c3f088-7d98-42ae-8300-1f72beca526a.jpg",
+        "image": "shopify:\/\/shop_images\/halloween-cat-costume.jpg",
+        "image_2": "shopify:\/\/shop_images\/cats-eye-and-costume.jpg",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
         "show_text_box": true,
         "image_overlay_opacity": 0,
         "color_scheme": "inverse",
-        "stack_images_on_mobile": false,
+        "stack_images_on_mobile": true,
         "show_text_below": true
       }
     },
