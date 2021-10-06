@@ -38,41 +38,6 @@
         "show_text_below": true
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Tout pour les amoureux des chats",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p> Nous sommes spécialisés dans les accessoires pour chats. vous trouvez des produits qui sont testés et validés par des milliers de clients à travers le monde .<\/p>"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Voit tout",
-            "button_link": "shopify:\/\/collections\/all",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
     "featured_products": {
       "type": "featured-collection",
       "settings": {
@@ -226,6 +191,41 @@
         "mobile_layout": "collage"
       }
     },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tout pour les amoureux des chats",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p> Nous sommes spécialisés dans les accessoires pour chats. vous trouvez des produits qui sont testés et validés par des milliers de clients à travers le monde .<\/p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Voit tout",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "1633129496e2979e5a": {
       "type": "image-with-text",
       "blocks": {
@@ -264,12 +264,12 @@
   },
   "order": [
     "image_banner",
-    "rich_text",
     "featured_products",
     "16329569762e1c4801",
     "video",
     "multi_column",
     "collage",
+    "rich_text",
     "1633129496e2979e5a"
   ]
 }
