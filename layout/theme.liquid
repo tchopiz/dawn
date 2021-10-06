@@ -49,75 +49,6 @@
     <script defer="" hs-load="true" src="{{ 'global.js' | asset_url }}" type="javascript/blocked"></script>
     {% capture cfh %}{{ content_for_header }} {% endcapture %}
 {% include 'swish-loader' %}
-    
-    <!-- Start of Localize Code Snippet for Shopify... -->
-  <script src="https://global.localizecdn.com/localize.js"></script>
-  <script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","getSourceLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget","getSourceLanguage"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
-
-  <script>
-    // Localize: See if user has switched to a supported language using the Shopify language widget.
-    Localize.on("initialize", function(data) {
-      var languageConverter = {
-        "zh-CN": "zh-Hans",
-        "jv": "jw",
-        "nn": "no",
-        "pt-PT": "pt",
-        "pt-br": "pt-BR",
-      };
-      var sourceLang = Localize.getSourceLanguage();
-      var curLang = Localize.getLanguage();
-      var urlLang = window.location.pathname.split('/')[1];
-      var newLang;
-
-      // Check if the Shopify language code is different than the Localize one.
-      if (languageConverter[urlLang]) {
-        urlLang = languageConverter[urlLang];
-      }
-         
-         
-      if (!urlLang && curLang != sourceLang) {
-        // We're on a page with nothing after the domain name, so we're switching back to the source language.
-        
-        newLang = sourceLang;
-      } else if (urlLang) {
-        // We're on a page with something after the domain name, check for a language code.
-        
-        let targetLang;
-        
-        Localize.getAvailableLanguages(function(err, localizeLangs) {
-          if (err) return console.log(err);
-
-          // Loop through the supported Localize languages to see if it matches the language in the URL.
-          if (localizeLangs) {
-            targetLang = localizeLangs.find(function (lzLang) {
-              return lzLang.code === urlLang;
-            });
-
-            
-            if (targetLang && curLang != targetLang.code) {
-              newLang = targetLang.code;
-            } else if (!targetLang && curLang != sourceLang) {
-              newLang = sourceLang;
-            }
-          }
-        });
-      }
-      
-      if (newLang) {
-        Localize.setLanguage(newLang);
-        console.log("Language changed from: " + curLang + " to: " + newLang);
-      }
-    });  
-    
-    Localize.initialize({
-      key: '[[app:key]]', 
-      rememberLanguage: true,
-      saveNewPhrasesFromSource: true,
-      disableWidget: true,
-      // other options go here, separated by commas
-    });
-  </script>
-  <!-- ...end of Localize Code Snippet for Shopify. -->
    
     
     {%- liquid
@@ -263,7 +194,7 @@
    
     
   
-{% include 'gtranslate', float: 'yes' %}
+{% include 'gtranslate' %}
 {% include 'cjpod' %}
 </body>
 </html>
