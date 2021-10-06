@@ -50,6 +50,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Bienvenue chez Famzzle. +7000 clients satisfaits",
               "color_scheme": "inverse",
