@@ -55,7 +55,7 @@
         "2c625b08-b0f9-4310-a02f-a26138c062da": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Livraison a l'internationale avec suivi",
+            "heading": "Livraison a domicile avec suivi",
             "content": "<p>Tout dépend de votre pays de destination, nous traitons  habituellement les commandes en 24 heures, hors week-end et jours fériés. Les délais de nos partenaires comme bpost, colissimo et dhl varient, exemple pour les livraisons nationales et pays limitrophes de 1-3 jours, pour l’international, généralement entre 1-3 semaines.<\/p>",
             "page": "",
             "icon": "truck"
@@ -65,7 +65,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Garantie 30 jours, satisfait ou remboursé",
-            "content": "<p><br\/>Nous avons effectué des milliers de livraisons avec succès à travers le monde via notre site internet et nos boutique Amazon et Ebay. En achetant chez nous, vous passer directement par les plateformes de paiement largement connu pour leurs fiabilités, comme Paypal et Stripe afin de passer commande. Zéro risque, en plus, vous pouvez à tout moment vérifier notre numéro de tva sur le site officiel de l’Union européenne.<\/p>",
+            "content": "<p><br\/>Nous avons effectué des milliers de livraisons avec succès à travers le monde. En achetant chez nous, vous passer directement par les plateformes de paiement largement connu pour leurs fiabilités, comme Paypal et Stripe afin de passer commande. <\/p><p>Zéro risque, vous pouvez à tout moment vérifier notre numéro de tva sur le site officiel de l’Union européenne.<\/p>",
             "page": "",
             "icon": "heart"
           }
