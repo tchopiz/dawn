@@ -105,6 +105,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "heading": "Vous pouvez également aimé",
         "image_ratio": "portrait",
