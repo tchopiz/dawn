@@ -66,11 +66,10 @@
     },
     "featured-products": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
-        "title": "Nos clients ont récemment achetés",
+        "title": "Si vous n'agissez pas rapidement, les articles de votre panier pourraient se vendre.",
         "collection": "produit-vedette",
-        "products_to_show": 6,
+        "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": false,
         "image_ratio": "square",
