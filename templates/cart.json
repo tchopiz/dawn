@@ -34,7 +34,7 @@
         "163230983090ba5ad5-0": {
           "type": "heading",
           "settings": {
-            "heading": "Nos atouts",
+            "heading": "Si vous n'agissez pas rapidement, les articles de votre panier pourraient se vendre.",
             "heading_size": "h1"
           }
         },
@@ -67,7 +67,7 @@
     "featured-products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Si vous n'agissez pas rapidement, les articles de votre panier pourraient se vendre.",
+        "title": "Les produits les plus consultés en ce moment",
         "collection": "produit-vedette",
         "products_to_show": 4,
         "show_view_all": true,
