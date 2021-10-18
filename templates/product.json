@@ -18,6 +18,13 @@
             "page": "livraison-et-remboursement"
           }
         },
+        "e552bef5-faec-4a09-995e-7fc64a89e55f": {
+          "type": "popup",
+          "settings": {
+            "text": "Traitement et expédition en 48 H",
+            "page": "livraison-et-remboursement"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -86,6 +93,7 @@
       "block_order": [
         "vendor",
         "360c8e1f-cc22-4733-9d44-37a8f4d4401b",
+        "e552bef5-faec-4a09-995e-7fc64a89e55f",
         "title",
         "subtitle",
         "price",
