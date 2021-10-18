@@ -50,9 +50,8 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Bienvenue chez Famzzle. +7000 clients satisfaits",
+              "text": "Bienvenue chez Famzzle. +7000 chats heureux",
               "color_scheme": "inverse",
               "link": "shopify:\/\/collections"
             }
@@ -86,7 +85,7 @@
           "footer-1": {
             "type": "text",
             "settings": {
-              "heading": "",
+              "heading": "Tout pour un chat heureux et en bonne santé",
               "subtext": "<p>Un problème pour passer commande ? Contactez-nous sur notre site web ou par e-mail : infos@famzzle.com.<\/p><p>Téléphone :  <a href=\"tel:0032-467-643-193\">0032-467-643-193<\/a> (9h\/17h) nous ferons notre possible pour vous aider.<\/p><p><br\/>TVA : BE0733918628<\/p>"
             }
           }
