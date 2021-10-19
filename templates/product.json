@@ -21,6 +21,7 @@
         },
         "e552bef5-faec-4a09-995e-7fc64a89e55f": {
           "type": "popup",
+          "disabled": true,
           "settings": {
             "text": "Traitement et expédition en 48 H",
             "page": "livraison-et-remboursement"
