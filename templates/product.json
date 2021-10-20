@@ -64,7 +64,7 @@
         "2c625b08-b0f9-4310-a02f-a26138c062da": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Livraison",
+            "heading": "Livraison a domicile avec suivi",
             "content": "<p>Livraison a domicile avec suivi : <br\/>Tout dépend de votre pays de destination, nous traitons habituellement les commandes en 24\/48 heures, hors week-end et jours fériés. Les délais de nos partenaires comme bpost, colissimo et dhl varient, exemple pour les livraisons nationales et pays limitrophes de 1-3 jours, pour l’international  entre 1-3 semaines.<\/p>",
             "page": "",
             "icon": "truck"
@@ -73,7 +73,7 @@
         "f540e44d-990a-4e45-858c-56ec4552a226": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Garantie",
+            "heading": "Garantie satisfait ou remboursé",
             "content": "<p>Garantie 30 jours, satisfait ou remboursé :<br\/>Nous avons effectué des milliers de livraisons avec succès à travers le monde. En achetant chez nous, vous passer directement par les plateformes de paiement largement connu pour leurs fiabilités, comme Paypal et Stripe afin de passer commande. <\/p><p>Zéro risque, vous pouvez à tout moment vérifier notre numéro de tva sur le site officiel de l’Union européenne. D’ailleurs nous vous conseillons de vérifier toujours que c’est une vraie entreprise qu’il y a derrière avant d’acheter.<\/p>",
             "page": "",
             "icon": "heart"
