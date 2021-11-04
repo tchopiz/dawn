@@ -1,10 +1,10 @@
 {
   "current": {
     "colors_solid_button_labels": "#f3f3f3",
-    "colors_accent_1": "#121212",
-    "colors_accent_2": "#121212",
+    "colors_accent_1": "#2c9f8a",
+    "colors_accent_2": "#2c9f8a",
     "colors_text": "#121212",
-    "colors_outline_button_labels": "#121212",
+    "colors_outline_button_labels": "#2c9f8a",
     "colors_background_1": "#ffffff",
     "colors_background_2": "#F3F3F3",
     "type_header_font": "assistant_n4",
@@ -16,8 +16,8 @@
     "currency_code_enabled": false,
     "checkout_header_image": "shopify:\/\/shop_images\/A6F9172A-FF49-4515-AE78-6709315D183E.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/A6F9172A-FF49-4515-AE78-6709315D183E.png",
-    "checkout_accent_color": "#b5838d",
-    "checkout_button_color": "#b5838d",
+    "checkout_accent_color": "#2c9f8a",
+    "checkout_button_color": "#2c9f8a",
     "mlvedaACS_roundDecimal": false,
     "mlvedaACS_positionLeft": "10px",
     "mlvedaACS_defaultCurrency": "EUR",
@@ -52,15 +52,16 @@
             "type": "announcement",
             "settings": {
               "text": "Bienvenue chez Famzzle. +7000 chats heureux",
-              "color_scheme": "inverse",
+              "color_scheme": "accent-1",
               "link": "shopify:\/\/collections"
             }
           },
           "112b1a5e-653a-453c-b214-83a162a4a796": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
-              "text": "Offre d’Halloween | Livraison offerte  | Valable jusqu'au 31 Octobre",
-              "color_scheme": "inverse",
+              "text": "Offre d’Halloween | Livraison offerte plus- 20 % avec ce code: famzzle20   | Valable jusqu'au 31 Octobre",
+              "color_scheme": "background-2",
               "link": "shopify:\/\/collections"
             }
           }
@@ -84,6 +85,7 @@
           },
           "footer-1": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "heading": "Tout pour un chat heureux et en bonne santé",
               "subtext": "<p>Un problème pour passer commande ? Contactez-nous sur notre site web ou par e-mail : infos@famzzle.com.<\/p><p>Téléphone :  <a href=\"tel:0032-467-643-193\">0032-467-643-193<\/a> (9h\/17h) nous ferons notre possible pour vous aider.<\/p><p><br\/>TVA : BE0733918628<\/p>"
@@ -95,7 +97,7 @@
           "footer-1"
         ],
         "settings": {
-          "color_scheme": "inverse",
+          "color_scheme": "accent-1",
           "newsletter_enable": true,
           "newsletter_heading": "Inscrivez-vous pour recevoir les dernières offres en premier.",
           "show_social": false,
