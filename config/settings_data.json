@@ -1,10 +1,10 @@
 {
   "current": {
     "colors_solid_button_labels": "#f3f3f3",
-    "colors_accent_1": "#2c9f8a",
-    "colors_accent_2": "#2c9f8a",
+    "colors_accent_1": "#6e2368",
+    "colors_accent_2": "#121212",
     "colors_text": "#121212",
-    "colors_outline_button_labels": "#2c9f8a",
+    "colors_outline_button_labels": "#6e2368",
     "colors_background_1": "#ffffff",
     "colors_background_2": "#F3F3F3",
     "type_header_font": "assistant_n4",

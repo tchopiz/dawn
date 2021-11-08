@@ -13,14 +13,14 @@
         },
         "360c8e1f-cc22-4733-9d44-37a8f4d4401b": {
           "type": "popup",
+          "disabled": true,
           "settings": {
-            "text": "( bientôt épuisé )",
+            "text": "- 20 % avec ce code: famzzle20 | Offre limitée ⏱",
             "page": "livraison-et-remboursement"
           }
         },
         "e552bef5-faec-4a09-995e-7fc64a89e55f": {
           "type": "popup",
-          "disabled": true,
           "settings": {
             "text": "Traitement et expédition en 48 H",
             "page": "livraison-et-remboursement"
@@ -57,7 +57,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         },
         "2c625b08-b0f9-4310-a02f-a26138c062da": {
@@ -167,7 +167,7 @@
       "settings": {
         "title": "Nos produits vedettes",
         "collection": "produit-vedette",
-        "products_to_show": 4,
+        "products_to_show": 6,
         "show_view_all": true,
         "swipe_on_mobile": false,
         "image_ratio": "adapt",
