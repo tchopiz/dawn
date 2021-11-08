@@ -13,7 +13,7 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Produits vedettes",
+            "button_label_1": "Meilleurs ventes",
             "button_link_1": "shopify:\/\/collections\/produit-vedette",
             "button_style_secondary_1": true,
             "button_label_2": "Voir tous nos produits",
@@ -40,6 +40,7 @@
     },
     "featured_products": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Nos produits vedettes",
         "collection": "produit-vedette",
