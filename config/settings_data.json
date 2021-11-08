@@ -1,10 +1,10 @@
 {
   "current": {
     "colors_solid_button_labels": "#f3f3f3",
-    "colors_accent_1": "#6e2368",
+    "colors_accent_1": "#121212",
     "colors_accent_2": "#121212",
     "colors_text": "#121212",
-    "colors_outline_button_labels": "#6e2368",
+    "colors_outline_button_labels": "#121212",
     "colors_background_1": "#ffffff",
     "colors_background_2": "#F3F3F3",
     "type_header_font": "assistant_n4",
@@ -16,8 +16,8 @@
     "currency_code_enabled": false,
     "checkout_header_image": "shopify:\/\/shop_images\/blue-eyed-persian-cat-by-window.jpg",
     "checkout_logo_image": "shopify:\/\/shop_images\/A6F9172A-FF49-4515-AE78-6709315D183E.png",
-    "checkout_accent_color": "#6e2368",
-    "checkout_button_color": "#6e2368",
+    "checkout_accent_color": "#121212",
+    "checkout_button_color": "#121212",
     "mlvedaACS_roundDecimal": false,
     "mlvedaACS_positionLeft": "10px",
     "mlvedaACS_defaultCurrency": "EUR",
