@@ -16,8 +16,8 @@
             "button_label_1": "Produits vedettes",
             "button_link_1": "shopify:\/\/collections\/produit-vedette",
             "button_style_secondary_1": true,
-            "button_label_2": "Voir toutes les collections",
-            "button_link_2": "shopify:\/\/collections",
+            "button_label_2": "Voir tous nos produits",
+            "button_link_2": "shopify:\/\/collections\/all",
             "button_style_secondary_2": true
           }
         }
@@ -154,6 +154,7 @@
     },
     "collage": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "81d2c4ce-8ddd-46de-8214-39935bda2478": {
           "type": "collection",
@@ -193,6 +194,7 @@
     },
     "rich_text": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
