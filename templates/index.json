@@ -228,6 +228,73 @@
         "full_width": true
       }
     },
+    "1636510907377e5fd9": {
+      "type": "featured-product",
+      "blocks": {
+        "1636510907377e5fd9-0": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "uppercase"
+          }
+        },
+        "1636510907377e5fd9-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "1636510907377e5fd9-2": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "subtitle"
+          }
+        },
+        "1636510907377e5fd9-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1636510907377e5fd9-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1636510907377e5fd9-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1636510907377e5fd9-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1636510907377e5fd9-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1636510907377e5fd9-0",
+        "1636510907377e5fd9-1",
+        "1636510907377e5fd9-2",
+        "1636510907377e5fd9-3",
+        "1636510907377e5fd9-4",
+        "1636510907377e5fd9-5",
+        "1636510907377e5fd9-6",
+        "1636510907377e5fd9-7"
+      ],
+      "settings": {
+        "product": "floating-massage-pet-needle-comb-cat-hair-cleaner",
+        "secondary_background": false,
+        "enable_video_looping": false
+      }
+    },
     "1633129496e2979e5a": {
       "type": "image-with-text",
       "blocks": {
@@ -272,6 +339,7 @@
     "multi_column",
     "collage",
     "rich_text",
+    "1636510907377e5fd9",
     "1633129496e2979e5a"
   ]
 }
