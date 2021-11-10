@@ -13,8 +13,8 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Meilleurs ventes",
-            "button_link_1": "shopify:\/\/collections\/produit-vedette",
+            "button_label_1": "",
+            "button_link_1": "",
             "button_style_secondary_1": true,
             "button_label_2": "Voir tous nos produits",
             "button_link_2": "shopify:\/\/collections\/all",
@@ -28,7 +28,6 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/halloween-cat-costume.jpg",
-        "image_2": "shopify:\/\/shop_images\/cats-eye-and-costume.jpg",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
         "show_text_box": true,
