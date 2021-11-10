@@ -116,7 +116,7 @@
       "type": "product-recommendations",
       "settings": {
         "heading": "Vous pouvez également aimé",
-        "image_ratio": "portrait",
+        "image_ratio": "square",
         "show_secondary_image": true,
         "add_image_padding": false,
         "show_image_outline": false,
