@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Bienvenue chez FAMZZLE",
+            "heading": "Jouets et accessoires pour chats",
             "heading_size": "medium"
           }
         },
@@ -27,7 +27,8 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/halloween-cat-costume.jpg",
+        "image": "shopify:\/\/shop_images\/brown-and-white-kitten-in-a-box.jpg",
+        "image_2": "shopify:\/\/shop_images\/kitten-supported-while-sat-on-a-book.jpg",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
         "show_text_box": true,
