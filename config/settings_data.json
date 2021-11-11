@@ -51,7 +51,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Bienvenue chez Famzzle",
+              "text": "Bienvenue chez Famzzle. Première commande chez nous ? 10% de réduction avec ce code : meow",
               "color_scheme": "accent-1",
               "link": "shopify:\/\/collections"
             }
