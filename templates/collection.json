@@ -2,9 +2,55 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": false,
         "show_collection_image": true
+      }
+    },
+    "1636593783ee1caee0": {
+      "type": "image-banner",
+      "blocks": {
+        "1636593783ee1caee0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Nouveauté Famzzle",
+            "heading_size": "medium"
+          }
+        },
+        "1636593783ee1caee0-1": {
+          "type": "text",
+          "settings": {
+            "text": "Certains de nos produits sont en exclusivité,."
+          }
+        },
+        "1636593783ee1caee0-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "En savoir plus",
+            "button_link_1": "shopify:\/\/products\/floating-massage-pet-needle-comb-cat-hair-cleaner",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1636593783ee1caee0-0",
+        "1636593783ee1caee0-1",
+        "1636593783ee1caee0-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4605614e-2ad6-47ca-b473-2c56a8c10801.jpg",
+        "image_2": "shopify:\/\/shop_images\/cd7e5f27-fcad-4495-8f5a-749e1d1d0dc1.jpg",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 30,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "product-grid": {
@@ -25,6 +71,7 @@
   },
   "order": [
     "banner",
+    "1636593783ee1caee0",
     "product-grid"
   ]
 }
