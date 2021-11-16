@@ -50,6 +50,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Bienvenue chez Famzzle. Première commande chez nous ? 10% de réduction avec ce code : meow",
               "color_scheme": "accent-1",
