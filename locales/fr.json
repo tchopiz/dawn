@@ -395,7 +395,7 @@
   "shopify": {
     "checkout": {
       "order_summary": {
-        "shipping_default_value": "Calculé a l'étape suivante"
+        "shipping_default_value": "Gratuit"
       }
     }
   }
