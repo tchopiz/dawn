@@ -14,21 +14,21 @@
         "1636593783ee1caee0-0": {
           "type": "heading",
           "settings": {
-            "heading": "Un état d'esprit",
+            "heading": "Massage et nettoyage automatique",
             "heading_size": "medium"
           }
         },
         "1636593783ee1caee0-1": {
           "type": "text",
           "settings": {
-            "text": "Notre objectif ne s'arrête pas juste à vendre mais à rendre service."
+            "text": "Découvrez notre dernière nouveauté"
           }
         },
         "1636593783ee1caee0-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Lire notre histoire",
-            "button_link_1": "shopify:\/\/pages\/histoire-de-famzzle",
+            "button_label_1": "Je découvre",
+            "button_link_1": "shopify:\/\/products\/floating-massage-pet-needle-comb-cat-hair-cleaner",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -42,8 +42,8 @@
         "1636593783ee1caee0-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/plastering-up-motivational-posters.jpg",
-        "image_2": "shopify:\/\/shop_images\/green-eyed-grey-cat.jpg",
+        "image": "shopify:\/\/shop_images\/4605614e-2ad6-47ca-b473-2c56a8c10801.jpg",
+        "image_2": "shopify:\/\/shop_images\/cd7e5f27-fcad-4495-8f5a-749e1d1d0dc1.jpg",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
         "show_text_box": true,
