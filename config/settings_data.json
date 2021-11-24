@@ -50,18 +50,16 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Bienvenue chez Famzzle. Première commande chez nous ? 10% de réduction avec ce code : meow",
+              "text": "Les grosses promotions du \"Black Friday\" ont déjà commencé chez U-Teeth",
               "color_scheme": "accent-1",
               "link": "shopify:\/\/collections"
             }
           },
           "112b1a5e-653a-453c-b214-83a162a4a796": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Offre d’Halloween | Livraison offerte plus- 20 % avec ce code: famzzle20   | Valable jusqu'au 31 Octobre",
+              "text": "Livraison gratuite pour toutes commandes supérieures à 20€",
               "color_scheme": "background-2",
               "link": "shopify:\/\/collections"
             }
