@@ -51,7 +51,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Les grosses promotions du \"Black Friday\" ont déjà commencé chez U-Teeth",
+              "text": "Les grosses promotions du \"Black Friday\" , c’est maintenant !",
               "color_scheme": "accent-1",
               "link": "shopify:\/\/collections"
             }
@@ -59,7 +59,7 @@
           "112b1a5e-653a-453c-b214-83a162a4a796": {
             "type": "announcement",
             "settings": {
-              "text": "Livraison gratuite pour toutes commandes supérieures à 20€",
+              "text": "Livraison gratuite pour toutes commandes",
               "color_scheme": "background-2",
               "link": "shopify:\/\/collections"
             }
