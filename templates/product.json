@@ -14,7 +14,7 @@
         "360c8e1f-cc22-4733-9d44-37a8f4d4401b": {
           "type": "popup",
           "settings": {
-            "text": "Attention les stocks sont limités",
+            "text": "En stock",
             "page": "livraison-et-remboursement"
           }
         },
