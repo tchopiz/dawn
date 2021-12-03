@@ -64,7 +64,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Livraison a domicile avec suivi",
-            "content": "<p>Livraison a domicile avec suivi : <br\/>Tout dépend de votre pays de destination, nous traitons habituellement les commandes en 24\/48 heures, hors week-end et jours fériés. Les délais de nos partenaires comme bpost, colissimo et dhl varient, exemple pour les livraisons nationales et pays limitrophes de 1-3 jours, pour l’international  entre 1-3 semaines.<\/p>",
+            "content": "<p>Livraison a domicile avec suivi : <br\/>Tout dépend de votre pays de destination, nous traitons habituellement les commandes en 24\/48 heures, hors week-end et jours fériés. <\/p>",
             "page": "",
             "icon": "truck"
           }
