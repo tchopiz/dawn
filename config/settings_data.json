@@ -50,9 +50,8 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Les grosses promotions du \"Black Friday\" , c’est maintenant !",
+              "text": "Les grosses promotions de \"Noël\" , c’est maintenant !",
               "color_scheme": "accent-1",
               "link": "shopify:\/\/collections"
             }
