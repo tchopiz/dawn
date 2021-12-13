@@ -50,6 +50,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Les grosses promotions de \"Noël\" , c’est maintenant !",
               "color_scheme": "accent-1",
@@ -58,9 +59,8 @@
           },
           "112b1a5e-653a-453c-b214-83a162a4a796": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Livraison gratuite pour toutes commandes",
+              "text": "Offre de Noël | Livraison gratuite pour toutes commandes",
               "color_scheme": "background-2",
               "link": "shopify:\/\/collections"
             }
