@@ -174,23 +174,23 @@
     },
     "rich_text": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Tout pour les amoureux des chats",
+            "heading": "Dites adieux au problèmes des poils",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p> Nous sommes spécialisés dans les accessoires pour chats. vous trouvez des produits qui sont testés et validés par des milliers de clients à travers le monde .<\/p>"
+            "text": "<p>Testés et validés par des milliers de clients à travers le monde .<\/p>"
           }
         },
         "button": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Voit tout",
             "button_link": "shopify:\/\/collections\/all",
