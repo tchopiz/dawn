@@ -99,52 +99,6 @@
         "show_rating": false
       }
     },
-    "16329569762e1c4801": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "16329569762e1c4801-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Meuble protection",
-            "heading_size": "medium"
-          }
-        },
-        "16329569762e1c4801-1": {
-          "type": "text",
-          "settings": {
-            "text": "Avoir des beaux meubles c'est bien, les protéger des griffes des chats c'est encore mieux."
-          }
-        },
-        "16329569762e1c4801-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Acheter maintenant",
-            "button_link_1": "shopify:\/\/products\/protections-des-meubles-des-griffes-danimaux-de-compagnie",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "16329569762e1c4801-0",
-        "16329569762e1c4801-1",
-        "16329569762e1c4801-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/blue-eyed-cat-peeking.jpg",
-        "image_2": "shopify:\/\/shop_images\/a-blue-point-himalayan-sits-at-a-desk.jpg",
-        "adapt_height_first_image": true,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "accent-2",
-        "stack_images_on_mobile": false,
-        "show_text_below": true
-      }
-    },
     "video": {
       "type": "video",
       "settings": {
@@ -254,6 +208,50 @@
         "full_width": true
       }
     },
+    "16329569762e1c4801": {
+      "type": "image-banner",
+      "blocks": {
+        "16329569762e1c4801-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Leurs maitres aussi",
+            "heading_size": "medium"
+          }
+        },
+        "16329569762e1c4801-1": {
+          "type": "text",
+          "settings": {
+            "text": "Petit à petit notre produit devient indispensable pour traiter les poils  des chats, chiens, lapins...."
+          }
+        },
+        "16329569762e1c4801-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Acheter maintenant",
+            "button_link_1": "shopify:\/\/products\/protections-des-meubles-des-griffes-danimaux-de-compagnie",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16329569762e1c4801-0",
+        "16329569762e1c4801-1",
+        "16329569762e1c4801-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/order_now_2.jpg",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "accent-2",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "1636510907377e5fd9": {
       "type": "featured-product",
       "disabled": true,
@@ -324,7 +322,6 @@
     },
     "1633129496e2979e5a": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "1633129496e2979e5a-0": {
           "type": "heading",
@@ -363,11 +360,11 @@
     "1644099754ef180575",
     "image_banner",
     "featured_products",
-    "16329569762e1c4801",
     "video",
     "multi_column",
     "collage",
     "rich_text",
+    "16329569762e1c4801",
     "1636510907377e5fd9",
     "1633129496e2979e5a"
   ]
