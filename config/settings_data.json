@@ -60,7 +60,7 @@
           "112b1a5e-653a-453c-b214-83a162a4a796": {
             "type": "announcement",
             "settings": {
-              "text": "Livraison gratuite pour toutes commandes",
+              "text": "Livraison gratuite pour toutes commandes. Acheter maintenant",
               "color_scheme": "background-2",
               "link": "shopify:\/\/collections"
             }
