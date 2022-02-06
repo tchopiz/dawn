@@ -215,6 +215,7 @@
     },
     "1629746450643786911": {
       "type": "areviews-section",
+      "disabled": true,
       "settings": {
       }
     }
