@@ -9,7 +9,7 @@
       "login_form_submit": "Saisir",
       "modal": "Mot de passe modal",
       "admin_link_html": "La boutique vous appartient-elle ? <a href=\"\/admin\" class=\"link underlined-link\">Se connecter ici<\/a>",
-      "powered_by_shopify_html": "Cette boutique sera propulsée par {{ shopify }}"
+      "powered_by_shopify_html": " "
     },
     "social": {
       "alt_text": {
@@ -397,6 +397,9 @@
       "order_summary": {
         "shipping_default_value": "Gratuit"
       }
+    },
+    "links": {
+      "powered_by_shopify": " "
     }
   }
 }
