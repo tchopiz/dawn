@@ -87,7 +87,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Nos produits",
-        "collection": "nos-produits",
+        "collection": "famzzle-puzzle-game",
         "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": false,
@@ -148,7 +148,7 @@
     "video": {
       "type": "video",
       "settings": {
-        "heading": "La bonne veille méthode avec une touche d'innovation",
+        "heading": "Réinventez le brossage avec douceur",
         "cover_image": "shopify:\/\/shop_images\/2_Brossage_et_desinfection_pour_chat_480x480_ac745f93-0ce3-4249-a5f1-c4acbf12b9c0.gif",
         "video_url": "https:\/\/www.youtube.com\/watch?v=2d1qnEALdR4",
         "description": "",
@@ -199,40 +199,21 @@
     },
     "collage": {
       "type": "collage",
-      "disabled": true,
       "blocks": {
-        "81d2c4ce-8ddd-46de-8214-39935bda2478": {
-          "type": "collection",
+        "af0bc586-e022-4d6c-8568-28af67b010ef": {
+          "type": "image",
           "settings": {
-            "collection": "jouet-et-jeu",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        },
-        "55292e00-6449-4e46-80db-36c416df61c7": {
-          "type": "collection",
-          "settings": {
-            "collection": "toilettage-soins",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        },
-        "collection": {
-          "type": "collection",
-          "settings": {
-            "collection": "special-halloween-2021",
+            "image": "shopify:\/\/shop_images\/order_now_4.jpg",
             "image_padding": false,
             "color_scheme": "background-1"
           }
         }
       },
       "block_order": [
-        "81d2c4ce-8ddd-46de-8214-39935bda2478",
-        "55292e00-6449-4e46-80db-36c416df61c7",
-        "collection"
+        "af0bc586-e022-4d6c-8568-28af67b010ef"
       ],
       "settings": {
-        "heading": "Découvrez aussi toutes nos collections",
+        "heading": "Optez pour une brosse anti poils !  les animaux l'adorent.",
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
