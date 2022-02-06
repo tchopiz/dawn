@@ -78,9 +78,8 @@
         "blocks": {
           "footer-0": {
             "type": "link_list",
-            "disabled": true,
             "settings": {
-              "heading": "C’est votre première commande chez nous ? 10% de réduction avec ce code : famzzle10",
+              "heading": "A propos de nous :",
               "menu": "footer"
             }
           },
