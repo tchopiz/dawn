@@ -1,16 +1,6 @@
-{% if request.page_type == 'product' %}
+{% if request.page_type == 'index' %}
 {%- capture dhseo_meta_title -%}
-{{ product.title }} -{{ shop.name }} {{ product.type }} 
-{%- endcapture -%}
-{% endif %}
-{% if request.page_type == 'article' %}
-{%- capture dhseo_meta_title -%}
--{{ shop.name }} {{ article.title }} 
-{%- endcapture -%}
-{% endif %}
-{% if request.page_type == 'page' %}
-{%- capture dhseo_meta_title -%}
-{{ page.title }} -{{ shop.name }} 
+{{ page_title }} | {{ shop.name }}
 {%- endcapture -%}
 {% endif %}
 {% if dhseo_meta_title %}

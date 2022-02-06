@@ -1,16 +1,6 @@
-{% if request.page_type == 'product' %}
+{% if request.page_type == 'index' %}
 {%- capture dhseo_meta_description -%}
-{{ product.description | truncatewords: 150, '' }} -{{ shop.name }} 
-{%- endcapture -%}
-{% endif %}
-{% if request.page_type == 'article' %}
-{%- capture dhseo_meta_description -%}
-{{ article.excerpt_or_content | truncatewords: 150, ''}} -{{ shop.name }} 
-{%- endcapture -%}
-{% endif %}
-{% if request.page_type == 'page' %}
-{%- capture dhseo_meta_description -%}
-{{ page_description | truncatewords: 150, '' }} -{{ shop.name }} 
+{{ page_description }} | {{ shop.name }}
 {%- endcapture -%}
 {% endif %}
 {% if dhseo_meta_description %}
