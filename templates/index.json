@@ -228,7 +228,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Acheter maintenant",
-            "button_link_1": "shopify:\/\/products\/protections-des-meubles-des-griffes-danimaux-de-compagnie",
+            "button_link_1": "shopify:\/\/products\/nouveaute-famzzle-brosse-nettoyage-massage-animaux",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -247,7 +247,7 @@
         "desktop_text_box_position": "center",
         "show_text_box": true,
         "image_overlay_opacity": 0,
-        "color_scheme": "accent-2",
+        "color_scheme": "accent-1",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
