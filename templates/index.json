@@ -151,27 +151,6 @@
         "swipe_on_mobile": false
       }
     },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "af0bc586-e022-4d6c-8568-28af67b010ef": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/order_now_4.jpg",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        }
-      },
-      "block_order": [
-        "af0bc586-e022-4d6c-8568-28af67b010ef"
-      ],
-      "settings": {
-        "heading": "Optez pour une brosse anti poils !  les animaux l'adorent.",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
-      }
-    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -206,6 +185,27 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
+      }
+    },
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "af0bc586-e022-4d6c-8568-28af67b010ef": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/order_now_4.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "af0bc586-e022-4d6c-8568-28af67b010ef"
+      ],
+      "settings": {
+        "heading": "Optez pour une brosse anti poils !  les animaux l'adorent.",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
       }
     },
     "16329569762e1c4801": {
@@ -362,8 +362,8 @@
     "featured_products",
     "video",
     "multi_column",
-    "collage",
     "rich_text",
+    "collage",
     "16329569762e1c4801",
     "1636510907377e5fd9",
     "1633129496e2979e5a"
