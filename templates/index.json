@@ -187,41 +187,6 @@
         "full_width": true
       }
     },
-    "1633129496e2979e5a": {
-      "type": "image-with-text",
-      "blocks": {
-        "1633129496e2979e5a-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Rejoignez notre programme d'affiliation"
-          }
-        },
-        "1633129496e2979e5a-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Partagez-vous des vidéos ou images de votre animal de compagnie sur les réseaux sociaux ? Si c'est oui, saviez-vous que vous pouvez gagner de l'argent en collaborant avec nous ? <\/p>"
-          }
-        },
-        "1633129496e2979e5a-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Nous contacter",
-            "button_link": "shopify:\/\/pages\/contactez-nous"
-          }
-        }
-      },
-      "block_order": [
-        "1633129496e2979e5a-0",
-        "1633129496e2979e5a-1",
-        "1633129496e2979e5a-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/A6F9172A-FF49-4515-AE78-6709315D183E.png",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
-    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -288,6 +253,41 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "1633129496e2979e5a": {
+      "type": "image-with-text",
+      "blocks": {
+        "1633129496e2979e5a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rejoignez notre programme d'affiliation"
+          }
+        },
+        "1633129496e2979e5a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Partagez-vous des vidéos ou images de votre animal de compagnie sur les réseaux sociaux ? Si c'est oui, saviez-vous que vous pouvez gagner de l'argent en collaborant avec nous ? <\/p>"
+          }
+        },
+        "1633129496e2979e5a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Nous contacter",
+            "button_link": "shopify:\/\/pages\/contactez-nous"
+          }
+        }
+      },
+      "block_order": [
+        "1633129496e2979e5a-0",
+        "1633129496e2979e5a-1",
+        "1633129496e2979e5a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/A6F9172A-FF49-4515-AE78-6709315D183E.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
@@ -297,8 +297,8 @@
     "video",
     "multi_column",
     "rich_text",
-    "1633129496e2979e5a",
     "collage",
-    "16329569762e1c4801"
+    "16329569762e1c4801",
+    "1633129496e2979e5a"
   ]
 }
