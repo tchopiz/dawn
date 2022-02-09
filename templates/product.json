@@ -161,7 +161,6 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "disabled": true,
       "settings": {
         "heading": "Découvrez aussi :",
         "image_ratio": "square",
