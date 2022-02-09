@@ -125,7 +125,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "Vous pouvez également aimé",
+        "heading": "Découvrez aussi :",
         "image_ratio": "square",
         "show_secondary_image": true,
         "add_image_padding": false,
