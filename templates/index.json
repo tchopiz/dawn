@@ -157,14 +157,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Dites adieux au problèmes des poils",
+            "heading": "Dites adieux aux problèmes des poils",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Testés et validés par des milliers de clients à travers le monde .<\/p>"
+            "text": "<p>Testés et validés par des milliers de clients à travers le monde.<\/p>"
           }
         },
         "button": {
