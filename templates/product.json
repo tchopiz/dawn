@@ -62,6 +62,7 @@
         },
         "83aec08e-b0de-43a7-88bb-c33643b83d10": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "L'occasion idéale de penser à votre animal",
             "content": "<p>Profiter de la promotion pour faire plaisir a vote fidèle ami de tous les jours<\/p>",
