@@ -18,14 +18,6 @@
             "page": "livraison-et-remboursement"
           }
         },
-        "e552bef5-faec-4a09-995e-7fc64a89e55f": {
-          "type": "popup",
-          "disabled": true,
-          "settings": {
-            "text": "Traitement et expédition en 48 H",
-            "page": "livraison-et-remboursement"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -58,6 +50,23 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false
+          }
+        },
+        "e552bef5-faec-4a09-995e-7fc64a89e55f": {
+          "type": "popup",
+          "disabled": true,
+          "settings": {
+            "text": "Traitement et expédition en 48 H",
+            "page": "livraison-et-remboursement"
+          }
+        },
+        "83aec08e-b0de-43a7-88bb-c33643b83d10": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "L'occasion idéale de penser à votre animal",
+            "content": "<p>Profiter de la promotion pour faire plaisir a vote fidèle ami de tous les jours<\/p>",
+            "page": "",
+            "icon": "box"
           }
         },
         "2c625b08-b0f9-4310-a02f-a26138c062da": {
@@ -94,13 +103,14 @@
       "block_order": [
         "vendor",
         "360c8e1f-cc22-4733-9d44-37a8f4d4401b",
-        "e552bef5-faec-4a09-995e-7fc64a89e55f",
         "title",
         "subtitle",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "e552bef5-faec-4a09-995e-7fc64a89e55f",
+        "83aec08e-b0de-43a7-88bb-c33643b83d10",
         "2c625b08-b0f9-4310-a02f-a26138c062da",
         "f540e44d-990a-4e45-858c-56ec4552a226",
         "description",
