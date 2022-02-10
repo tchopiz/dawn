@@ -96,7 +96,7 @@
           "footer-1"
         ],
         "settings": {
-          "color_scheme": "background-2",
+          "color_scheme": "accent-1",
           "newsletter_enable": true,
           "newsletter_heading": "Inscrivez-vous pour recevoir les dernières offres en premier.",
           "show_social": false,
