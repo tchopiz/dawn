@@ -162,7 +162,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "Découvrez aussi :",
+        "heading": "Découvrez aussi nos autres produits",
         "image_ratio": "square",
         "show_secondary_image": true,
         "add_image_padding": false,
