@@ -107,7 +107,7 @@
     "product": {
       "add_to_cart": "Ajouter au panier",
       "description": "Description",
-      "on_sale": "Pendant ce week-end ",
+      "on_sale": "Offre du week-end ",
       "product_variants": "Variantes de produits",
       "quantity": {
         "label": "Quantité",
