@@ -200,7 +200,7 @@
       "cart_quantity_error_html": "Vous ne pouvez ajouter que [quantité] de cet article à votre panier.",
       "taxes_and_shipping_policy_at_checkout_html": "Taxes et <a href=\"{{ link }}\">frais d'expédition<\/a> calculé a l'étape suivante",
       "taxes_included_but_shipping_at_checkout": "Taxes incluses et frais d'expédition Gratuit",
-      "taxes_included_and_shipping_policy_html": "Taxes incluses. <a href=\"{{ link }}\">Frais d'expédition<\/a> Gratuit",
+      "taxes_included_and_shipping_policy_html": "Taxes incluses. <a href=\"{{ link }}\">Frais d'expédition<\/a> Livraison gratuite",
       "taxes_and_shipping_at_checkout": "Taxes et frais d'expédition inclus dans le prix.",
       "headings": {
         "product": "Produit",
