@@ -6,7 +6,7 @@
         "16440997542ac3bc84-0": {
           "type": "heading",
           "settings": {
-            "heading": "Famzzle brush",
+            "heading": "Famzzle",
             "heading_size": "medium"
           }
         },
@@ -34,8 +34,7 @@
         "16440997542ac3bc84-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/order_now_13.jpg",
-        "image_2": "shopify:\/\/shop_images\/order_now_1.jpg",
+        "image": "shopify:\/\/shop_images\/order_now_1.jpg",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
         "show_text_box": true,
