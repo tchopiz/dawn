@@ -108,48 +108,6 @@
         "full_width": false
       }
     },
-    "multi_column": {
-      "type": "multicolumn",
-      "disabled": true,
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
-    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -162,6 +120,7 @@
         },
         "text": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Testés et validés par des milliers de clients à travers le monde.<\/p>"
           }
@@ -184,6 +143,50 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
+      }
+    },
+    "multi_column": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/final_62058dae5c6e6c010de16af3_976911.gif",
+            "title": "Pratique",
+            "text": "<p>Brosse adoptée de suite par notre chienne les piques sont doux elle est facile d'utilisation et quel bonheur de pouvoir retirer les poils en toute simplicité. Elle est parfaite pour retirer poil et sous poils je vous la recommande &lt;&lt; Sandra &gt;&gt;<\/p>"
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/final_620592a1fb53910134e91ff9_478930.gif",
+            "title": "Magique",
+            "text": "<p>Produit INCROYABLEMENT efficace, d'abord mon chien adore, le système pour retirer les poils est ULTRA pratique, LA MEILLEURE BROSSE sur le marché DONC INDISPENSABLE pour chat ou chien ou lapin ou autres. Un grand MERCI pour cette invention. &lt;&lt; Nathan &gt;&gt;<\/p>"
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/final_620592a1fb53910134e91ff9_421777.gif",
+            "title": "Génial",
+            "text": "<p>Ma chatte l’adore. Elle vient se gratter dessus.<br\/>J’aime bien le fait qu’il y ai un bouton qui permets de pousser les poils car cela rends le nettoyage plus facile. &lt;&lt; Sylvie &gt;&gt;<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "Testés et validés par des milliers de clients à travers le monde.",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Acheter maintenant",
+        "button_link": "shopify:\/\/products\/famzzle-tournesol-brosse-de-nettoyage-massage",
+        "swipe_on_mobile": false
       }
     },
     "collage": {
@@ -302,8 +305,8 @@
     "featured_products",
     "image_banner",
     "video",
-    "multi_column",
     "rich_text",
+    "multi_column",
     "collage",
     "16329569762e1c4801",
     "1633129496e2979e5a",
