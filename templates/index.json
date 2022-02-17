@@ -292,6 +292,7 @@
     },
     "16451372324b8cd412": {
       "type": "areviews-section",
+      "disabled": true,
       "settings": {
       }
     }
