@@ -289,6 +289,11 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "16451372324b8cd412": {
+      "type": "areviews-section",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -300,6 +305,7 @@
     "rich_text",
     "collage",
     "16329569762e1c4801",
-    "1633129496e2979e5a"
+    "1633129496e2979e5a",
+    "16451372324b8cd412"
   ]
 }
