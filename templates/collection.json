@@ -20,6 +20,7 @@
         },
         "1636593783ee1caee0-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Découvrez notre dernière nouveauté"
           }
