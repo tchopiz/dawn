@@ -148,20 +148,20 @@
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/final_62058dae5c6e6c010de16af3_976911.gif",
-            "title": "Pratique",
-            "text": "<p>Brosse adoptée de suite par notre chienne les piques sont doux elle est facile d'utilisation et quel bonheur de pouvoir retirer les poils en toute simplicité. Elle est parfaite pour retirer poil et sous poils je vous la recommande &lt;&lt; Sandra &gt;&gt;<\/p>"
-          }
-        },
         "column2": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/final_620592a1fb53910134e91ff9_478930.gif",
             "title": "Magique",
             "text": "<p>Produit INCROYABLEMENT efficace, d'abord mon chien adore, le système pour retirer les poils est ULTRA pratique, LA MEILLEURE BROSSE sur le marché DONC INDISPENSABLE pour chat ou chien ou lapin ou autres. Un grand MERCI pour cette invention. &lt;&lt; Nathan &gt;&gt;<\/p>"
+          }
+        },
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/final_62058dae5c6e6c010de16af3_976911.gif",
+            "title": "Pratique",
+            "text": "<p>Brosse adoptée de suite par notre chienne les piques sont doux elle est facile d'utilisation et quel bonheur de pouvoir retirer les poils en toute simplicité. Elle est parfaite pour retirer poil et sous poils je vous la recommande &lt;&lt; Sandra &gt;&gt;<\/p>"
           }
         },
         "column3": {
@@ -174,8 +174,8 @@
         }
       },
       "block_order": [
-        "column1",
         "column2",
+        "column1",
         "column3"
       ],
       "settings": {
@@ -213,12 +213,11 @@
     },
     "16329569762e1c4801": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "16329569762e1c4801-0": {
           "type": "heading",
           "settings": {
-            "heading": "Leurs maitres aussi",
+            "heading": "87% de taux de satisfaction",
             "heading_size": "medium"
           }
         },
@@ -292,12 +291,6 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
-    },
-    "16451372324b8cd412": {
-      "type": "areviews-section",
-      "disabled": true,
-      "settings": {
-      }
     }
   },
   "order": [
@@ -309,7 +302,6 @@
     "multi_column",
     "collage",
     "16329569762e1c4801",
-    "1633129496e2979e5a",
-    "16451372324b8cd412"
+    "1633129496e2979e5a"
   ]
 }
