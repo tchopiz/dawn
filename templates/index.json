@@ -44,23 +44,6 @@
         "show_text_below": true
       }
     },
-    "featured_products": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Nos produits",
-        "collection": "nos-produits",
-        "products_to_show": 8,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "disabled": true,
@@ -97,16 +80,6 @@
         "color_scheme": "inverse",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "Réinventez le brossage avec douceur & amour",
-        "cover_image": "shopify:\/\/shop_images\/Brossage_et_desinfection_pour_chat.gif",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=2d1qnEALdR4",
-        "description": "",
-        "full_width": false
       }
     },
     "rich_text": {
@@ -188,6 +161,32 @@
         "button_label": "Acheter maintenant",
         "button_link": "shopify:\/\/products\/famzzle-tournesol-brosse-de-nettoyage-massage",
         "swipe_on_mobile": false
+      }
+    },
+    "video": {
+      "type": "video",
+      "settings": {
+        "heading": "Réinventez le brossage avec douceur & amour",
+        "cover_image": "shopify:\/\/shop_images\/Brossage_et_desinfection_pour_chat.gif",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=2d1qnEALdR4",
+        "description": "",
+        "full_width": false
+      }
+    },
+    "featured_products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Nos produits",
+        "collection": "nos-produits",
+        "products_to_show": 8,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
       }
     },
     "collage": {
@@ -296,11 +295,11 @@
   },
   "order": [
     "1644099754ef180575",
-    "featured_products",
     "image_banner",
-    "video",
     "rich_text",
     "multi_column",
+    "video",
+    "featured_products",
     "collage",
     "16329569762e1c4801",
     "1633129496e2979e5a"
