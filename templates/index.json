@@ -176,8 +176,8 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Nos produits",
-        "collection": "nos-produits",
+        "title": "Nos brosses manuels autonettoyante",
+        "collection": "nos-brosses-manuels-autonettoyante",
         "products_to_show": 8,
         "show_view_all": true,
         "swipe_on_mobile": true,
