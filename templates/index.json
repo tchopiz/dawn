@@ -46,6 +46,7 @@
     },
     "featured_products": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Nos produits",
         "collection": "nos-produits",
