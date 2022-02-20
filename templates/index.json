@@ -23,7 +23,7 @@
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
             "button_label_2": "Je veux l'acheter maintenant",
-            "button_link_2": "shopify:\/\/products\/famzzle-tournesol-brosse-de-nettoyage-massage",
+            "button_link_2": "shopify:\/\/products\/brosse-anti-poils-en-forme-de-tournesol",
             "button_style_secondary_2": false
           }
         }
@@ -159,7 +159,7 @@
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "Acheter maintenant",
-        "button_link": "shopify:\/\/products\/famzzle-tournesol-brosse-de-nettoyage-massage",
+        "button_link": "shopify:\/\/products\/brosse-anti-poils-en-forme-de-tournesol",
         "swipe_on_mobile": false
       }
     },
@@ -231,7 +231,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Acheter maintenant",
-            "button_link_1": "shopify:\/\/products\/famzzle-tournesol-brosse-de-nettoyage-massage",
+            "button_link_1": "shopify:\/\/products\/brosse-anti-poils-en-forme-de-tournesol",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
