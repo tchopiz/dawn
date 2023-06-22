@@ -1520,20 +1520,10 @@
     },
     "filters": {
       "availability": {
-        "label": "Disponibilidad",
         "value": {
           "in_stock": "En stock",
           "out_of_stock": "En ruptura de stock"
         }
-      },
-      "vendor": {
-        "label": "Marcos"
-      },
-      "price": {
-        "label": "Premio"
-      },
-      "product_type": {
-        "label": "Tipo de producto"
       }
     },
     "search": {

@@ -1510,20 +1510,10 @@
     },
     "filters": {
       "availability": {
-        "label": "Availablity",
         "value": {
           "in_stock": "In stock",
           "out_of_stock": "Out of stock"
         }
-      },
-      "vendor": {
-        "label": "Mark"
-      },
-      "price": {
-        "label": "Price"
-      },
-      "product_type": {
-        "label": "Type of product"
       }
     },
     "search": {

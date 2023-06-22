@@ -1127,20 +1127,10 @@
     },
     "filters": {
       "availability": {
-        "label": "إتاحة",
         "value": {
           "in_stock": "في المخزن",
           "out_of_stock": "إنتهى من المخزن"
         }
-      },
-      "vendor": {
-        "label": "علامة"
-      },
-      "price": {
-        "label": "سعر"
-      },
-      "product_type": {
-        "label": "نوع المنتوج"
       }
     },
     "search": {
