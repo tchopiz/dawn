@@ -68,7 +68,7 @@
       <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}
 
-    {% render 'hs-minify-css' with filename: 'template-giftcard.css' %}
+    {% render 'hs-minify-css' with filename, filename: 'template-giftcard.css' %}
   </head>
 
   <body>
@@ -175,3 +175,14 @@
     });
   });
 </script>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'hs-minify-css' with filename: 'template-giftcard.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'template-giftcard.css'
+    %}"
+  position: 3944..4021
+{% endcomment %}

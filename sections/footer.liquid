@@ -1,5 +1,5 @@
 {% comment %}theme-check-disable UndefinedObject{% endcomment %}
-{% render 'hs-minify-css' with filename: 'section-footer.css' %}
+{% render 'hs-minify-css' with filename, filename: 'section-footer.css' %}
 <link rel="stylesheet" href="{{ 'component-newsletter.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-list-menu.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-list-payment.css' | asset_url }}" media="print" onload="this.media='all'">
@@ -543,3 +543,13 @@
 }
 {% endschema %}
 <script src='https://swishapp.digital/static/footerLoader.min.js' defer></script>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'hs-minify-css' with filename: 'section-footer.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'section-footer.css' %}"
+  position: 65..139
+{% endcomment %}

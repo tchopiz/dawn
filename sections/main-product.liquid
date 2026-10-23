@@ -1,10 +1,10 @@
 {% comment %}theme-check-disable TemplateLength{% endcomment %}
-{% render 'hs-minify-css' with filename: 'section-main-product.css' %}
-{% render 'hs-minify-css' with filename: 'component-accordion.css' %}
-{% render 'hs-minify-css' with filename: 'component-price.css' %}
-{% render 'hs-minify-css' with filename: 'component-rte.css' %}
-{% render 'hs-minify-css' with filename: 'component-slider.css' %}
-{% render 'hs-minify-css' with filename: 'component-rating.css' %}
+{% render 'hs-minify-css' with filename, filename: 'section-main-product.css' %}
+{% render 'hs-minify-css' with filename, filename: 'component-accordion.css' %}
+{% render 'hs-minify-css' with filename, filename: 'component-price.css' %}
+{% render 'hs-minify-css' with filename, filename: 'component-rte.css' %}
+{% render 'hs-minify-css' with filename, filename: 'component-slider.css' %}
+{% render 'hs-minify-css' with filename, filename: 'component-rating.css' %}
 
 <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
 
@@ -12,7 +12,7 @@
 
 {%- assign first_3d_model = product.media | where: "media_type", "model" | first -%}
 {%- if first_3d_model -%}
-  {% render 'hs-minify-css' with filename: 'component-product-model.css' %}
+  {% render 'hs-minify-css' with filename, filename: 'component-product-model.css' %}
   <link id="ModelViewerStyle" rel="stylesheet" href="https://cdn.shopify.com/shopifycloud/model-viewer-ui/assets/v1.0/model-viewer-ui.css" media="print" onload="this.media='all'">
   <link id="ModelViewerOverride" rel="stylesheet" href="{{ 'component-model-viewer-ui.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
@@ -290,7 +290,7 @@
                 {%- endform -%}
               </product-form>
 
-              {% render 'hs-minify-css' with filename: 'component-pickup-availability.css' %}
+              {% render 'hs-minify-css' with filename, filename: 'component-pickup-availability.css' %}
 
               {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true -%}
 
@@ -845,3 +845,39 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'hs-minify-css' with filename: 'section-main-product.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'section-main-product.css'
+    %}"
+  position: 64..144
+- from: "{% render 'hs-minify-css' with filename: 'component-accordion.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-accordion.css'
+    %}"
+  position: 145..224
+- from: "{% render 'hs-minify-css' with filename: 'component-price.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-price.css' %}"
+  position: 225..300
+- from: "{% render 'hs-minify-css' with filename: 'component-rte.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-rte.css' %}"
+  position: 301..374
+- from: "{% render 'hs-minify-css' with filename: 'component-slider.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-slider.css' %}"
+  position: 375..451
+- from: "{% render 'hs-minify-css' with filename: 'component-rating.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-rating.css' %}"
+  position: 452..528
+- from: "{% render 'hs-minify-css' with filename: 'component-product-model.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-product-model.css'
+    %}"
+  position: 875..958
+- from: "{% render 'hs-minify-css' with filename: 'component-pickup-availability.css'
+    %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-pickup-availability.css'
+    %}"
+  position: 17066..17155
+{% endcomment %}

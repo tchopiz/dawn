@@ -1,7 +1,7 @@
-{% render 'hs-minify-css' with filename: 'component-cart.css' %}
-{% render 'hs-minify-css' with filename: 'component-totals.css' %}
-{% render 'hs-minify-css' with filename: 'component-price.css' %}
-{% render 'hs-minify-css' with filename: 'component-discounts.css' %}
+{% render 'hs-minify-css' with filename, filename: 'component-cart.css' %}
+{% render 'hs-minify-css' with filename, filename: 'component-totals.css' %}
+{% render 'hs-minify-css' with filename, filename: 'component-price.css' %}
+{% render 'hs-minify-css' with filename, filename: 'component-discounts.css' %}
 
 <div class="page-width{% if cart == empty %} is-empty{% endif %}" id="main-cart-footer" data-id="{{ section.id }}">
   <div>
@@ -122,3 +122,23 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'hs-minify-css' with filename: 'component-cart.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-cart.css' %}"
+  position: 0..74
+- from: "{% render 'hs-minify-css' with filename: 'component-totals.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-totals.css' %}"
+  position: 75..151
+- from: "{% render 'hs-minify-css' with filename: 'component-price.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-price.css' %}"
+  position: 152..227
+- from: "{% render 'hs-minify-css' with filename: 'component-discounts.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-discounts.css'
+    %}"
+  position: 228..307
+{% endcomment %}

@@ -1,5 +1,5 @@
-{% render 'hs-minify-css' with filename: 'component-newsletter.css' %}
-{% render 'hs-minify-css' with filename: 'newsletter-section.css' %}
+{% render 'hs-minify-css' with filename, filename: 'component-newsletter.css' %}
+{% render 'hs-minify-css' with filename, filename: 'newsletter-section.css' %}
 
 <div class="newsletter center{% if section.settings.full_width == false %} newsletter--narrow page-width{% endif%}">
   <div class="newsletter__wrapper color-{{ section.settings.color_scheme }}">
@@ -157,3 +157,18 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'hs-minify-css' with filename: 'component-newsletter.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-newsletter.css'
+    %}"
+  position: 0..80
+- from: "{% render 'hs-minify-css' with filename: 'newsletter-section.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'newsletter-section.css'
+    %}"
+  position: 81..159
+{% endcomment %}

@@ -1,4 +1,4 @@
-{% render 'hs-minify-css' with filename: 'customer.css' %}
+{% render 'hs-minify-css' with filename, filename: 'customer.css' %}
 
 <script defer="" hs-load="true" src="{{ 'customer.js' | asset_url }}" type="javascript/blocked"></script>
 
@@ -262,3 +262,13 @@
     typeof CustomerAddresses !== 'undefined' && new CustomerAddresses();
   }
 </script>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'hs-minify-css' with filename: 'customer.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'customer.css' %}"
+  position: 0..68
+{% endcomment %}

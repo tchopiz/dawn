@@ -114,7 +114,7 @@
       }
     {% endstyle %}
 
-    {% render 'hs-minify-css' with filename: 'base.css' %}
+    {% render 'hs-minify-css' with filename, filename: 'base.css' %}
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
@@ -194,3 +194,13 @@
 {% include 'cjpod' %}
 </body>
 </html>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'hs-minify-css' with filename: 'base.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'base.css' %}"
+  position: 5747..5811
+{% endcomment %}

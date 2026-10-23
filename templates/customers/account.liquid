@@ -1,4 +1,4 @@
-{% render 'hs-minify-css' with filename: 'customer.css' %}
+{% render 'hs-minify-css' with filename, filename: 'customer.css' %}
 
 <div class="customer account">
   <div>
@@ -116,3 +116,13 @@
 
   </div>
 </div>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'hs-minify-css' with filename: 'customer.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'customer.css' %}"
+  position: 0..68
+{% endcomment %}

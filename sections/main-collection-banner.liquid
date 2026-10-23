@@ -1,4 +1,4 @@
-{% render 'hs-minify-css' with filename: 'component-collection-hero.css' %}
+{% render 'hs-minify-css' with filename, filename: 'component-collection-hero.css' %}
 
 <div class="collection-hero{% if section.settings.show_collection_image and collection.image %} collection-hero--with-image{% endif %}">
   <div class="collection-hero__inner page-width">
@@ -59,3 +59,15 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'hs-minify-css' with filename: 'component-collection-hero.css'
+    %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-collection-hero.css'
+    %}"
+  position: 0..85
+{% endcomment %}

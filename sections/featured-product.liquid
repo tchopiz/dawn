@@ -1,8 +1,8 @@
-{% render 'hs-minify-css' with filename: 'section-main-product.css' %}
-{% render 'hs-minify-css' with filename: 'section-featured-product.css' %}
-{% render 'hs-minify-css' with filename: 'component-accordion.css' %}
-{% render 'hs-minify-css' with filename: 'component-price.css' %}
-{% render 'hs-minify-css' with filename: 'component-rte.css' %}
+{% render 'hs-minify-css' with filename, filename: 'section-main-product.css' %}
+{% render 'hs-minify-css' with filename, filename: 'section-featured-product.css' %}
+{% render 'hs-minify-css' with filename, filename: 'component-accordion.css' %}
+{% render 'hs-minify-css' with filename, filename: 'component-price.css' %}
+{% render 'hs-minify-css' with filename, filename: 'component-rte.css' %}
 
 <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
 
@@ -10,7 +10,7 @@
 
 {%- assign first_3d_model = product.media | where: "media_type", "model" | first -%}
 {%- if first_3d_model -%}
-  {% render 'hs-minify-css' with filename: 'component-product-model.css' %}
+  {% render 'hs-minify-css' with filename, filename: 'component-product-model.css' %}
   <link id="ModelViewerStyle" rel="stylesheet" href="https://cdn.shopify.com/shopifycloud/model-viewer-ui/assets/v1.0/model-viewer-ui.css" media="print" onload="this.media='all'">
   <link id="ModelViewerOverride" rel="stylesheet" href="{{ 'component-model-viewer-ui.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
@@ -672,3 +672,32 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'hs-minify-css' with filename: 'section-main-product.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'section-main-product.css'
+    %}"
+  position: 0..80
+- from: "{% render 'hs-minify-css' with filename: 'section-featured-product.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'section-featured-product.css'
+    %}"
+  position: 81..165
+- from: "{% render 'hs-minify-css' with filename: 'component-accordion.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-accordion.css'
+    %}"
+  position: 166..245
+- from: "{% render 'hs-minify-css' with filename: 'component-price.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-price.css' %}"
+  position: 246..321
+- from: "{% render 'hs-minify-css' with filename: 'component-rte.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-rte.css' %}"
+  position: 322..395
+- from: "{% render 'hs-minify-css' with filename: 'component-product-model.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-product-model.css'
+    %}"
+  position: 682..765
+{% endcomment %}

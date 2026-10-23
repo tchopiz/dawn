@@ -1,6 +1,6 @@
-{% render 'hs-minify-css' with filename: 'component-article-card.css' %}
-{% render 'hs-minify-css' with filename: 'component-card.css' %}
-{% render 'hs-minify-css' with filename: 'section-main-blog.css' %}
+{% render 'hs-minify-css' with filename, filename: 'component-article-card.css' %}
+{% render 'hs-minify-css' with filename, filename: 'component-card.css' %}
+{% render 'hs-minify-css' with filename, filename: 'section-main-blog.css' %}
 
 
 {%- paginate blog.articles by 6 -%}
@@ -58,3 +58,21 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'hs-minify-css' with filename: 'component-article-card.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-article-card.css'
+    %}"
+  position: 0..82
+- from: "{% render 'hs-minify-css' with filename: 'component-card.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-card.css' %}"
+  position: 83..157
+- from: "{% render 'hs-minify-css' with filename: 'section-main-blog.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'section-main-blog.css'
+    %}"
+  position: 158..235
+{% endcomment %}

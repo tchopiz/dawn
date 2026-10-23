@@ -1,5 +1,5 @@
-{% render 'hs-minify-css' with filename: 'video-section.css' %}
-{% render 'hs-minify-css' with filename: 'component-deferred-media.css' %}
+{% render 'hs-minify-css' with filename, filename: 'video-section.css' %}
+{% render 'hs-minify-css' with filename, filename: 'component-deferred-media.css' %}
 
 <div class="video-section{% unless section.settings.full_width %} page-width{% endunless %}">
   <div{% if section.settings.full_width %} class="page-width"{% endif %}>
@@ -126,3 +126,17 @@
   ]
 }
   {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'hs-minify-css' with filename: 'video-section.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'video-section.css' %}"
+  position: 0..73
+- from: "{% render 'hs-minify-css' with filename: 'component-deferred-media.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-deferred-media.css'
+    %}"
+  position: 74..158
+{% endcomment %}

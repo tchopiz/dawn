@@ -1,9 +1,9 @@
-{% render 'hs-minify-css' with filename: 'component-cart.css' %}
-{% render 'hs-minify-css' with filename: 'component-cart-items.css' %}
-{% render 'hs-minify-css' with filename: 'component-totals.css' %}
-{% render 'hs-minify-css' with filename: 'component-price.css' %}
-{% render 'hs-minify-css' with filename: 'component-discounts.css' %}
-{% render 'hs-minify-css' with filename: 'component-loading-overlay.css' %}
+{% render 'hs-minify-css' with filename, filename: 'component-cart.css' %}
+{% render 'hs-minify-css' with filename, filename: 'component-cart-items.css' %}
+{% render 'hs-minify-css' with filename, filename: 'component-totals.css' %}
+{% render 'hs-minify-css' with filename, filename: 'component-price.css' %}
+{% render 'hs-minify-css' with filename, filename: 'component-discounts.css' %}
+{% render 'hs-minify-css' with filename, filename: 'component-loading-overlay.css' %}
 
 <script defer="" hs-load="true" src="{{ 'cart.js' | asset_url }}" type="javascript/blocked"></script>
 
@@ -269,3 +269,32 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'hs-minify-css' with filename: 'component-cart.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-cart.css' %}"
+  position: 0..74
+- from: "{% render 'hs-minify-css' with filename: 'component-cart-items.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-cart-items.css'
+    %}"
+  position: 75..155
+- from: "{% render 'hs-minify-css' with filename: 'component-totals.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-totals.css' %}"
+  position: 156..232
+- from: "{% render 'hs-minify-css' with filename: 'component-price.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-price.css' %}"
+  position: 233..308
+- from: "{% render 'hs-minify-css' with filename: 'component-discounts.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-discounts.css'
+    %}"
+  position: 309..388
+- from: "{% render 'hs-minify-css' with filename: 'component-loading-overlay.css'
+    %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-loading-overlay.css'
+    %}"
+  position: 389..474
+{% endcomment %}

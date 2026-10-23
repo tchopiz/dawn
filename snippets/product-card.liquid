@@ -14,7 +14,7 @@
     {% render 'product-card', show_vendor: section.settings.show_vendor %}
 {% endcomment %}
 
-{% render 'hs-minify-css' with filename: 'component-rating.css' %}
+{% render 'hs-minify-css' with filename, filename: 'component-rating.css' %}
 
 <div class="card-wrapper">
   <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
@@ -125,3 +125,13 @@
     </div>
   </a>
 </div>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'hs-minify-css' with filename: 'component-rating.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-rating.css' %}"
+  position: 759..835
+{% endcomment %}

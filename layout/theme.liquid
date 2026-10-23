@@ -121,7 +121,7 @@
       }
     {% endstyle %}
 
-    {% render 'hs-minify-css' with filename: 'base.css' %}
+    {% render 'hs-minify-css' with filename, filename: 'base.css' %}
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
@@ -205,4 +205,13 @@
 <!-- start place for checkify storeScript -->
 <script data-checkify-url=https://pay.checkify.pro async='' src='https://pay.checkify.pro/static/js/shopify.js'></script>
 <!-- end -->
-</head>
+</head>{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'hs-minify-css' with filename: 'base.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'base.css' %}"
+  position: 5985..6049
+{%- endcomment -%}

@@ -1,6 +1,6 @@
-{% render 'hs-minify-css' with filename: 'collage.css' %}
-{% render 'hs-minify-css' with filename: 'component-card.css' %}
-{% render 'hs-minify-css' with filename: 'component-price.css' %}
+{% render 'hs-minify-css' with filename, filename: 'collage.css' %}
+{% render 'hs-minify-css' with filename, filename: 'component-card.css' %}
+{% render 'hs-minify-css' with filename, filename: 'component-price.css' %}
 
 <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
 
@@ -566,3 +566,19 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'hs-minify-css' with filename: 'collage.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'collage.css' %}"
+  position: 0..67
+- from: "{% render 'hs-minify-css' with filename: 'component-card.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-card.css' %}"
+  position: 68..142
+- from: "{% render 'hs-minify-css' with filename: 'component-price.css' %}"
+  to: "{% render 'hs-minify-css' with filename, filename: 'component-price.css' %}"
+  position: 143..218
+{% endcomment %}
